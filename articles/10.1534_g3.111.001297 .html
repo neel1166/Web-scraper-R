@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" 
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book#" >
+    <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="dns-prefetch" href="//fonts.gstatic.com" />
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//www.googletagservices.com" />
+<link rel="dns-prefetch" href="//stats.g.doubleclick.net" />
+<link rel="dns-prefetch" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="//scholar.google.com" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=yes" />
+<link rel="shortcut icon" href="https://www.g3journal.org/sites/default/files/images/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://www.g3journal.org/content/2/4/425" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="alternate" type="application/pdf" title="Full Text (PDF)" href="/content/2/4/425.full.pdf" />
+<link rel="alternate" type="text/plain" title="Full Text (Plain)" href="/content/2/4/425.full.txt" />
+<link rel="alternate" type="application/vnd.ms-powerpoint" title="Powerpoint" href="/content/2/4/425.ppt" />
+<meta name="issue_cover_image" content="https://www.g3journal.org/sites/default/files/highwire/ggg/2/4.cover-source.jpg" />
+<meta name="type" content="article" />
+<meta name="category" content="research-article" />
+<meta name="HW.identifier" content="/ggg/2/4/425.atom" />
+<meta name="HW.pisa" content="ggg;2/4/425" />
+<meta name="DC.Format" content="text/html" />
+<meta name="DC.Language" content="en" />
+<meta name="DC.Title" content="Simulated Data for Genomic Selection and Genome-Wide Association Studies Using a Combination of Coalescent and Gene Drop Methods" />
+<meta name="DC.Identifier" content="10.1534/g3.111.001297" />
+<meta name="DC.Date" content="2012-04-01" />
+<meta name="DC.Publisher" content="G3: Genes, Genomes, Genetics" />
+<meta name="DC.Rights" content="Copyright © 2012 Hickey, Gorjanc. This is an open-access article distributed under the terms of the Creative Commons Attribution Unported License (http://creativecommons.org/licenses/by/3.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited." />
+<meta name="DC.AccessRights" content="open-access" />
+<meta name="DC.Description" content="An approach is described for simulating data sequence, genotype, and phenotype data to study genomic selection and genome-wide association studies (GWAS). The simulation method, implemented in a software package called AlphaDrop, can be used to simulate genomic data and phenotypes with flexibility in terms of the historical population structure, recent pedigree structure, distribution of quantitative trait loci effects, and with sequence and single nucleotide polymorphism-phased alleles and genotypes. Ten replicates of a representative scenario used to study genomic selection in livestock were generated and have been made publically available. The simulated data sets were structured to encompass a spectrum of additive quantitative trait loci effect distributions, relationship structures, and single nucleotide polymorphism chip densities." />
+<meta name="DC.Contributor" content="John M. Hickey" />
+<meta name="DC.Contributor" content="Gregor Gorjanc" />
+<meta name="article:published_time" content="2012-04-01" />
+<meta name="article:section" content="Genomic Selection" />
+<meta name="citation_title" content="Simulated Data for Genomic Selection and Genome-Wide Association Studies Using a Combination of Coalescent and Gene Drop Methods" />
+<meta name="citation_abstract" lang="en" content="&lt;p&gt;An approach is described for simulating data sequence, genotype, and phenotype data to study genomic selection and genome-wide association studies (GWAS). The simulation method, implemented in a software package called AlphaDrop, can be used to simulate genomic data and phenotypes with flexibility in terms of the historical population structure, recent pedigree structure, distribution of quantitative trait loci effects, and with sequence and single nucleotide polymorphism-phased alleles and genotypes. Ten replicates of a representative scenario used to study genomic selection in livestock were generated and have been made publically available. The simulated data sets were structured to encompass a spectrum of additive quantitative trait loci effect distributions, relationship structures, and single nucleotide polymorphism chip densities.&lt;/p&gt;" />
+<meta name="citation_journal_title" content="G3: Genes, Genomes, Genetics" />
+<meta name="citation_publisher" content="G3: Genes, Genomes, Genetics" />
+<meta name="citation_publication_date" content="2012/04/01" />
+<meta name="citation_mjid" content="ggg;2/4/425" />
+<meta name="citation_id" content="2/4/425" />
+<meta name="citation_public_url" content="https://www.g3journal.org/content/2/4/425" />
+<meta name="citation_abstract_html_url" content="https://www.g3journal.org/content/2/4/425.abstract" />
+<meta name="citation_full_html_url" content="https://www.g3journal.org/content/2/4/425.full" />
+<meta name="citation_pdf_url" content="https://www.g3journal.org/content/ggg/2/4/425.full.pdf" />
+<meta name="citation_issn" content="2160-1836" />
+<meta name="citation_doi" content="10.1534/g3.111.001297" />
+<meta name="citation_pmid" content="22540033" />
+<meta name="citation_volume" content="2" />
+<meta name="citation_issue" content="4" />
+<meta name="citation_article_type" content="Research Article" />
+<meta name="citation_section" content="Genomic Selection" />
+<meta name="citation_firstpage" content="425" />
+<meta name="citation_lastpage" content="427" />
+<meta name="citation_access" content="all" />
+<meta name="citation_author" content="John M. Hickey" />
+<meta name="citation_author_institution" content="School of Environmental and Rural Science, University of New England, Armidale, 2351 New South Wales, Australia" />
+<meta name="citation_author_email" content="john.hickey@une.edu.au" />
+<meta name="citation_author" content="Gregor Gorjanc" />
+<meta name="citation_author_institution" content="Department of Animal Science, Biotechnical Faculty, University of Ljubljana, 1230 Domžale, Slovenia" />
+<meta name="citation_reference" content="citation_journal_title=BMC bioinformatics [electronic resource];citation_journal_abbrev=BMC Bioinformatics;citation_author=M. Chadeau-Hyam;citation_author=C. J. Hoggart;citation_author=P. F. O’Reilly;citation_author=J. C. Whittaker;citation_author=M. De Lorio;citation_title=Fregene: simulation of realistic sequence-level data in populations and ascertained samples.;citation_pages=364-364;citation_volume=9;citation_year=2008;citation_pmid=18778480;citation_doi=10.1186/1471-2105-9-364" />
+<meta name="citation_reference" content="citation_journal_title=Genome Res.;citation_author=G. K. Chen;citation_author=P. Marjoram;citation_author=J. D. Wall;citation_title=Fast and flexible simulation of DNA sequence data;citation_volume=19;citation_year=2009;citation_pmid=19029539;citation_doi=10.1101/gr.083634.108" />
+<meta name="citation_reference" content="citation_journal_title=Genetics, selection, evolution. :  GSE;citation_journal_abbrev=Genet Sel Evol;citation_author=A. J. Coster;citation_author=W. M. Bastiaansen;citation_author=M. P. L. Calus;citation_author=J. A. M. Van Arendonk;citation_author=H. Bovenhuis;citation_title=Sensitivity of methods for estimating breeding values using genetic markers to the number of QTL and distribution of QTL variance.;citation_pages=9-9;citation_volume=42;citation_year=2010;citation_pmid=20302681;citation_doi=10.1186/1297-9686-42-9" />
+<meta name="citation_reference" content="citation_journal_title=Genetics;citation_journal_abbrev=Genetics;citation_author=T. H. E. Meuwissen;citation_author=B. J. Hayes;citation_author=M. E. Goddard;citation_title=Prediction of Total Genetic Value Using Genome-Wide Dense Marker Maps;citation_pages=1819-1829;citation_volume=157;citation_year=2001;citation_issue=4;citation_pmid=11290733" />
+<meta name="citation_reference" content="citation_journal_title=BMC genetics [electronic resource];citation_journal_abbrev=BMC Genet;citation_author=R. Villa-Angulo;citation_author=L. K. Matukumalli;citation_author=C. A. Gill;citation_author=J. Choi;citation_author=C. P. Van Tassell;citation_title=High-resolution haplotype block structure in the cattle genome.;citation_pages=19-19;citation_volume=10;citation_year=2009;citation_pmid=19393054;citation_doi=10.1186/1471-2156-10-19" />
+<meta name="citation_reference" content="citation_journal_title=Bioinformatics;citation_author=M. Sargolzaei;citation_author=F. S. Schenkel;citation_title=QMSim: A large scale genome simulator for livestock;citation_volume=25;citation_year=2009;citation_pmid=19176551;citation_doi=10.1093/bioinformatics/btp045" />
+<meta name="citation_fulltext_world_readable" content="" />
+<meta name="twitter:title" content="Simulated Data for Genomic Selection and Genome-Wide Association Studies Using a Combination of Coalescent and Gene Drop Methods" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://www.g3journal.org/sites/default/files/highwire/ggg/2/4.cover-source.jpg" />
+<meta name="twitter:description" content="An approach is described for simulating data sequence, genotype, and phenotype data to study genomic selection and genome-wide association studies (GWAS). The simulation method, implemented in a software package called AlphaDrop, can be used to simulate genomic data and phenotypes with flexibility in terms of the historical population structure, recent pedigree structure, distribution of quantitative trait loci effects, and with sequence and single nucleotide polymorphism-phased alleles and genotypes. Ten replicates of a representative scenario used to study genomic selection in livestock were generated and have been made publically available. The simulated data sets were structured to encompass a spectrum of additive quantitative trait loci effect distributions, relationship structures, and single nucleotide polymorphism chip densities." />
+<meta name="og-title" property="og:title" content="Simulated Data for Genomic Selection and Genome-Wide Association Studies Using a Combination of Coalescent and Gene Drop Methods" />
+<meta name="og-url" property="og:url" content="https://www.g3journal.org/content/2/4/425" />
+<meta name="og-site-name" property="og:site_name" content="G3: Genes | Genomes | Genetics" />
+<meta name="og-description" property="og:description" content="An approach is described for simulating data sequence, genotype, and phenotype data to study genomic selection and genome-wide association studies (GWAS). The simulation method, implemented in a software package called AlphaDrop, can be used to simulate genomic data and phenotypes with flexibility in terms of the historical population structure, recent pedigree structure, distribution of quantitative trait loci effects, and with sequence and single nucleotide polymorphism-phased alleles and genotypes. Ten replicates of a representative scenario used to study genomic selection in livestock were generated and have been made publically available. The simulated data sets were structured to encompass a spectrum of additive quantitative trait loci effect distributions, relationship structures, and single nucleotide polymorphism chip densities." />
+<meta name="og-type" property="og:type" content="article" />
+<meta name="og-image" property="og:image" content="https://www.g3journal.org/sites/default/files/highwire/ggg/2/4.cover-source.jpg" />
+    <title>Simulated Data for Genomic Selection and Genome-Wide Association Studies Using a Combination of Coalescent and Gene Drop Methods | G3: Genes | Genomes | Genetics</title>  
+    <link type="text/css" rel="stylesheet" href="https://www.g3journal.org/sites/default/files/advagg_css/css__vxii7zjLbHE_mluGa1TpMbaZnhXywieuF-UZ-NETudc__C50WLLQjU6DD7u7QNXoS7vQ5uXweRJQIXDDQ1GgbA94__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.g3journal.org/sites/default/files/advagg_css/css__MyxrLRsFchWI4LpVByJReMDj5ndfJGr0cUbK-Q778fw__4VTwo1PxHe54HfsX5kwvTPVuywpv7wG4dR5jDmP2ciM__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="https://www.g3journal.org/sites/default/files/advagg_css/css__EsoyBF96RxC3jFlWqnHP8guLJmdJnWhpSMAaElBwkF8__43t1vLxvmdCcaslZvKFrd6KmwrbQ4K-wg_R5M51WSb8__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.g3journal.org/sites/all/modules/highwire/highwire/highwire.style.highwire.css?q0wst1" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.g3journal.org/sites/default/files/advagg_css/css__KPgiwEdjo5O9HdRryHqQs1TpsV-PeBb9B7sGBvwM9FQ__opzZWgPNgQzoEgfATRS5qCKwBw_6XcNjDHoDVOzQv8M__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.g3journal.org/sites/default/files/advagg_css/css__YUqwBlv6bNoCToiBWgAUSPtppdS8sbGfzmAH3qEDcI0__Mvk93h3ScFH5Xi9WhibVKlf368fHw-V7HWqWX2QMvtw__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.css" media="all" />
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="https://www.g3journal.org/sites/default/files/advagg_css/css__ElJr3PIJEvw3qLXc1cnYiLj2G4KgDPSXFOfm6Phf8hw__JdWGm15cDWjsK6KrFlQVXQix9YgNeYysf22XZHj-Y-c__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.css" media="all" />
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="https://www.g3journal.org/sites/default/files/advagg_css/css__vP96nkAt3EeLU62QRdHXKZuS9tqQ1EMDJC_PSKd7hEk__tdZg4qOJpqrCbkbGYbpNeWgJZN-ltlK3uYdisQZuHX0__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.g3journal.org/sites/default/files/advagg_css/css__XNWYaQubFGWYWZNytUHkWs-b34LV21DsB4s_6gchI4k__RlWB_t5Pyx1oIJssmAj_IeB8LyUEBL9m4TYyt8ErKyo__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.css" media="all" />
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<link type="text/css" rel="stylesheet" href="https://www.g3journal.org/sites/default/files/advagg_css/css__XH6bpcI0f2dImc-p674DLCZtWBGb-QwxJK1YexVGtno__vUceGprdo5nIhV6DH93X7fI3r8RcTJbChbas9TQXeW4__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.css" media="all" />
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<link type="text/css" rel="stylesheet" href="https://www.g3journal.org/sites/default/files/advagg_css/css__2WBMox6sOrN42ss5lCnH7WWVRdFdJCxtTKnQJYRwTE4__yqNvNYLvMpjy3ffuJrjjm9uW2i-Me1c23KLYuWHaqio__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.css" media="all" />
+<!--<![endif]-->
+<link type="text/css" rel="stylesheet" href="https://www.g3journal.org/sites/default/files/advagg_css/css__7cpBA0GVdrMqkZGGZEW-_SPF2HrbTCmVg9-lrP5l_AQ__Y6eRs9yQZGZ5f8sbtlP-lFE6TB1gf0DpLTZuWOyHAcc__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.g3journal.org/sites/default/files/advagg_css/css__TV2D4R18tPiSIOmeQ3vyMqHObN_FDmQ6EEIrfE5sAoA__c9BBZFy1BrgGgF_Auu9Fmysb3Z7J56eJGYvMcLQrLks__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.css" media="all" />
+    <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+/*!
+ * yepnope1.5.4
+ * (c) WTFPL, GPLv2
+ */
+(function(a,b,c){function d(a){return"[object Function]"==o.call(a)}function e(a){return"string"==typeof a}function f(){}function g(a){return!a||"loaded"==a||"complete"==a||"uninitialized"==a}function h(){var a=p.shift();q=1,a?a.t?m(function(){("c"==a.t?B.injectCss:B.injectJs)(a.s,0,a.a,a.x,a.e,1)},0):(a(),h()):q=0}function i(a,c,d,e,f,i,j){function k(b){if(!o&&g(l.readyState)&&(u.r=o=1,!q&&h(),l.onload=l.onreadystatechange=null,b)){"img"!=a&&m(function(){t.removeChild(l)},50);for(var d in y[c])y[c].hasOwnProperty(d)&&y[c][d].onload()}}var j=j||B.errorTimeout,l=b.createElement(a),o=0,r=0,u={t:d,s:c,e:f,a:i,x:j};1===y[c]&&(r=1,y[c]=[]),"object"==a?l.data=c:(l.src=c,l.type=a),l.width=l.height="0",l.onerror=l.onload=l.onreadystatechange=function(){k.call(this,r)},p.splice(e,0,u),"img"!=a&&(r||2===y[c]?(t.insertBefore(l,s?null:n),m(k,j)):y[c].push(l))}function j(a,b,c,d,f){return q=0,b=b||"j",e(a)?i("c"==b?v:u,a,b,this.i++,c,d,f):(p.splice(this.i++,0,a),1==p.length&&h()),this}function k(){var a=B;return a.loader={load:j,i:0},a}var l=b.documentElement,m=a.setTimeout,n=b.getElementsByTagName("script")[0],o={}.toString,p=[],q=0,r="MozAppearance"in l.style,s=r&&!!b.createRange().compareNode,t=s?l:n.parentNode,l=a.opera&&"[object Opera]"==o.call(a.opera),l=!!b.attachEvent&&!l,u=r?"object":l?"script":"img",v=l?"script":u,w=Array.isArray||function(a){return"[object Array]"==o.call(a)},x=[],y={},z={timeout:function(a,b){return b.length&&(a.timeout=b[0]),a}},A,B;B=function(a){function b(a){var a=a.split("!"),b=x.length,c=a.pop(),d=a.length,c={url:c,origUrl:c,prefixes:a},e,f,g;for(f=0;f<d;f++)g=a[f].split("="),(e=z[g.shift()])&&(c=e(c,g));for(f=0;f<b;f++)c=x[f](c);return c}function g(a,e,f,g,h){var i=b(a),j=i.autoCallback;i.url.split(".").pop().split("?").shift(),i.bypass||(e&&(e=d(e)?e:e[a]||e[g]||e[a.split("/").pop().split("?")[0]]),i.instead?i.instead(a,e,f,g,h):(y[i.url]?i.noexec=!0:y[i.url]=1,f.load(i.url,i.forceCSS||!i.forceJS&&"css"==i.url.split(".").pop().split("?").shift()?"c":c,i.noexec,i.attrs,i.timeout),(d(e)||d(j))&&f.load(function(){k(),e&&e(i.origUrl,h,g),j&&j(i.origUrl,h,g),y[i.url]=2})))}function h(a,b){function c(a,c){if(a){if(e(a))c||(j=function(){var a=[].slice.call(arguments);k.apply(this,a),l()}),g(a,j,b,0,h);else if(Object(a)===a)for(n in m=function(){var b=0,c;for(c in a)a.hasOwnProperty(c)&&b++;return b}(),a)a.hasOwnProperty(n)&&(!c&&!--m&&(d(j)?j=function(){var a=[].slice.call(arguments);k.apply(this,a),l()}:j[n]=function(a){return function(){var b=[].slice.call(arguments);a&&a.apply(this,b),l()}}(k[n])),g(a[n],j,b,n,h))}else!c&&l()}var h=!!a.test,i=a.load||a.both,j=a.callback||f,k=j,l=a.complete||f,m,n;c(h?a.yep:a.nope,!!i),i&&c(i)}var i,j,l=this.yepnope.loader;if(e(a))g(a,0,l,0);else if(w(a))for(i=0;i<a.length;i++)j=a[i],e(j)?g(j,0,l,0):w(j)?B(j):Object(j)===j&&h(j,l);else Object(a)===a&&h(a,l)},B.addPrefix=function(a,b){z[a]=b},B.addFilter=function(a){x.push(a)},B.errorTimeout=1e4,null==b.readyState&&b.addEventListener&&(b.readyState="loading",b.addEventListener("DOMContentLoaded",A=function(){b.removeEventListener("DOMContentLoaded",A,0),b.readyState="complete"},0)),a.yepnope=k(),a.yepnope.executeStack=h,a.yepnope.injectJs=function(a,c,d,e,i,j){var k=b.createElement("script"),l,o,e=e||B.errorTimeout;k.src=a;for(o in d)k.setAttribute(o,d[o]);c=j?h:c||f,k.onreadystatechange=k.onload=function(){!l&&g(k.readyState)&&(l=1,c(),k.onload=k.onreadystatechange=null)},m(function(){l||(l=1,c(1))},e),i?k.onload():n.parentNode.insertBefore(k,n)},a.yepnope.injectCss=function(a,c,d,e,g,i){var e=b.createElement("link"),j,c=i?h:c||f;e.href=a,e.rel="stylesheet",e.type="text/css";for(j in d)e.setAttribute(j,d[j]);g||(n.parentNode.insertBefore(e,n),m(c,0))}})(this,document);
+
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.g3journal.org/sites/all/libraries/modernizr/modernizr.min.js?q0wst1"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+yepnope({
+  test: Modernizr.matchmedia,
+  nope: '/sites/all/libraries/media-match/media.match.min.js'
+});
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.g3journal.org/sites/default/files/advagg_js/js__wH8myWXKi4A-QKdUKDXzJAnGs-FRS1A2ZzTTNzjRAdI__4MCtOZK_Ov0QKyRlXNLGQ2LRlYRGWj9ArT-NpFox3QA__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+googletag.slots = googletag.slots || {};
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+<script type="text/javascript" src="https://www.g3journal.org/sites/default/files/advagg_js/js__e1dl8PurVlybtG0bsvbi28fsCWMzhJhJw-9CuLi13ww__QFHvDMPamxn6BHsrQ4Z923sYGkAGsrArniz8NYXuaSA__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+document.createElement( "picture" );
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.g3journal.org/sites/default/files/advagg_js/js__UK1ygaa8bCfT-jsjqYRdRLDZ5N17950T7K5WPC9XtpI__NqLYT1T1SMBsKukLWIe82VgCZYYCMHZX_f609-a1rj8__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function() {
+  googletag.pubads().enableAsyncRendering();
+  googletag.pubads().enableSingleRequest();
+  googletag.pubads().collapseEmptyDivs();
+  googletag.pubads().addEventListener("slotRenderEnded", function (event) {
+    if (event.isEmpty) {
+      var id = event.slot.getSlotElementId();
+      var x = document.getElementById(id);
+      if (x.parentElement.classList.contains("dfp-tag-wrapper")) {
+        x.parentElement.style.display = "none";
+      }
+    }
+  });
+});
+
+googletag.enableServices();
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.g3journal.org/sites/default/files/advagg_js/js__3vwOA0BwlnyBkt9H4CLg6FgNyKAh--OmfOxFOIu_5S4__EXTgktcHbQ7BQfelY6CnrqgPRc4i4eD6XcZ4i3xs5RU__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.js"></script>
+<script type="text/javascript" async="async" src="https://scholar.google.com/scholar_js/casa.js"></script>
+<script type="text/javascript" src="https://www.g3journal.org/sites/default/files/advagg_js/js__OaHnYyci68QTwctdRYR30kEfu0eYWBrLyMqy8THv5Ik__IyfJQYM1q1QEPwYsK_Eslh2RQkxpy6yo-nR0p4DWPQQ__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.js"></script>
+<script type="text/javascript" src="https://www.g3journal.org/sites/default/files/advagg_js/js__0zdUME0GLauYYyEch2tGPydIw-IG7Uizip0Qb4wUsig__3RgszrCgk4bOnTzo4vaQ-hrWzaG6oD19l-R9CQ1YQ-o__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if(typeof window.MathJax === "undefined") window.MathJax = { menuSettings: { zoom: "Click" } };
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.g3journal.org/sites/default/files/advagg_js/js__fhq_kmKS3zjIxlsAa3GE1ubLajyXUgXXTXULzAtiqfg__Lm1_Ls-bdpbWRyl0q4o0mmHyxB-139AJ68dE4zOskLQ__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-35990348-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");ga('create', 'UA-76034214-10', 'auto', {'name': 'hwTracker'});
+ga('set', 'anonymizeIp', true);
+ga('hwTracker.send', 'pageview');
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.g3journal.org/sites/default/files/advagg_js/js__5V9kRH6SAXxWPJx4qmsl8wLt3K_K3o7dsZC8LWHfcis__MS89XoGFSTYvshLHZFl1kK-HQoLR3h3yY9sQyaX3OUE__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings,{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"jcore_1","theme_token":"_FHBgRUBGmw8fa3pqKcALfPjyBi8J_tOHTWPzR0wRa4","jquery_version":"1.8","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"misc\/ui\/jquery.ui.tooltip.css":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/themes\/base\/minified\/jquery.ui.accordion.min.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/flexslider\/assets\/css\/flexslider_img.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire_draw\/css\/highwire-draw.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire_folders\/highwire_folders.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire_responsive\/css\/highwire-responsive.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire_saved_searches\/highwire_saved_searches.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire_user\/highwire_user.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire.style.highwire.css":1,"sites\/all\/modules\/highwire\/highwire\/css\/nlm-elements.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"public:\/\/ctools\/css\/263bfdb18936424f0ade19d6bd885f37.css":1,"sites\/all\/modules\/contrib\/panels_ajax_tab\/css\/panels_ajax_tab.css":1,"\/\/cdn.jsdelivr.net\/qtip2\/2.2.1\/jquery.qtip.min.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire.style.markup.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire_lens\/css\/highwire_lens.css":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/layouts\/highwire_2col_stacked\/highwire-2col-stacked.css":1,"sites\/all\/modules\/contrib\/forward\/forward.css":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/css\/highwire_share_link.css":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/css\/highwire_copy_permalink.css":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/css\/highwire_corrections.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire_responsive\/plugins\/styles\/highwire_responsive_toggle\/highwire_responsive_toggle.css.less":1,"sites\/all\/modules\/contrib\/nice_menus\/css\/nice_menus.css":1,"sites\/all\/modules\/contrib\/nice_menus\/css\/nice_menus_default.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/onecol\/onecol.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire_theme_tools\/css\/font-hwicons.css":1,"sites\/all\/modules\/highwire\/highwire\/highwire_theme_tools\/css\/font-hwicons-glyphs.css":1,"sites\/default\/modules\/jnl_genetics_g3_styles\/css\/font-titillium-web.css":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/css\/highwire_reports_feed.css":1,"sites\/all\/modules\/highwire\/highwire\/css\/highwire-article-citation-list.css":1,"sites\/default\/modules\/jnl_genetics\/plugins\/highwire_citation\/jcore_title_only.css":1,"sites\/all\/themes\/highwire\/jcore_1\/eu_cookie_compliance.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/font-awesome-ie7.css":1,"sites\/all\/themes\/contrib\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/contrib\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/contrib\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/formalize.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/omega-menu.css":1,"sites\/all\/themes\/contrib\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/modules\/highwire\/highwire\/css\/highwire-forms.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/mobile-reset.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/font-awesome.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/forms.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/global.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/jquery-ui-elements.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/text.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/colors.css.less":1,"ie::normal::sites\/all\/themes\/highwire\/jcore_1\/css\/jcore-1-jcore-default.css":1,"ie::normal::sites\/all\/themes\/highwire\/jcore_1\/css\/jcore-1-jcore-default-normal.css":1,"ie::normal::sites\/all\/themes\/highwire\/jcore_1\/css\/grid\/jcore_default\/normal\/jcore-default-normal-30.css":1,"narrow::sites\/all\/themes\/highwire\/jcore_1\/css\/jcore-1-jcore-default.css":1,"narrow::sites\/all\/themes\/highwire\/jcore_1\/css\/jcore-1-jcore-default-narrow.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/grid\/jcore_default\/narrow\/jcore-default-narrow-30.css":1,"normal::sites\/all\/themes\/highwire\/jcore_1\/css\/jcore-1-jcore-default.css":1,"normal::sites\/all\/themes\/highwire\/jcore_1\/css\/jcore-1-jcore-default-normal.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/grid\/jcore_default\/normal\/jcore-default-normal-30.css":1,"wide::sites\/all\/themes\/highwire\/jcore_1\/css\/jcore-1-jcore-default.css":1,"wide::sites\/all\/themes\/highwire\/jcore_1\/css\/jcore-1-jcore-default-wide.css":1,"sites\/all\/themes\/highwire\/jcore_1\/css\/grid\/jcore_default\/wide\/jcore-default-wide-30.css":1,"sites\/default\/modules\/jnl_genetics_styles\/css\/fonts.css.less":1,"sites\/default\/modules\/jnl_genetics_styles\/css\/typography.css.less":1,"sites\/default\/modules\/jnl_genetics_styles\/css\/shared-styles.css.less":1,"sites\/default\/modules\/jnl_genetics_styles\/css\/main-menu.css.less":1,"sites\/default\/modules\/jnl_genetics_styles\/css\/ajax-tabs.css.less":1,"sites\/default\/modules\/jnl_genetics_styles\/css\/image-carousels.css.less":1,"sites\/default\/modules\/jnl_genetics_g3_styles\/css\/g3-styles.css.less":1,"sites\/default\/modules\/jnl_genetics_g3_styles\/css\/g3-typography.css.less":1},"js":{"sites\/all\/libraries\/enquire.js\/enquire.min.js":1,"sites\/all\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"sites\/all\/modules\/contrib\/picture\/picture.min.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/js\/highwire_panels_ajax_tab.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/highwire_markup_process\/js\/highwire_openurl.js":1,"sites\/all\/libraries\/lazysizes\/lazysizes.min.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/highwire_markup_process\/js\/highwire_figures.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/highwire_markup_process\/js\/highwire_google_scholar_sprinkle.js":1,"sites\/all\/modules\/highwire\/highwire\/highwire_user\/plugins\/content_types\/js\/highwire_user_salutation.js":1,"sites\/default\/modules\/jnl_genetics_styles\/js\/genetics.js":1,"sites\/all\/libraries\/modernizr\/modernizr.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"https:\/\/www.googletagservices.com\/tag\/js\/gpt.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.button.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.mouse.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.draggable.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.position.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.resizable.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.dialog.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tooltip.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/highwire\/highwire\/js\/highwire.equal-heights.js":1,"sites\/all\/modules\/highwire\/highwire\/js\/highwire.panels-ajax-tab.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"https:\/\/scholar.google.com\/scholar_js\/casa.js":1,"sites\/all\/modules\/highwire\/highwire\/highwire_log\/highwire_log.js":1,"sites\/all\/modules\/highwire\/highwire\/highwire_user\/js\/highwire_user_meta.js":1,"sites\/all\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/all\/modules\/contrib\/panels_ajax_tab\/js\/panels_ajax_tab.js":1,"\/\/cdn.jsdelivr.net\/qtip2\/2.2.1\/jquery.qtip.min.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/highwire_markup_process\/js\/highwire_article_reference_popup.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/highwire_markup_process\/js\/highwire_at_symbol.js":1,"misc\/textarea.js":1,"sites\/all\/modules\/highwire\/highwire\/js\/highwire.article-citation-author-tooltip.js":1,"misc\/progress.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/js\/highwire_share_dialog.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/js\/clipboard.min.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/js\/highwire_clipboard.js":1,"sites\/all\/modules\/highwire\/highwire\/highwire_citation\/plugins\/content_types\/js\/highwire_citation_export.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/js\/minipanel_dialog_link.js":1,"sites\/all\/modules\/highwire\/highwire\/highwire_responsive\/plugins\/styles\/highwire_responsive_toggle\/highwire_responsive_toggle.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"sites\/all\/modules\/contrib\/panels_ajax_pane\/panels_ajax_pane.js":1,"sites\/all\/modules\/contrib\/panels_accordion\/js\/panels_accordion.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/js\/highwire_article_nav.js":1,"sites\/all\/modules\/highwire\/highwire\/plugins\/content_types\/js\/highwire_nav_float.js":1,"sites\/all\/themes\/highwire\/jcore_1\/js\/theme-scripts.js":1,"sites\/all\/themes\/contrib\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/all\/themes\/contrib\/omega\/omega\/js\/omega-mediaqueries.js":1,"sites\/all\/themes\/contrib\/omega\/omega\/js\/omega-equalheights.js":1,"sites\/all\/modules\/highwire\/highwire\/highwire_responsive\/js\/highwire-mediaqueries.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"highwire":{"nid":"459268","apath":"\/ggg\/2\/4\/425.atom","pisa":"ggg;2\/4\/425","ac":{"\/ggg\/2\/4\/425.atom":{"access":{"full":true},"pisa_id":"","apath":"\/ggg\/2\/4\/425.atom","jcode":"ggg"}},"processed":["highwire_math"],"markup":[{"requested":"long","variant":"full-text","view":"full","pisa":"ggg;2\/4\/425"},{"requested":"full-text","variant":"full-text","view":"full","pisa":"ggg;2\/4\/425"}],"modal_window_width":"560","share_modal_width":"560","share_modal_title":"Share this Article"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"instances":"{\u0022highwire_abstract_tooltip\u0022:{\u0022content\u0022:{\u0022text\u0022:\u0022\u0022},\u0022style\u0022:{\u0022tip\u0022:{\u0022width\u0022:20,\u0022height\u0022:20,\u0022border\u0022:1,\u0022offset\u0022:0,\u0022corner\u0022:true},\u0022classes\u0022:\u0022qtip-custom hw-tooltip hw-abstract-tooltip qtip-shadow qtip-rounded\u0022,\u0022classes_custom\u0022:\u0022hw-tooltip hw-abstract-tooltip\u0022},\u0022position\u0022:{\u0022at\u0022:\u0022right center\u0022,\u0022my\u0022:\u0022left center\u0022,\u0022viewport\u0022:true,\u0022adjust\u0022:{\u0022method\u0022:\u0022shift\u0022}},\u0022show\u0022:{\u0022event\u0022:\u0022mouseenter click \u0022,\u0022solo\u0022:true},\u0022hide\u0022:{\u0022event\u0022:\u0022mouseleave \u0022,\u0022fixed\u0022:1,\u0022delay\u0022:\u0022100\u0022}},\u0022highwire_author_tooltip\u0022:{\u0022content\u0022:{\u0022text\u0022:\u0022\u0022},\u0022style\u0022:{\u0022tip\u0022:{\u0022width\u0022:15,\u0022height\u0022:15,\u0022border\u0022:1,\u0022offset\u0022:0,\u0022corner\u0022:true},\u0022classes\u0022:\u0022qtip-custom hw-tooltip hw-author-tooltip qtip-shadow qtip-rounded\u0022,\u0022classes_custom\u0022:\u0022hw-tooltip hw-author-tooltip\u0022},\u0022position\u0022:{\u0022at\u0022:\u0022top center\u0022,\u0022my\u0022:\u0022bottom center\u0022,\u0022viewport\u0022:true,\u0022adjust\u0022:{\u0022method\u0022:\u0022\u0022}},\u0022show\u0022:{\u0022event\u0022:\u0022mouseenter \u0022,\u0022solo\u0022:true},\u0022hide\u0022:{\u0022event\u0022:\u0022mouseleave \u0022,\u0022fixed\u0022:1,\u0022delay\u0022:\u0022100\u0022}},\u0022highwire_reflinks_tooltip\u0022:{\u0022content\u0022:{\u0022text\u0022:\u0022\u0022},\u0022style\u0022:{\u0022tip\u0022:{\u0022width\u0022:15,\u0022height\u0022:15,\u0022border\u0022:1,\u0022mimic\u0022:\u0022top center\u0022,\u0022offset\u0022:0,\u0022corner\u0022:true},\u0022classes\u0022:\u0022qtip-custom hw-tooltip hw-ref-link-tooltip qtip-shadow qtip-rounded\u0022,\u0022classes_custom\u0022:\u0022hw-tooltip hw-ref-link-tooltip\u0022},\u0022position\u0022:{\u0022at\u0022:\u0022bottom left\u0022,\u0022my\u0022:\u0022top left\u0022,\u0022viewport\u0022:true,\u0022adjust\u0022:{\u0022method\u0022:\u0022flip\u0022}},\u0022show\u0022:{\u0022event\u0022:\u0022mouseenter \u0022,\u0022solo\u0022:true},\u0022hide\u0022:{\u0022event\u0022:\u0022mouseleave \u0022,\u0022fixed\u0022:1,\u0022delay\u0022:\u0022100\u0022}}}","qtipDebug":"{\u0022leaveElement\u0022:0}","highwire_panel_tabs":[{"panel_name":"jnl_genetics_tab_pdf","panel_ajax_tab":"jnl_genetics_tab_pdf"}],"panel_ajax_tab":{"path":"sites\/all\/modules\/contrib\/panels_ajax_tab"},"urlIsAjaxTrusted":{"\/content\/2\/4\/425":true,"\/system\/ajax":true},"color":{"logo":"https:\/\/www.g3journal.org\/sites\/default\/files\/G3logo_1.png"},"panels_ajax_pane":{"new-37":"{\u0022encrypted\u0022:\u0022{\\\u0022encrypted\\\u0022:\\\u0022M64Qs3Fi\\\\\\\/1yincr2RPiHLGnaw7+Nq5ToNarQWt4tLbSz8yvFg7V1IU3wktkPdpk47u8HW8EU3DHzt3MBqwV0LxpUoA0UPKApaTSLNyehhciao+SZWXHT+dbaZnKq12h4bMTas9aA3jlmcKQ+dK9m5cu7yRjLWCf+QTyqBAI3B3Pf3tRPjNQc+w1FBdzOH0MWLhofZTRMGm9gQFfFhY7e0QSL8nnySobo\\\\\\\/g0t2XHGD94DQKRVCCYF\\\\\\\/F3\\\\\\\/w8ehj5lM2+EHfDdpdpTMPuSZ\\\\\\\/Q\\\\\\\/xeWOX8yZkldbXl0HoIekQFy0uDwr7By9LCe+uXv3GSdkmqCTOUuJJBFUU3qn8mmSEDsg4N4itk8gP2yTpaMD4\\\\\\\/7g9qkC9FXaKq3t3+ePIfvetLMvo8fm2MHjg8BclATj\\\\\\\/USHzqrrMeMLOJLucFluvnJoUg7SsRJv39nbJIDBZ2ZQz4GHUeE+NXGIgZvUs\\\\\\\/z9cO+jPosapAoJ\\\\\\\/5XIz4NvW3nS23V70\\\\\\\/SyrDzDcUeT51ZiaHozwcY\\\\\\\/Hh5BU+J\\\\\\\/RGgPnwAmssV7fqz7siAmn47ppXe7oesw6Z6t4ISCUGhSC\\\\\\\/dAj3mPJXWdeYCLfsQPsT+q8oD+LFeLmzkTy9I1gYv+Jdq6aJejp2EBKASdz0XHHDnJI26tBMF+7bfJGgwSPd3bKScbBXvgVMmrTXmROEyz1Fw5H2rgT517FpLCkTDNMe5FSP2E3mjuoK7uNBBLL5YBemu8NiS9H30sOgYX8miDGpOn6fu+gZdalgxUADBIPi\\\\\\\/PgUKAZlY4CUo8KQHA2vc0Ia0kc8bGalTZ9YXSW18p1HF51JQMX7pnBV3s5AZ9J9yhgsSDQX3nuzpTAs32E0P\\\\\\\/+u7WNRBc8zHhptbbaV8NkmLBosVbgOZ\\\\\\\/\\\\\\\/wPw5ph3Zb96Ae0RTF6ELZRCAS8ktv0vDQ6GSnw7ocI9wuF3f3iaewjt2UyJoxUKyuowO7QW61P+oNieP3Q5T+r4is6yWLRs02w+ZaEC9JBrIXCNFqvbmCD6paIiYlvSOyb84fJC\\\\\\\/NtNd56RfHUdsEhKmDfxTJQFVR8+9a0E5nfgyoneQBrHaOlLQPyQdvmYcfRKQVMCzIGyo8rXfJ+OxaDkg3+rqTbvJOBhjJyc4uQiMM8ENroGjbec8zJ9FphQP8f+UI2+tfTQdhBWWJdXa5CgF7yNK+xBfjGUZzyElYKeGVUJKbi8hn+4oDpjRW4ot3gLBfhOi\\\\\\\/PVAH0nIsKbXvlyRzTY0LXarMYnAykuosB8750gxxmjoBFzIQ6KqbT9sQS2O2uc9hQ3b\\\u0022,\\\u0022iv\\\u0022:\\\u0022FEH4+VvyWt98qdG+cmzXNA==\\\u0022,\\\u0022salt\\\u0022:\\\u0022eafb7996b1fcf3b52eea931fa115389d\\\u0022}\u0022,\u0022hmac\u0022:\u0022a12f205b5b16077c7ee243506c5e831e8fdd4c89274703b1869d09f3be9ec374\u0022}","new-5":"{\u0022encrypted\u0022:\u0022{\\\u0022encrypted\\\u0022:\\\u00222jeK5G\\\\\\\/fv+wfTOWaekHwPW1B8lgCCltvqdhm8qRtt+c5BU+u79MFHvmrqwplQ4oSoCZ5lwrdt2czB4NRP\\\\\\\/eurRoVVV0Egvs0GStWGjOoiidi0P0cQefvNzfTzxBSSByuj4p3xMTgSX7K9Lt92D3690B5SVByYwbq9Zh+iP6y5fb2OQIc1PU2BfTDx\\\\\\\/zrcgAVMjh9etEU7Z+FA4OQmlZ13gzzfPskCBoV7HB0tYq+900fj7t7To93SypIhOVGylfAJfjdbB\\\\\\\/+L\\\\\\\/nDZXhG\\\\\\\/fWrXbuTpM+oWtYNlaDVZJGfmvoNHX+y9uz27UeM35OpTC1DIajKx+BY3Ff1mDPkBpd9IeMgDf+XixsLMfW2yhNGZs71JlXHQBBp1MqABFIOO9W7iDIF8fROtehms0cZ8CtelCC\\\\\\\/+bSnui7hrjNF8S05cuGEqXFYfNXGfRlFzTl\\\\\\\/0PgayLTYazY8PJQ9QkYOelnWub9pLab5FW56J8NzFnlB9Uo7wfWXrIxyPq8Tlgh3CYCCkaSCfLhrOyFc41e6A0zS8jUTi1OaOiZ\\\\\\\/mTqbdD1YlF6W855yZ+BUrUsR9WzWtuMO5hZBzruKHJtbxV3owWelwEQ\\\\\\\/\\\\\\\/x3LCzb9UdgPz\\\\\\\/scSxkxGLysze8MYa0hZi43RTRQ8AitwpgHuppG93Qq\\\\\\\/V\\\\\\\/Bhe8s06Dcz72ph6GTa\\\\\\\/0FDpDMuoLMfhbbwwshrXFvhNOZB1em0TUJEYm2sHCZLqohNjkOapm+BGonPAZq444bBfbGSbk6SSvNTH3wq19522Gk8wBP6wgd+YfRr1tjy1scIF0ddD8r1vP5re\\\\\\\/c0++1mt83IpC8RHhyoqoqBTbWlQUVKpdC\\\\\\\/Fh3L5qK8Za72jI2MKavpOCj91z0Q1Qz884JAw1PhLeWCWCGx+0kD+5OKLoZ7BWWrsWTtpnoT+d7vRSi3C\\\\\\\/riXP1WwVQpa4xHbChpou3kImQ4H5TBDzQFWNOwc5gM2ZifHzTqCxZJGuLxNIF8YQRrpBfDh+lUcMDV0+82KHotVHT4m3JeA\\\\\\\/RVFSU4Wv9\\\\\\\/EDFNHWAm\\\\\\\/UBb+71cWKJEpWKm7sClxtR5Ims9egpGLG3cRhLpUBJG5mLjp075OPvBdzOSYf5Fqze9H8QEXqCOGJYFp9LfSyEqOZpXhtPpqKR2bQjf9v5Q0+F483IEzgJF9E9cp\\\\\\\/I+J4PYx9rsx1l6aw\\\\\\\/OgoxSNXsPOX16oXuTQdGDG6q\\\\\\\/xuIE1NyaqHtvcWe13Hsazi+ylTaMaaYChTZ\\\\\\\/3qkC3TJ2Euprvq6Nvj+ZSJpHt2huF+k7EfaOHNptJ5v24z6WiEY2abN9GPj6\\\\\\\/sJ4rE0woSmGqXllqTnPEjRTCay0\\\\\\\/geRMSwF\\\\\\\/cf0f350fL63GPjSwU8BVAMUB\\\\\\\/x3GsWDyHpvOpA8BZyz7\\\\\\\/FX9Ch2OcllevZl8awlz0yRvGuMQs+fdGS4pBNWnrWDKglufWqdBvgxNsau3SuL7Gql1elqenDm9yrE5z5FGW4+PgFkDMUGr9Unrem0d+Q+FF86XvgGaSEJHlgBUOlnz5NtB\\\\\\\/BNLFbQ2lU0cE3WFNfk0zRWnB95lP242xm\\\\\\\/h7aoLEI6K4uWNGmpq9tAL6AM\\\\\\\/JzfiijEBk6z3yK3rrWln9vQ3uqNn3hGJ5ITMJRZgp9yQ3AK2BLLcpaZ0Ei66vq9lrnKTLxkk+ddRf7UQEEw8k6oauu2vXVwyepmN3W9Zp7sqpQhnA\\\\\\\/r+Pc2jr2oc8FLWcsfBH\\\\\\\/tnddsr6qh0ZyQxE0af9K0Dbr4WTFZszwdurruXYGb07Pjy\\\\\\\/t1BSrNjAk+zOsdumbO3gQ6KgS8JwDNsUdLuMTHh52V8RH03T5B4teYfniScLIG4mC6OWwPxAjJoYuX2agvv\\\\\\\/LCfofdkc2+TfERSlSQz4cYOFInl7mbgTPgGVuSGwfCXlwcHc3srxqrrg7ZROO0OkdKRlTNNMXcHhDKUobgC2Xscub3w2MI\\\\\\\/0sduZSrh1eluZFBk5wXPMsRcxhsetoYT7dLBl3bBdMlvHP9w\\\\\\\/ETGvay6nlaGgV6aqnfpCMU9cvH4RYxRzjwIb9s1qjWIiuZQK6\\\\\\\/4ulLc3J9MF9vd0XqYyp5ZSJgp\\\\\\\/Hesd+tkSjMnneztJxpjNNnRJzErvWV61W4JjGYC8QLJE9+cKu+9vOwx8TcPJVx5L4rT7fi\\\\\\\/Lvx6RuwZJoN13YXMzEvWcLlf+gJ+LJuzLwDSRB+uJGBUN0yhRPK7xpBxBX8dxx5\\\\\\\/jtf2TaFzLXxEpUHq0j0QHbWhYt+nDHAKnW\\\\\\\/3ft2ccEscQjpL4YyXneNPkt6ppEWOmuQw7z9BAAFIJOngieUANM41PbXoxaIHUgob4HaiKaN5YMwns+X8hliprskSexDZaDJcM77XfWmDhPmCsr1vVjSIqE3x5OavwjxoYhO3TzGSQS+t77Ut+s9v\\\\\\\/xWM893dPgnTYGEYnV2c0SIl3fJSzv2N6ak3yIDLq7LOtYvVetQe3xMsgC64qWFoKAnDAXZSrTe9gga\\\\\\\/yVc2hV1wXV8IGv\\\\\\\/ketctqVfjqZjAOagVBm007pREx9Eaomv5Urbd1eqcXmGYxVuXUeYZB+7zILt5g+OJ6eLyTk0j2MBiw0bYswhLbMW\\\\\\\/pNMFCEGKEzpQYJWUZEyhVZsu5UsVDsGn5PLgU6eBHbXqLVYmVFcN+hb6QorbEbDTgBhN\\\\\\\/q4ZGVGrMN1uUKnfEgOYoLG6ItOr2IR19JMQji2N0lpVAU01nkWULKl0HFvbgMwHyTlkRo9FZkBXd2r14+0VnpSY1cylFXtlUaI\\\\\\\/kpqLBtLa1+d1ZiH+BPWyQCauTw8Quj6KcUIEgtyGX9j5D7Gh\\\\\\\/F2eJazE5ZZcSJlFAPTGazl6NlJv57rVIXnhZouUzt8CnOlbSQgRBwtOBWFWnziVgyOZ\\\\\\\/3cKNaWJofZ5QfFD\\\\\\\/+q+Q294XtuupVRqESMSsXMbzQY1YL\\\\\\\/ctU9M4Cb1C8p\\\\\\\/cCgM8Z+OqknipZXjF+zpDJYz4Ck0v8HWomu8+Fdp5AQRRjVBhw+GM4AzO\\\\\\\/kmqMInAi6arfAjFv2sLv8uZFTWvqh7Ijiz8KXIbVPEWxRaWl8Kc5efmYeGEBtp73RPlhSY2XaVf2Azz+XUsz8pWHUpQVDlfx9CHeH9r8ueKujk8mOERVJMjZxeJUX55AzTVKmH76Nw3c8rnhBcAhQdCv2XKByLV1n29H6V8zA2TBmPZ2baKhU15rpEGua2NRlzOrXx767rKWWWiAdrrX2HQi8T0hYtwsjNNwVnVzThYJCVCUhkxy\\\\\\\/XC2Ht\\\\\\\/Swvm0Yn111apzGalH6pS+Q6b7ZoUT343NpGND35h7JezpsiBXeBlsSBE+Zlb8ZjFH1CIUgHwcChSMffbnhy97Tmw8t\\\\\\\/2\\\\\\\/QSaJX6qGKuMC9W88uVxwaU1pIuQYplb\\\\\\\/8n8noBNGRa\\\\\\\/Ti09tTMnc\\\\\\\/2s+vAJcM1J9Ik3Wwnu0o\\\\\\\/5Y+PtjqdakwBLhjygTBM\\\\\\\/ron70VZWs1fbHHg0l3qoi+8o5SPWMFMdNqZZ0z5kdG0D3EmTUNy5CDf7Q7bXT4cGEnUpUu\\\\\\\/RGNi81cHxfR8bAf3GQ4SuR7Rnrg93mGCQoVMATRKOexRFhoK0w9ciCVHA1nziQvaHwLptVpQSA8M4aus1x12BIOPLdkPCg3n9el29N+FgFvNRfUzqM1ynuyImX+8IdfVMDWtAYTLoMwcWyyC4uEhPvB3TkEkYuga1JnBaJ5jnu3Zg9KAk\\\\\\\/D6Gr9ULkQvHss85zXHFzPxpJV8QfVsRDfduILbPrf7ZCyYDt862ANBf58YWBTgtl3yFOGI3PpV92agIe4HOczhasibmEeri6Y5kwEBN833wsExOEWRif3Uzi+fTFlLfioD2wUTTB96JsfO9dmdnkhsZP6HNjTbm6Nk6SjnkNMZSt8tOM5Cx8Npbhn+lTF1mj8cSVqWHPJRfo3QpPr8Oyb\\\\\\\/O2urZcHjATPlrgzJaCVBgHzCOuwJSlJhag45D3qyjwOqwqpfTVE8wk4Am9SJ73IySJtQK8j78ugu5vhwv40H9KqiXpE23oFVSF\\\\\\\/U9t0CnHvp3Ai3NOu9o+WKW4wkcAaueWsvX0DB5VdE\\\\\\\/aEI9Bbohlb5P\\\\\\\/dAkjXwxkTyqk7OWXJ93iWMOWqVOf1CaJcShNHDG3oxtX\\\\\\\/KvnlbYGXLBzz07mvfAkGB49neeNArXx\\\\\\\/L94v3Dz0o6oP7MhPr14l6Dt5Tas18gShiRnWSoXqLZgo0MkR5Sg7k1w2PdvKw+WFlfGlNev3A5BcNS1zO02e6Ly8nNIAzzHaax4aAM85BOqW4PbOmMUz7Peb6FZX3zwpcK2Yb+4VH9qnJycas2TtuwYqReIpU80NwbGScENGemxwup8+FHjr96GH\\\\\\\/qJdPtx613+8nIbaChEmHsmqOm7SicZnKSsImGQyPPvzfeEoO2WRqQfFkNxaPFp0EIJa3hFmFL991Pbcs3usv04GnZsJfaRTw1tFwqlMUPiRp8BV\\\\\\\/gMedaZoir8kStHEMHXwDGeyS463k1\\\\\\\/eSaqgFTHcLJeae8x0J1vUSL5Hleu1K\\\\\\\/mLXp0CH6CEhn07hyXsIYObe7mwohfhLNFJ34x\\\\\\\/crO3AexX4U21qUJFAG44Ac\\\\\\\/7YMc90bC6VYXjT\\\\\\\/P0ngX4PuJoVe4\\\\\\\/QFLyhj+Ay2TEtr6J1fkqRMCght99jgY6X4hDNTrePULG1JfN07eG1qZZ10Ybe5Os3kOd98KMN+Aq5ZMBs79orcDtuVDZNAJuTRkylUS7TQPbwwDDaFM2SBzmVRs4\\\\\\\/3j7TsMPcgxyO2kAYbP+ZPjEtukaSziZgrJ01w0oWpcDLYK3MfdO1QlphVMnwpWDwA7Y0XUlVid9upD8y9DjGP0J1vxpklP\\\\\\\/h3xHCcOl1UoeKXn95vbu3sgbyuqC40URz83ioM36LBLNqzytt8vSF7tiLlqv6cm1REZ0e7jZc77K5NRocuY0DA\\\\\\\/3+4BT80MqU5sZzFKnl9ghU8zVRJYHQt98UJRHgdB2glnU0Z4K+qYYp6DvqszoDCsyxrP+KNXTH7SgwA76Q\\\\\\\/GcZLwN4n1Tt7016nBx8ULjpYlp+umqtu91uY9MISOp\\\\\\\/VhnvRPbK75mQS6hN6gpAQoTe1dI84KpFPcikLuQIi+cKrrlhkJHTHHIJCy6XCC+ccwtMZjHpj3AvW2vbtbWBd38E1UnSHfrqN64lSBD7yftiC\\\\\\\/GPZF2bjYxLY78TsEWI0hlCbHAfMbp4p3TF8EUy2VrMW\\\\\\\/8TxzbHizNEnW6zXoJQYqt\\\\\\\/jJeTPfLUqKKINBnfwsLPo0hcCE7NGCBbRs4iM\\\\\\\/Ykk0GiksRDsqXrhu30xQh74NNbhnAi4z5uNeP32+9rl5vRoXVTFPoXLPMie+UX2pezxLkPTUlqK0gUcPTM3lDrE\\\\\\\/WGJ\\\\\\\/GYHaOa09J7vtHoeEr0H6jZZbr\\\\\\\/KP\\\\\\\/zZ0Q\\\\\\\/gUcyzxKQ6TNgZH0kwMFt83C4ag2zUJk9\\\\\\\/rZJlMNLy5XY71dINd5IlnPgy+ASd4J2b758QdVJozZLfSz6WlkIG8Wo8SxrBda2eHUpqcQBSsduD98aYCo7tlWbYAwka7uzI21+wgas5+M4tRSZPuM6MNvOlIKQ9HzidgAgv2Zb5aV9P2fOGPsvhAv+paeVcsE7oUWIh2SXrLnkmLOSYdPbUEBL8wYG361EHA5wbsrPXvGMV9gZpFDI1llpX28rhl+6vkle5FtCyYDDKAtnkNuucVdT6gaYLZuQq8p1FyS975WIxumyImX7\\\\\\\/CJr8bYN+OYO7KgbFGYzMULHRe5ZTcn\\\\\\\/93eqXFTo20NRxHbgUFubRwCJ7nYUAst92AB7kUxmIqsXcTUnElCtBVLScSwAfz5v9KJEmE\\\\\\\/UNFR4nYW3tAWLcdF9unZrTjfmvGFWBHCGM201HUNuAp+mEMOQJn4wGdVnZiwZFrFfPm13vNBw\\\\\\\/T39c8SeQIVgQMvDlmiZpdJP8WKd9rKFOapBkvmWYht1Hup5D4nHgTBghRtYkF6JJA6s59e8SLewZmVyZOuP+6kJFj2AeZZApljGPK1gVb7lX9MoI5ksTyCR\\\\\\\/0ny7ll7ZFxQ2YI3fK6b9+yh+NmmHt\\\\\\\/mfQrrwVKl3DjuXYiHahdYIFJsIgaYu44BG6xBtI0CELpr2ltsjEJG3WcZpmE85JgLYU2KPXNrgiEkrmgjJBnGOZd2B58D\\\\\\\/nQVwONphzkp4KN\\\\\\\/pRETMjOATMuM1J0xVEbwBerz9cB0f2lW0Arq96QKyhQu5PElH3dclK4FCVFZuV8UvHCLwqGK\\\\\\\/Zwjfy72pnmMSMqF\\\\\\\/7PVGVoEFvIId7Y8bZ0EJs\\\\\\\/6mJh4hfbC+bh\\\\\\\/Yk1gJzWXJOQo9b3SNdGHkgWxyLK1yfbre957yxNxF6rB\\\\\\\/vORYQ2n7tICTGNVMG78Q1BWg9xknyoAPwhKWsFFhZGbIKw6kIaGO9tdEwmq0P6WKwBupIyaN0CYx77BHza4c7ELYaxTWRz4hIhOf08teltXCU4pN2FPn0eqcSQpKlJMxi0dgncWe829sNEKUdMe12WgvhufGVHXbhIcbnYRNlbijJgf28vD18JLV1+YGIQNTEvl+QR7v06WN8z5ZxX66u+hNyzruvlf3M9WG6ACWqziEXqqobNZm5d5b5Ag+rqRCWI6WhkbQqy9R9fiwVgeqFpTWXIsr+gDy7GTjKHo17z6AJVB55SdWEVp3y+9eoBiDu1SVGKbsLGp9GwXqwH\\\\\\\/7R350by0SqQ9mt6rekRhTVs1wnInfo\\\\\\\/c4yhHQWIi1uYLOcoGaYBj6qEyetPDfSk5q27yJnTZEK1uXz7\\\\\\\/U+NE+KQe0iQsGjucrm2rxRaWnD\\\\\\\/KV+hf\\\\\\\/F4H4wJ4e8stVoQaI2a482F6YulWCYmFb1lSj0CWuoXu+rcFB6B1Iam9tN+tACQ1DRYaF\\\\\\\/5vlTxXIsFuJHj0bLhesVmdgaAUS60ui8VJn99XxF7XH84swm0eaVX\\\\\\\/wB7+cQ5b2KkY3r+Dv1A6lzUOtN\\\\\\\/WJ9HeMJZZkdnKX1AbF9Ijn5izhx6Ml\\\\\\\/VZd0mSsseQUM1xFiA0MqyZUI1ppBnqwhVjKCKpd0qpJdylQbD\\\\\\\/JIxbUf8cRetIEQWge\\\\\\\/3fNW9x9cTqaXgMG50xjfTiPplteaMUMiOcP8tV6IVTTG9lSPkALLWWwQCK2aN8UTpsXsctYwn06WQuwzo6yByQZyLqWUs8Tdv+tNAcO5\\\\\\\/9Iv\\\\\\\/sFZSU8M+Q9hVhafp+gXglczg33EBnrW\\\\\\\/0SCoaeSto8p1LlgNGjS8iEcjm0orQ2DIT\\\\\\\/LJvGUnRL4upS6yGgvPJnehDBNDq2Vnk3L8qY+ws5PBxfan77vsrFqt2Ski4D7wWwMA0D6voBz1rhp8hQUMReeRXa8a9+l6GOe2Ifstemgc\\\\\\\/j2q4sMGBzMnTs\\\\\\\/3rRc\\\\\\\/yzq9tGcSLqBvehp0Dd8JGrPL+Z1Qf8bCrdxqrw15MFtXb3vLrB+Vv5ZHCZV6dpHF+VgHE\\\\\\\/gTsXF65VHzW6mndvwW90sBZr\\\\\\\/LfKN3SEuzURCGqxMvZJhDriZ5DUxUPxZ2QWJc9Z6Cb6YvZG4tCCAl+qnQ2UwsDesAsd30c7yj4Na6YWce3B7I4b+k5YJKEBhMIs4gdsGdp2GY+UYX6\\\\\\\/n3XLjlPpToDYARicC1IhK6BrGSBvL4ewrKrB0dDrNmFzEGq1GK0IpaOdaMFvlOOBRY2gE4+I1Ao8B2LNy2x0TPzWyHEW8BugQMDhU1IO\\\\\\\/wMVZXaUo8msR7PaW6uRFemeWSBeiqfvPzF1KlfsdSqTdjkDx8cYX\\\\\\\/JcmXUFjRxcuMHiPKhKVR2AUmQNJjF61MiRI8zjn5UreSsug2LpvQ8g9EdwrLlS5jwN50CmxIal4ieEjXbLYBZu\\\\\\\/kiTkm3NczmD7JuF1D+\\\\\\\/az\\\\\\\/pKqPFdd87sX3LyDrzjjxLFD1MfxxlIUlxcEHcWqz+Pb1cfdlxD7+O9QFChSSJHUKwj1DtJT1Mn1BM1qhhc+bQAjaBlYzxngdxc5U5zHWzL\\\\\\\/yxqUpaIWYTiOIcJIY6jJ902cotfCXSlOKcqfwP3a98+WnxN4UyPcNaZ8qHOCfvtyypl0Y7FkwOqSH0zSYWu+Gm8yPkJjt59ODDOkza8nVjrE0wmaeqQsnSzq\\\\\\\/NPJrHDX7B\\\\\\\/iGbdvF\\\\\\\/w5tgtof0jSK+6dMrS9iFm\\\\\\\/czuMgJE5Sp3xfOfbKiqaOPiOa+V7ZO39FeCwoVAm5qC9sQLJBhoiYzpPJTiwRuG9sV+zbjqsKwwNHbbvyFR011l4Mk9g+0LcqhTuV5bWVdM3Lo8OQ4SWD7Xo7ogxstuDgY2MRr5NeieZAG3HpEcFga8spuEplPvTlkQJyVPdNwF\\\\\\\/K7lMITT2qil+nJWgQyOVOfYU1a9Yy80cEdM5DU3OV8QzTrKNxnal3CBKstrvTSQU+fGFjN2J5AGZ03NjZWfNftUTFHZDgeHDLEuHpB8\\\\\\\/r12QNb4ISgMi1L12P9V64SB2tUOtk6JK4BDucgNM3Jg0riyIL7IARTWUj9+36cCfAbJmSJy6Uq7Kg2yRdNvhQ05OAS4ANCQTvoHzGGtvITVIEKcunoJo9JSQrJSn8itoaorUZ\\\\\\\/y3Hx9W4D\\\\\\\/tHZ+oZCO9wb4LniA0gzgmot6QGbbrUIslUwa\\\\\\\/yw0AWYbVEpp7vzz3D5N7wW\\\\\\\/kdFfyRw\\\\\\\/4aBhme0Kp6vTqcfBEhwRCdDdbhz3dOucHxSOamd5kW9VIBahcYBCzD2y4LVdmOmwCYHrkKoggPEGTW1Ot+524MDsNqpZw8iSqT2LMvRSoCYmJhYv3ABB+ZU6nRG98yhR15hvPqpL+NuVyRKiocSLibMAedsSCK8aepZUWjRLvrO8TXzBWtyzs4jLLXmVBrYdEX00VSeKBPl\\\\\\\/scLjl1aZGC\\\\\\\/zt7Se7jdaih4jXLGN6Zly\\\\\\\/Y5utsQXETw3BL0uu\\\\\\\/ax55V0OKfeZDB1tKrx2r5+khw\\\\\\\/ZTF\\\\\\\/9FutwMJHGNjHagijw91RstilSbJWOM\\\\\\\/f\\\\\\\/1qXiWtpCRdYpqpahCSNkrcy9\\\\\\\/oMA+7LcHAnQYPnSBVi3fxQQI5Dtmse8ew92ll3HY3X\\\\\\\/8PF8KYsnXwD9ZEpj5bsBVTI1b\\\\\\\/UOYn8XZ7sOV1aOstouae+L+apLjR1k1gJAGNeml\\\\\\\/I5eywFTvPBCs8TpRwCd+\\\\\\\/weJADHqg3hgnCtei1qx27Tn1nnpm2PZSu3KSsiD1lW7RtkrLN0Zvp8wzpUm5f0HKkDv45zqyDnkNe99hHNUXwFN2p6nJMl6PDmDHk2rwgoopll9jGL1VBaKdkYm5OUu82Xf7CdZ1fCUlF2rEMd0BICZgRmk77ZTfDUpeR6IbuZhedBuZSEOtUtqKllx4+niyDkUE+ELZqjnswIhlotRfkIbLOKMDB9qttDYnEX\\\\\\\/NGcL98zx8YdUr7eYyoQ6dNED7ejH9atWyK0YigP9IWwB41mOtZIXdi\\\\\\\/eCll6K+w79IWcvQnQ83lChDEnTy0k1W\\\\\\\/K2e8gXlEtiWlQpy1zPDRojs8gYpwXQfr09\\\\\\\/7DIy\\\\\\\/DSc\\\\\\\/IC514C4QA3ynPV\\\\\\\/NeS4fVrA0wcqbfZP3vE5Oe3VSa\\\\\\\/pQ1HiKnlbbYV1MpQemlKZ1uTvz8PRVKfxQOI3kOaGkByndGwisx2G4cMCckUKIKTonK2cNU90r7QkoyJ9YwSHrkaEMWgXXXHb0MGNBHGkjoYbYsL3DOvFkIRG1j66bqMv0ipjQO92m6VQqyOv62hFFArIH0bDaSKqhh\\\\\\\/DJjzbqlxh9NqIclt8HUX59QrAWfZfn5HEVPSvSrlJxceOfDIJqrNOdwPLetNb1K1mFMkAQ9QjIMDo2n6Ze7auRd+y9tux02\\\\\\\/h+siHNHG6ZPQV7OwCvsAYdaFsI22UFrRAnwkrfn7B1xAuBDRtb6ONDaop0ouQlvCLQ4MAf8VsUxxGBH2PPQsIHk+Ba5eDvY\\\\\\\/iuvZGDR7MqJXuYaWLoZGj1Kqe+3+k29\\\\\\\/4ODnUuf+ykwwz6U9gY6wrYuSNBuqK8DazfgbQywWj6fcXHnIoRohDE+w41YhKRTem0q6K+HpTILfken2OEupfaBFfD0kE0sgZITPkfYsztdrc3EuRG8QStgELd4gb1YLmc0ktBe9g+iPxSozo3qHso+Vxpc7i1RkMooeg8UjLBvNxClyWQAnzl67eA+OZIu9ndnCFPOnhZRqSXy\\\\\\\/lPYby2ZfaE14eoGaj4B79hYvp7Rsr8kbcKsC7TM7yPfPxEsQU3+HG1wfQEkgF+VdzZdDehJErQ8SgSc+VDQk+aYpNIKDaEbiI1g636FVSORWo6iMGcHlJ1DcS4FX2iUF6W29MGcXXuwsw8texbE5f1m3ZVOdt+s36xB04hiKHpifpi05XwSVBJjn2RQBGlTSXqKpcfoH6Y\\\\\\\/+1dlNq5BE+ZoT9JINuWVDQTi7RkktwC9184oLLMMq9DJdxgoU+nixxVK\\\\\\\/FpcGnywoDS0yYwHUUv3D+wY\\\\\\\/iUq5qBcPTTbp7PHSUlq5jJFAilFAOHTfXIUnzMnxeTluGbYM8j1Ay2lmSiYgbvZKj8KDVTAYi59I4h9tc+vjDPSK+elbgs68D\\\\\\\/Nk2VJNy86AWoszAK27MGGbueNMoc+NDmG8AgsxkcJcNW6s8g4jeS+Agg6uK+Qk8HS4ogiRucaKnz+t9CrIqEIGoZUu7iZSmFqouk5gOBQfDU3aIvveV6COXru8wVNNfL8xH1ptsVChzJ5gmgP+g6Ze6jx8a+WrCqO3S85hACrJbbewVci84YP5bkzVgXOSy430G3QajmYLEt0hKEctGufE1d\\\\\\\/X+oOZ21NFv0bo1dEqQG2CMDhw9ESN9J8ctQZ4tJEMTQ5B6yxjQOroATMlG1Tf2Mp1hmLk8fMwnpSDoXnNLmNcbIRfJV7T3Jp3fteE89MR8DPdQU0EmvjXDfddXmNt2YtTO\\\\\\\/D+Bm\\\\\\\/vHNnJ4U2egEUyPhlS2ebVgoTLhwhcq49cT07950A+rW0sSjNVefz6TyqPcnCp+\\\\\\\/oHinmomojmGwLuu\\\\\\\/i8lfN1N4E5T3I+M8dOcRfh9OJpVOqAmRJjAjy2FZFWbG0PYMSp58fy6qwyZePuOOfLE8K5e1Th3dPQw5jC0rTEYt8EqvVPbMPgtRWeb\\\\\\\/7vIacIDqK8HkevjZwg65WIhFsTwMkkGxPTX\\\\\\\/UsXYFvD8+SWUVMZSGJ2poW9veWPmD9orybLGDyy+kySQ2GlMG0UE1DDNMKCa5sEVTqdMDGNf1O\\\\\\\/irHjLCFgRZSvUttC6xTXSncUiSzm0ialcHtoAkh3vxX78lNAZILjcaETx+X\\\\\\\/r06p2WTpgmnbPOU66ovo3aGp\\\\\\\/cx4LCnW8E+ZmVjAw\\\\\\\/0sJwS6gqChxRu6ekDl741wOIoGqH6xBOJmAB7D89E1DNSEuFuqBCvYOFfEn5PiD\\\\\\\/MdCxc9uBg9bLqXDQEPyIPgYLscf\\\\\\\/f24JeWyB58Y0roYju7mAd\\\\\\\/Zr56p1ayz\\\\\\\/QaOMkerpHl5q3NeMxEvVB0F3i9D9tNVWoacpPXv7vobTCwo0Fp1+XI\\\\\\\/r1CMiJUrsobnUTohSNRVfMnVWihGSbs7A8gqAWC3sLX\\\\\\\/r5ljHRSN+FGxX8u\\\\\\\/9r1fvJxxFxS0zD129d1sw1SlMV3KfGiMr+4e73Kqy5ekwxhfDQwi2d1JZuoFKVSBeIwoKJW0qMC+PsmLGjic62prKuDvUG2pKuYIVegUCjMKWJJE+ANoo\\\\\\\/hja\\\\\\\/Izj8qZNxA\\\\\\\/Yzn\\\\\\\/YQ\\\\\\\/RXpfnN+ql9Wt9hpTxSAt5UbegSzGLEKx4GT27TNLoIOHyuYsFggzojpZ1glcCQHsCOpeTnUxcO44aNfzsu5pdFph+\\\\\\\/CFBvWEqxgw6wqUL6RwVqu+s0J7q3BbNZ+sqk\\\\\\\/p77bTgpx\\\\\\\/7odih7wAUzgrcM3rUVK\\\\\\\/E3rGBFUaMhicekqqpFdpuF51IO6FuaZ5mwjV\\\\\\\/tnPqBvVSLGU5uPPvvS5zgEKbd3n1IJz99e2yIUMsu9zTxJ3wOySSa7y0\\\\\\\/fL8R05LVK7m7nmWtYWOJHi1DhXwu3ygJPqj0AsumPwiP51LLNLBkaWb+6npdAfLmHMVw5HiQwBAhM3PyFcdhTRhZNHQZehr74F1UAtz8Mw6E44IUZCZCrsE2fCeLp8whYhMjAjm1N1sNYvpS7Is2BdCND7KDz58ZUbBaM1iNeRiiQ0QoaJYCrzx9T3H4CfYxUPPq389nprWoO+BCSyAEKto3y89ZDWa8Tc6rCo6PBZiI\\\\\\\/rNC55gRmkmVIpDP+KpArsx23\\\\\\\/2BlnMsSAlxkT+zbIaQqC4udHfucMgxsnVPg5Esr8t769NZdR5EgWJvh6sSAahgdegLJPxBLxWHFRuzlgnXBB6WSbggQ8K\\\\\\\/qw7FoYQR96QTlFfVeYGprQEiY73OBph4HCdKw\\\\\\\/mxgUBcMyFAvWd+AoPdbGsU5yMNNgz+KuAp8KFgy6pVgWocuK4tzhDut5IlF4gk96esON3TTT2PhGfx+75R1u\\\\\\\/Zr4siMdqDydisFgoPg4IpaGXfcye0cTt\\\\\\\/T5Ge\\\\\\\/mJTELQfWRWz\\\\\\\/7JK8d7BbzxuM9l4kWVMN2Gr6Cb1P7vC+tl0iyQiyh4IcIB1\\\\\\\/BKmuvP3sKOZ9rtwybeLwo+KF629D5r0eeN5yQIcC8uZ4hqbe9rjIb8p7jL8nG6R4wKuWKYUVYywIlRLQcWWUcsFJmNHT5GU2o+M1WFdKKjK1Uy5x88zNkJ9Mv\\\\\\\/i+WBZ4StdLeecg7KGt39LAuXbn5MkGxlkP88iW0tovcgiBSGcaqcgdXu5PW\\\\\\\/2ITrjNBzYL6rcgkyx2Vmex199iAuSL7aagZXuPk6JaL6x1AOaMHAPIVL15oOia6vPM0mtmlUIQ8IvIwTwaMF7BLOyJv9mmkASV3Gdi6QWBr11mXatXHgHEdaK9RRbYQnA97yogDqxWKIjNB88Z9OvX6JaVVwpuIPb8SEF6w+Qo8LGRtJMAAsZhRN4wpFtgccHS+WknHbvDiS9OseI6j868dQQn7vi2RivGg19nrcoHaD0HEYTMw80jEJ1rGmiu1asLJ5zZ24M+oYAqzd3goEAFvy7E9H52lF3C7S2tkyqeO+FIve9UvCsuzPa4bzW6IGKeSEOTMFDqZGFTrGTsrubQQCubOw+tiOCSi+iBUAlPA9HMPCjlfjgHuDDDm+V9QbxZadzI8D00xk2k\\\\\\\/H7abQLiVtcEnjiyBLmROPN\\\\\\\/wtMujiZsuk\\\\\\\/RkmKemHFTp+fKKfUX1\\\\\\\/sVHMtk2afTbaJw\\\\\\\/jCloclWKO1+o2toY+yKNfweDz6HnFdpw2P30EtVoUz7FBLHlgOyJgH0Y3nN2qy3lgGLFRMjjMfvAYjF3zFtYU5auXXgq3Zzdsj+mUyLR9Gr+NlVfaOZLSYS8t9NeohMrwvCeJjDtCn\\\\\\\/S0jsWjZV\\\\\\\/CSL0IlMcmoAmRLniKCAgzGS0nDSNASaNYxaiUQFJeGjVsBRcqtSoBswqEAXZCpusACNcD2dwG\\\\\\\/4KFkiAugbcrok1VsLPBWEJuaf9hLFdj58HhCn4omSKMGvpjlyJ45tq1dTmx16TchmGap3GM168S8ZnBWfeHTAIWgXfXKbdaSQk9vrPTJL5nOODI56olkhIUqTZv+tavRGAR55LipTV3+34gkS1uddRZQ3YBtIu3wlXSS7UD+rECgVILdT5iZ7XInxwHdBlQUVPepsHh8PPZfdKNrkaf3py7VJ17NJ+Im+sm1xzjKpm2oYJXbz+eJbnzBQO\\\\\\\/NSDVks5FjyymvxfUuZHB5MdYIHiBv9l3J3Ptu8EMH0AFR7QF3PNXaW0PEwlDfNkqB5z2KLWvbXhZ4rao2yTrWNXgWvxGzp8\\\\\\\/lOi79u7\\\\\\\/ex+srlkqBWih\\\\\\\/omA31\\\\\\\/POFbrZbq3q99B2IBbDAYc4kIBU0OWIvGCjtaQNWY3H7tOlmmellpeSFgJCb1uBCwGM67l8T9JLBze2dZegbJDyE3XzDWqQH9pZAwZMv6oLHbtDidDumT8SjoLs0qal5YFwKdHtMFUzL1EiWLAs+A5TQ81ykxPgaamoFr+uqvQ4302ffGScHOxSyvzk0GW31GT14PkPUNduqkKm3HbjopEjwKKy459YDoZmuxSnBvmRuSXkOuzBBqu5vCsMvjr60oUGnUaf+Ho7\\\\\\\/oJ2K23TtrykPzsdzsH8kPXBzmKNa\\\\\\\/ETF7d7tpm09N1x9pj2UyzP4kqRfpqys\\\\\\\/hRtjHG5CYcWO+WrS+CxMZtKLkoEd2P7i9QfZWEdfy3gdHZSfTz0h5LXV4ddsjkZfpe3Yf9OBTmZtvlBVFHbhRCBP84RKHVCYuNNUUpQpyYjeTvnWcu9rOr3EP3wxqmkVXkcTiiVliyPYqC6k6gd7nCb\\\\\\\/YthnHLzSEXpivsekO2YFkw+8dXgb9qQ1xteSEvyX3roEQUPy25Dql9v3VnWlsvwy7rndy0BbIzEchbdcMJDIZUNJvsFoYpN1kE4QscZlsB70oOgnQIjBfbjo5yAAizQpUr1mVJNGQYZraFfBlzERCMYdB7l0osfZZPYWR0p7uBVEVeiNErldKUKzH51HbCplvPsmAf5gcoKgXyGC\\\\\\\/iPtTVbRH9JtpXGG+tOutQM7gaAVCoIw4EIdYYY080GuE530cYjutv0ZO9GOVIzdqkenMHJnCLmnggeupZ6JXCPFjr\\\\\\\/f9\\\\\\\/524qBFW4noEa3RNivcnkegDwiaTj2+dnyKpkh\\\\\\\/xn9RlJfcrNfaEI5ZcIf04XolzNSXnqmwbB0yuT0Wy93S9ZYz9zt8MakWB+WsW9T+nNMVmuIWxtrQXUPAnmty70yu7\\\\\\\/vj+LP0qKW7MYdyKcRfyLtguXsjfBiuHi8ZgFiTgcbDplzdPY\\\\\\\/NayymsVoP0\\\\\\\/3AglUHg4mUFixqc1zVtaYQjsXj\\\\\\\/OWcXYjdrR82TANVtd3EoAIC\\\\\\\/eJbJk8hjzQcA2kUHP4NJShNpADtURc7HvFL2XgzOdAY\\\\\\\/H6yFV9dqQ2J7jakWBXBxvZOyWqHH6NdrKPmG3N\\\\\\\/4hJ47Xx2vZyVl2p5LLB5Y8SXceZkwRf4Ff9mm4Xyq23WhGQpMpt5Iebt\\\\\\\/8uCOsxNLZDPotfgw4MpXo9GuG9QEzQtwAk6rtWT7B2V5QNhyjM2F09Hes2Ghbmkvb5us75hVjWFcUu6LP8tv4ELzxILhPN1leNFGgqe6DXzKtA6yIA7doGNE9yxd7X2kvaSJvbKaWqIudWG8kheGhi9nh\\\\\\\/hp9vLRiaRlF9fkOgzgNdbJyP7JRquZdSTANXAt90XOM89WT3kZDwexNM9u6QJDfddqY\\\\\\\/KnFAcmppq6VSCalAnzaJ320k\\\\\\\/Ul0F5RGq1e0b5ysusB7UM7ybE3n9kaJZFDiBcYOVGDmbatd4KFUEW5vG2GnKtiO8S4bxjgaP+tHC7Bkjej6qp74P9O8qAQlebh0XdMR41o\\\\\\\/0ZUuko3SneO9Lg7WnVcjNJZkLDUh4euXHnPfCzSyTx1i1VPcaWFKlHi+k4hVDmEzhnkgttILPfYTnWvh\\\\\\\/kuI3PLhpNCY7\\\\\\\/Iob5anxkf9qSjBwBMX2cOelEn9qZ5ao8rBQXdXlbG\\\\\\\/6TjyGAIN\\\\\\\/SWDkDv6qzUJ3VbJG18eflJfZJqXqgY41uwAbzUg\\\\\\\/rA93PocWECzHAs5Gs44ZIOmZudhlgcnbmXYfEFTVOK0S1W7Sa5O9IXvLtG0OTG4ttPkfDRRrYdt4UvKxFB3JJ05WwFU17k2vFo5pLTGItLm\\\\\\\/KR9jdOnteY\\\\\\\/fJ83b46NYiyq0JiX4M81WJw8KrmlCid4ckLupBYZVFlv6pkVOe1GFu1WvZ0gZ04XCO7SzZTzFxwfSAvdEUACkWzc4GKaHBZjEkXTSP1QjStkZ\\\\\\\/WvS4J+vEy8JExxg7l\\\\\\\/k6r25P4tEcYFafU19\\\\\\\/F\\\\\\\/QRva+yyy9V+VB7P5aAVG0i2ixL5spUmpEj++ytrXHFkdl7oErEJzXhNKWE0A5HltGNVPD7jkaGKfZIl8HepUKZR+UYZ5eLfartHMFxwNB\\\\\\\/IqRP4PM7RhBUmBNo8tBvOZFdh8NQ8FrnYGdYYd0UliK\\\\\\\/hSPD5gN3\\\\\\\/ZFjQku9weK3XpoiYd47mfDvi03XQvJUm+PWy1jigK7McIgrd\\\\\\\/3b\\\\\\\/922HGzewzrbzzmbsbGhbMOqbqECFcwE9vuIOJOImAqwfk2lXPAXD89oav+yO24RNECzhi6LeqOU3TV60VrGHSKYcnT\\\\\\\/hjEu+Y5b8hTeZwDdwhxKX9uGRKBHFI5hDaBUtpFe5myVgd1o1oDkStk1v5aFI8w+FPkBYKSO\\\\\\\/MZUrJqHSbcatk117cAySc2Qi6O3LsUQNvsJEXanjpzLUC33owm7DU0Nes7xCCxsM9TMNQFcITuBwA4XQ5fJjx3fsXv\\\\\\\/MeS2yksWAUjdaXKgx6rmJmqKTwCEJOsDg57GeugjnGQhvAAP\\\\\\\/hEeALLUCDRGmZ5R5JhIBpgSkpakPK7P5y2gItdxVC3tfMZ\\\\\\\/FdJ9OyRl+RKlo\\\\\\\/oHobR70NswzZvHRZghVerjmkHc\\\\\\\/WEOE8pX\\\\\\\/ANvik0Siu9GMBS1H8Q\\\\\\\/mO4eylyc3M6mCI0KjFZGiquFo4E2EBx7RD\\\\\\\/Qr3aPnqupFVB6C3e13Ltozhdi48UrQcZ9WSXqefblZ1Qmlh4FwYW0IyKJYFHGyHKwm1Aa\\\\\\\/jfpx5jMRlo+0xkS1a8RSGHDJ1uOdJvWeNTwJ\\\\\\\/rT5Ukrb6PykpidZdLp4r6mLl4ctW9P1e36\\\\\\\/TP1DQ\\\\\\\/EguQ\\\\\\\/6RuAcggu02MyPfUmTP3KM7hcRltZe8eU2iXNddtkhajup0bruaintkpnhvUp9BMSvDbTthTX5DAnbk76iLu+6BPej8WAj4gU0Gfa7VExGldia4b7b9wHsHgWUVgVponvJJlCACG+7m6Rj890wSTb0+aowwvKR59Ypb8YbcxLLViRbpwSDjyERONrTIeQ8IFvgR+I5M7Bi8r\\\\\\\/PHhRY7G2wxULaqPARIHO4M+PaPyjNkG1Sq5pyy3CHaED9Mp8ykBcqWVyi6P\\\\\\\/9jFF2s6Xbw\\\\\\\/0FZk4AjvGiDkl26IgF+Ys2cprnT1fry5OjveqPT2ZCSosZaFoemr2aaCzm3aT7bSGDZvHyVGQwcbC6YipxANd4+ZbrwRYaPF7SOuIDTB2EwNUb3r04XsyH9v3YNlXOfipYUMhr9yJ4+lKwAWs0M3DotMF43Cb8JNW79kurqAusFdR6AxsbmAgV8LY8RopEsNOiZQOwcqeSJmkA844cSX7aMnwbNPqHeRW1eTMs4Z8ookV767HVd+s7AEQjtpUHZzA\\\\\\\/IgF3uN6Mf89pO7pF5NI0pnVnAGUuUYlWPCD87keGZbnWRTMS91oia+sRRQYVdxqS8HvT0su3A\\\\\\\/lvIAOzQIF\\\\\\\/QNX3VRqt1Va5Uu6Pgt8XWBuzNenN+WI+29tmsYEjIcNlntico95dCXqaAUy6gODMTqfDXuWHWkdeCEV11d5w\\\\\\\/SOq0Rwf2vUESGgK3Kyf8p6koiUPdWwMsZDZyxtacnAR3OFWo5AaOP5INzf2QWTuwFbLOmr4FGzAK0k3fdx84DF7jTqKCgnlyKq947PpkliYHMwp\\\\\\\/VdkAx3FzjwzWtaluQuuO88tdPUOF1oj4FJ3le3aQUKkYoHaRgqrdX9zBSLXjnoLplbdeaJc566ntfs\\\\\\\/AqH9QkBHUAPeOsh2fkEA6xVlYcpPqsOHEg\\\\\\\/OafCpwPJnJI8BLmMwekxhetjDtJ1+nXD6WVsgNOtyznXoCPJYnh87rQMjXr7id+X4kAGdnEKMP1fNPrfayHo66BpiDydo5hAIMjWh++5WUmP2vmRZ6A2+IiCCLCu3cb0PNQEMbq+2Pe+Lp54Y\\\\\\\/nQMKhf7o0mNUZXUC93fM3gQHIpNdRSKZqdf12xDYb2EIvFP0V5CiX5zLzm4PievhgpHRJ1oBoozxlrP1BSvil6ZWH7XV20L5TLzziagVsfbL24cLlMhZKh1iHSIzuitaOMyVJwvu6C4CXQboJpNOp3\\\\\\\/cyDXumlh8A20qfmqYqF076OyIWZWEIySWHXdyiaqusxlL3vESb1TykwMC5wFBixoNGmi6vbc0ZwCsvIN4VyjXrSxMhWsPM0Hp73X+S8Vy\\\\\\\/99ogkXG9NSM6wo32H6PBS5e2eLIB0s1vZ2uXOMS3AvD+xMTxBJ+OExLUB0LXkPEUXdpTRTsIxamqYmU+Ozh7nwOPxS3jfIttzaPHOc8eS4Il+Y2ZT6ORQKPeHnM2D8EZ+eylPjPPRbfsUTrDImGHwBXzppYNl\\\\\\\/YY\\\\\\\/AHCGFMy3LT\\\\\\\/eNdVKpkpMKjTENfMl1nWKklHK1pRioLj6tqV7h\\\\\\\/MF9KsC4PYuzInquWsnjNkEcKYm4MQlDSDptg4KdDKzdCI\\\\\\\/U725wg9aGOgQPBO909q4r2RIad4ehVrrqf3YEIaEaG9Hj7upYdkd0E3bifLiUmQuWoJP+lFeuXqonyABoOdhzc2SVPJoo9As8H6lQVcanceezX+WrygaEDhls85zjeZ6POv72DWufxqGLsFKBCs0+1qtL2Ap+UUhYG2AtE6YoeJkyNWTdA\\\\\\\/rCDOwYmUiXVPOTER8yFzVF4rK94AIXPY7JSM1wKL5+tIb8V8xnw1Xxko7KvQrkftVbHtNtqVrBPh1koeVJ1a7AQRN+ytryrE9\\\\\\\/8KlakAEm1\\\\\\\/bKXGbOzQninBArbiA5oV2wx2+JrwqIrKrUdI+7ZAWYNa3vy4mbN14hn7UhWRqz+WIVMHX9eLry8AFw9PPu\\\\\\\/B2eFpNmd+Oc7siNMYsL1tjRiift+fn7run9+F5QRUKFrbhtFKy0lDZ7qH479\\\\\\\/EGtq2vSKQ7\\\\\\\/uqnKE9\\\\\\\/NGSVNW0e6yVXmJquHOpyEShFZaicZ94Xam0TAZZ5tYRU4HmdaOqf5q1PjSUfINpkp08oWv\\\\\\\/sVrRKEVUqeHaRMrIWW63DDlrLC2XFuYDpkGU9Nt91IXupNWqU60sYM1oe7NvxvVrXiQ9OHlRakdCwqQfIdLM5cCW4DR09bGrg0EmkW\\\\\\\/Zbd9fn0vi6a9IF6CoxB5ssiSoJoutOttYrRLFgMIerDBijQqfthiGQycPSmu5dWWcsSlv4qFPqt2WiCHq597AA\\\\\\\/gGAPG3bG+SVuKajyl7pi8ei+\\\\\\\/KFVkaQAyXD4ouM6nUHGxNexUCiGK401mE9VajrovkMTQqWFQpvBQA8zDM4KgewF7Jmd8vxXB7CQRTSVvzdJHeUJE+bMmjca9fNBARYpWO8KUbl1bCbT0hljx0DPZZ3MMFdG+18\\\\\\\/f2xF+U7n0zLN6ZuKRQhubKN4otDXAzoOgBPtRoKIoTSPGJ8\\\\\\\/PI\\\\\\\/rVzoyBp\\\\\\\/mtDjZ+n9TfT\\\\\\\/4eE6hCb+7QJhHEoSms0pWfh3m6hgHimuJCiWA\\\\\\\/90HEjPq43jSBe95fC\\\\\\\/jO2pChRdaVj7+xJ6SPCGlAE4dFjYlDf1oTuw6Bl6RoAY43861i\\\\\\\/qfCRLTXkCe12+eBR7HG3NGifRmdB407uhWi1f4OhXOFo\\\\\\\/KYl\\\\\\\/xL2GmxypLFNsV1fqBj373qSQsVfoxZYV5+y5JBqmv1fZ3xU6v1Z901XmrWQtdSsL3z5RncNmPKFoFehSkaNr8X9FC6F\\\\\\\/Fe5X+3yR4lG\\\\\\\/j0KfsTd9iOb6cwO8HLszxBiZ3Al6QKCoM4B2Aa79pE75HT0nB4nXjKFYiM38uCuOK7bUes+6tYdrjHTMRoP\\\\\\\/OGYFXl4tsJoEoV97trlPEicrYdIGt5bR2IBbNKhSfYuOhnoU34XmPfU\\\\\\\/YI\\\\\\\/Zds0+5\\\\\\\/tG2h51lysY7gcgrXObMMg\\\\\\\/ds+MYHWutTEoTvvn1YijPEIaHflhPnk1SUT2X7H\\\\\\\/WuuA2\\\\\\\/yQbOHvu+JeiF2QkFUmIxD00AfRHoRHf8SS+3I3JFxk9ubBIvBm6hRzKdcrFku4DUO8FFW7sYe3R8xkkHfIuWYGsIhojBkHIT++Y62tR1UsOg6UiPf\\\\\\\/erPH8l6FY9Q9fIc+InHofFux\\\\\\\/Ddy1MmeBQ\\\\\\\/M75uF+hnzZPrJbhnqT7qJITeFcleMRgvMxMNBtO86+GXFPZFU20+IYt5+fV4Vf7mTBcELwKh1uPm19b89MMXzn80ZOhshgLExAnfSJLrGSZNgdtSyVVUUjuGTQJC7prPf6jcs4G2YB0sE8mk\\\\\\\/Fv+kKLd3IH8+PBgd2tYKvbcTtwBzsE9QgXON1ExtOMMLPgjNtELxJhkOywQRXCplHRo3LOzqj3qXVwT+Pam4F4l\\\\\\\/lKcYFckXQJz34EUZR+POJJ7L7z5m2hJuF+v1mXL\\\\\\\/+J8p7kqOnCRxwi4jFDqQEcm8PbAb0qSiOrNKBJ6AubNgV6TE2movogH4azNuMvqKR1fQ9XsBQqz7VNi7MKFgRRFUlrG9HmAR+hfj\\\\\\\/WGmlnsUeT5Wf2LbNFweamc\\\\\\\/JTofWpZ1G4mk1WZ3prKcUuKk53qWQZq0u4MvN2kO90AH8Xpr+6unUz6f33JZ37vVwPybqGJObqmQJupRpCaJ1u\\\\\\\/W+QZj\\\\\\\/1sLrGTcIfvIf\\\\\\\/kjncqJ+js0ks7CxJEURI2jYJEV2cnAY8G18F+5Q\\\\\\\/CO8SdV7pbwGSkcCmdjlDIZkTDlu3ibRrzBE7Um4gu0ZnJ40mSMG\\\\\\\/+Pgzf83mAgeMZDlEH2FEKnAGSWYRwJf7iZ7Xr3HF\\\\\\\/bAZ3d6\\\\\\\/ApEPM48nPgXZ905Q9P51v\\\\\\\/0ns3m+Ifh6O6KVD4zO7ytUcFrl8Kdnj69SpHFx94h180fxvo+2us68I58E0hAwoz7LMjOdK2YWKwH8yW2V\\\\\\\/k0bnMhfM1vFvloOph++CrqFMh8DwzN2PMYD9v\\\\\\\/0TlyetKO4TkLfAe\\\\\\\/JqcSo1YeVYT8r+1TB2WieBP4SArmcGikOglxP9OBWy8DSfkgr5tjImBY62XysI89OxLK0Td+Qe6Sk9qalKPjvUGEhBJXodywoHPwJUZxJVRZ4jiO3WD1k+Mu2yOCUmTBTYnNHwhXZr1g+ofuT9oPQEvEgz61Rh8p8cCqzxY4oauScEiSTqTW7Y\\\\\\\/SPC6GuMV6sAM54L87GD4ChTF2RCyYx\\\\\\\/ML0GohDDzyz67rwSHBrNTNB7KbTc0zyQgI3LKZYXb0lwlveojOE6fCi79wZDbs+9h0+1KAaPz9ANK9C0gDiz1Nx2zsXYbHOkeeSaro24IqDEbKHIZrGSWZ0XB9dELujvz7\\\\\\\/YLkw5SLQiNHjY1y2zuKpcas49Fj4smu\\\\\\\/Zk8AUbn8nc+Vt08bKDtrRoUBv17aSphE9lcQOXtls\\\\\\\/S1NA9t3QnALS8qAlZVBmWi7ldiZ4QLfxL2OzliizVsVrE4AKD9OvjlwgfkqNpMjDFyozlU0sz4YlTLstNRy5Fth\\\\\\\/fAkwfTdtrf6pRDyGPFoEbNnixjAaxJTL5B7d0Ok+S+CVDG\\\\\\\/OkGV9iDpUFv4NHWPjgI5wzL5wPH6\\\\\\\/yhzk3QwFjh4yOVUEKlilKByKcsfMFJt24fHcIEKA3OfNOxvF6lks1VhgRRBlw5I1tLjv9NMJEdY+lFGtz6HxwzGwbyO1o\\\\\\\/y0bjro4TcLACvyTSTPaDfo\\\\\\\/voNvqiV3ELdTGQW1AMpmidTk\\\\\\\/BoJ6VkrkFlBtx2IdtS\\\\\\\/aXfn3r8oHC1nS212t1cz33Q2t847uMvWonBIdFezX8fo7Q5MUzdvLWOCXpNKE7X75tVwdyoAwAHoAOHeqwhLMPsN4GZXnS9AYXTKZQrNZ\\\\\\\/jcjotHDc1eZSjXKL39C8sZEiiL6MfFQerV1we6ZM5Z8ICrlGePtfF1P5l0d2WFhYpGI84g31MApa6QrhNFK18IE0pIbxzLuaMRXPKPIhwlU+P3S0147hcRj1txBNmfY52Pho9HhsG7XmqWmf3NPwdqR9xjeaPro2e4DLo0Zn8P8BBL5m+Nj58WgkrDw5ixwRvvhfUezUC30enVEJrUyhM35mqwFCdG56v8Jtonbq57gDljV24BLjrc0DxhFt\\\\\\\/+RGApLy2S9E8KB5XOUze0MlHdVw9CZLWelGtRGaq5EJs4Yg9wErZdqVfew6xV5wBJAOdZHwxNNsh78QFCeSnUMj5iM4fAoWLXlaFSiZ8IN5EWiJBs\\\\\\\/VN0Nu8IiHmt4iV12F037DdhOH4ADIIR1NdUylUeuINjFBwnzCtnLE4q5kuWRsfLXOVSTAGHQctXhrqmXVI+mBvDhkvnlRVcg1T3fk25fdfax\\\\\\\/pyM7drZywNOkucAWmGoCp8kGwPtj+0L\\\\\\\/g4jLpQTpmDLslSV3UG9VsgCffueOc5x+HJSh5bHfuOiEc+ICHQvTUXNt2OplA4IlOsgn5JDRwgwNwdoeeTuVlj1OtzoyRIZXZ7nEbNl0GZcIj7zZs06TMMoCCmyUBzxYQ1wGaXnKzqdZ+KABUHWCHeggCtKx5WtBHLQEzgSIWWzvhdVvUO\\\\\\\/eQ1cyerBMgsmljPf1qaBZSJUFyo943KhwseE0tuctH1\\\\\\\/79SFy1Bss4DDJthEGvMqxys0xX7MLCEre2rodL0l3TWv1Y3x14cu4u\\\\\\\/9v0JK6Te+3eLtiS8tHx+HP3+1tevsFpct9sX3POd31BCT7D67wIM2Zk1g9iWx\\\\\\\/o\\\\\\\/jLSvnDVaG3dqrKQumI45yRHTz3zdt\\\\\\\/BIQnewy1ZwrGp+bPbt4M65nWjbzPnozlFzEOn0DfQSmShECMz4qM0rTM6\\\\\\\/ZkidGs3YOoPZDF4FpEm3GrIkhpv6AopbIc2d5mo4TJK+JBPK1xk\\\\\\\/0GYg4zrHEfV1TLlN\\\\\\\/F\\\\\\\/HFEQXMqm0qyAT5q3ua5xediXuVPJGfQ0TIWQpfiNTJYuRsohxJXQVwJzmuRtDp+YymnPfFqV7T\\\\\\\/D5ehqJuUSJJ6X24MuvKL2DjBVozvdW\\\\\\\/uGIUguXeIetRBUIo83JLVZLBnpF0FURjM5lM9oLe3qGjMktZHM9zfOiToOHqyr5GFOfOeysXiLuh\\\\\\\/wsRPheHQCRz5cSVZF3+so2vhzy5dyhfc1pOIDtJqTaRaXlpfVJzGhmh3rkl2dlvc1eJJawgsfzhybbMtIlrVQJAaRdt4xFAdRkZcRv3rMYnon7NyFyiEqVE5ZgdFLgZl6ZhjyYkzrT1w19RrqCzxOvf9pk69epNA4XU65GL3hwYvzbpvb6neVUqJDGNUwaKVxsGQs78iMLfgBkWM2dT2Wvx8z1jUaybp7WUyex9GtI865DcBjwxdg3ipwuYeKMNObdLY5bvj+eYesRWpUL4dBY1wfA\\\\\\\/4yGinWavIkm1O6qbR76hKVAYPkS9xnrh2Ow81bC8gUHunMIZ1GJQXHtwVIOZr4ppMj0SaTGU3wyUHJthx8UbpSJwF8tUDwm+h8gB+OVrTSYkEG6jpGW304MTNj8Uap6o6uM5T82GtAg\\\\\\\/KFUi4O3eYiqbt0OGg9m4WJBYiro89WFmVlgTJSnjn4L+voPZZ\\\\\\\/y5aSiidT9rzsMx1wS8f\\\\\\\/zjAq4rnJc4IyimQZLxdcQxEAtyzDtQzce82O6LCcePKrwXq7AfZnd5yHBrlKoUTKrjxKmTdfq9hrcEOVqKV5nZJJv9fSKJ1ASfO3Qke39bhnugfsbHVQGIC\\\\\\\/LnaXmkmXPFNAU2aYdIOqPuJQCnB10Fot38DZkRnlhW7kUM7MsN62v\\\\\\\/Kyjuhir440w6gst5p2D4zWLd+MKbMY3sIieSN8yua8A6+4RvYxu8k0FWClIX0E5HOZEz6\\\\\\\/lVqRXljFH4S1ktk1liYphyxfPGJOhMbMJRCHwAokGX9bVnwxbxonWsoFTL+6G3gRl1jbbUa7Xdtez4VItTgyGR0obSvuhBUR6FpfWD3z\\\\\\\/5UWAIHgl5DwGtRu1YgOIwV\\\\\\\/Qqzjy4qu26UJAqUpuDv2s0TEUSqpcFnY2BEHWG01Zv7+rDH8wplgzejC2HYLVGuePGVbaUXCy++ejrTwH+sUKQy76XWbG5\\\\\\\/J2PEeUWe4MNKGTzs05nR+Wnzw5IJnw1zSK7qHI19qdBGuyzDexjXVvdr6vtXgihymQQrpt7f+Anb+Sv4zp7jtraADRMbwRytYTAe+6BXe\\\\\\\/XooQsqcHSBfhLapQ\\\\\\\/iYSqGau2o3kMRh82i0fSc6kSscigsU6f\\\\\\\/xTxCB4jTxe1jPNjCnu54a9h9kt541JbxAzc5HwSxXu3OYl2SNZt1YAlcFGPKNNQQL5JwYx8z\\\\\\\/pMDnheegzfDkLS+qlpSTGxd0rcl9mMNT5quc1lOoZtud+NqhnTp2Dz7r4hGinONp+Q\\\\\\\/mB9K1xnysP5\\\\\\\/BR5glp9Tpnv+PbMe2nvZ\\\\\\\/TGc\\\\\\\/jAGiH\\\\\\\/d7rvMeQWQo1mCYZ8n2ZzsWDpnAXVIz+xNZZnysb6ssoFH1GVrWHh7rj2rPQjKelw\\\\\\\/p5UpbZQnNERhrx4gcZ2SNR5qTsDVTUOvkXf2WClASZzSo8OW42DAGjVarKV\\\\\\\/324E3uP+ghUl4ETF\\\\\\\/0T0VrD26k6UQCyDwrSWJ9JOjwnjn1Gj2+53cd2HKVKzo6iS+wCSUMXoOrNT\\\\\\\/tTjouhpu9wpH3yiXKgdoQTmufhu9blN4z8BSo1EApDBx+9POEK7kXMIxVORMDtKZS6zxCjjEHUaBnVv7alTE\\\\\\\/3Ahy5GLAy2v5s47tC8uXrWWbs2Y17ENH7lv\\\\\\\/W5k5u1oMigi7FK69Rji528+hQcyJbVBvyavmc3ATUrLiuo2Bur7V5fOlMXduA8XoDT6h54toL9ngybwUQdzI3P35uzrUyR82SMq3yhahpyHaZOgIV97kgTAIWR+gKO4YgMbQQXVOyc8reGezJBvqvElH+AqGwWL96aNCuri\\\\\\\/22wfcWI5lzo\\\\\\\/\\\\\\\/+S4LQ0WlmWYtxlxbJ5EsDL3Z3twT3WsKc89quVEu7csZL27DPxQOJR5tyRP1NgaD5+8ti3p8ltTyUunrNt\\\\\\\/ppJZXCT+9pv5if0ST6xTP980MfZXp507DOwH4p7NujGZyqb1vUB3a\\\\\\\/wu0WETNCXCPXGRPPwMA0d18tdGmgT\\\\\\\/bz\\\\\\\/u7ABcW83rJZkDM57zj8pVidRKipSTROlHz\\\\\\\/FOoR8HnrFqdKJZ7X9vFOPuqG6n5\\\\\\\/WBriLVb3pIC2u0EJuJgKXGWllssCKaBahbRM5yulSmkHMZVOUMIQX++XPFmd3rs99YK4v954vFxHwixaC7bvoLVb2TSgOLuYxj75gBdzNmzpozh\\\\\\\/G0hkUKJDTJaVZGsRc1elyqguPp7xelE6rSkUG87ep9UmUUGy0FMEwaQ3pVLm9DIqISQiy6J5vOL0W38RyfMKf3Jfdny+hrXNMExZ+Ehryy\\\\\\\/3tMicaerwSBjAsTeTclYgehAHiC+rJPmHWvOHtFA4YWrbuwVkzn8rwNs21O8\\\\\\\/esEYNwfL1jZ3roW62DkML2uOa0BIPR8rnlNMQMXfp7kaV2yHDQAdwZwh6us6xW7EaG\\\\\\\/ZwsReYr7AypBPdqIEEY0HoWLoySMLigXtn36l9WtZhLbutb5LoOEmRz1\\\\\\\/sJAFzl5ka1zkq3ZOQx3LJhtYlVfJy+gRgVkKvaNTzq+IlWKDMuiKdzRPFvie3V1zmRb0fFO66RNnq4z3Op0ftqdIVESvzTT3ftPQwaB\\\\\\\/OqWHmEscVXOyxWPYrCuAHUkxpwUj5KH5NzuFXctPDqzKAQR6+xW7cLoK4EuckLoFkgCzHzj7X3kv9mGCTbcG5y8ODTR+1KC8ZU3ZJvA3Ii3PbpBPA9YJoTfqiQdTfihItboxKEvLlYI\\\\\\\/Gv\\\\\\\/FwrrEhQ09QuFZVqnfPcBjHnLtBnVcK5MSyXalSHDvn9sruWipUfkyefijNh0qa+sldJ4ooUkiT6Y5tOi7RP9i2g5WHTwiy6A5zmugwnlEtoc6VTWeB\\\\\\\/GvxiiBFI7cdZlbmY\\\\\\\/Jn6AA\\\\\\\/XO\\\\\\\/v16MqcSk7nAznEeLIdeAVc1t5j+xHIZj\\\\\\\/xR2GPSqChlamcTzXKv4ReD5ANaFJHfSwT33FKy52yOkdzMgtplD35PlKolN\\\\\\\/igyXyjXpSc0txNrvplDtlDAbsFPlPMUzUmg98m+VFc3ozFC2\\\\\\\/Aq5lujb8lqEDvBtoWVxO02iSWZ8dQsxhD3S5Nlc0wX3APjOs0LCKBBKAfMbwAAk17twTt6V\\\\\\\/aosOr1ggD9BqC9g3VSuTD\\\\\\\/GCnbdmu6unVXZTWcJZbPDnbwOYk4xJJjMRblq5dmBfkfHRFR2d28luTuL9imTUSopjEKj5il8xhLgxxUSRb0enHvCtB12\\\\\\\/qlP3TLKLu213ynN0wyPABG07H4eK5bJN+1c+S95NIFANUSBeiTBWs1HrNP3s0E7kkyMJOqZcNZOyJ8nSsAB23HRUPycX5u+gI9S+1+kZuJuSkzwDQuQoMM0Cc9gZgQkM3OXbIeDWjPKLX6muxLWTGu0IFYFTKp8GN5b48FwFYQDfYQ3rMzO0DtNzkQrTwtKuFvpDkgd2mOIFV44RarQ6OEGHKb1cb2XeXKHzkkbPcbIAbJSka\\\\\\\/e27BRc7v7HkcTj27sWOSs9zQmfCQ1nZExznMz2HljgK8\\\\\\\/RVe4821b09Yk68NJoFm+9AB9vJXQ++gqSgMGkO72Zo0py79DcOOCeSnFc3HJgc1FOBe9uirArOcrgBjYEjWmyav7BKxTMLMuBuBTj605YehKqv9lW32p0+YjIxzQNaAYQhRRjcbu9oYFqRLKNW+oTJeIKEJAFqKM9PeTRt33oDJ+MOgfT\\\\\\\/myQxJD15bmN7MkcqlbKf02U7tq0HQum4xh5yQkmfXM39qBOF4H\\\\\\\/lvoxSJr4e5E9rUGW1rXncWlYrvhr9\\\\\\\/YzAq\\\\\\\/jTqPYbip9d11xiFC9RRFBCuhJW6uoO7GtcOadz\\\\\\\/jVm5LGlhUgMPGZbtWgZFAphWimFXpUR0puMuCKK7yBjzHPSYeatYzdx1mXkqHfBlTpNbhofECCG\\\\\\\/cICQKADyUZ3nSCcuNN1AA5hroop+lY8N3Ebk4ej5\\\\\\\/lKg2hw8rOIC\\\\\\\/4PJI9KCjiYqNTsnM4KjOU87ul9kvqLl5E\\\\\\\/F+Q87K8DTTMenhDFVsy9cmKDV0MBP4XikNVm8t7ruvZx7t33H647SD+eHZt6sYb7i6H6UX1NRCVnggV60YBW82cMzwQ1SsslXX\\\\\\\/NsMV74qp\\\\\\\/34HmM0b1Va5IPdxg5UFZeY3GwBr2oyJXPB4Dd0iWy5Z8N\\\\\\\/OvGAaxiftRy7uEpAlUj2yH51lbm68m795jNDZpsl8C3hyAJjTYQVw9gQdHotHJzh2FXFIxCiLb9wSG4FMrMWX+xKnRnC0C837mU74g7GLyWcL9hB7DNJcZ+kOx+uC25cfTP+QEsJ3p\\\\\\\/C3yFfJi1fG54HCKgp0eXCUi28\\\\\\\/k+FAflnX2LYZ\\\\\\\/TMBKeQIO42xLrYMbhppLehMjwOzrTvwCoSDQxQcr9jBF9w06q4lRq\\\\\\\/VIa5401iI3q6WUuJxz6tDwKjV0eK+qHfogUFILjq9AzlQWwh8O\\\\\\\/oGmGl0r25xvyo5T9zpWTMTstuxzp1eeAOOXCDRmTG5f7Kw1eSN6df2gzTiISDASkMoiwDZd90hcEJMytIsLbzEkGy1LOXXd+HdciuO4XzkKtBu1KdysTUwLWBGpJ6ayF7lEmehV7M7xQQUH75l2RMU5kwzj0olhvqImbOa72bsHvi5NAy1kzkP00djZ6fv4NjltKn+Pc\\\\\\\/khUhzf5aAwDhHhiH2ks+JxHE6wnaYFPl7mx2Z+QqM4GCXG902MWOoKfbZwfTXwqUFR9YybX4V50\\\\\\\/z7KnPQJcd4O+YO3Cnz5CIp9JXmhlYqAwD5ZqvXl9GvwHOXDlz0VeZp\\\\\\\/fB4A4FRCZf2qwIFJnie0Tbf7rkeALTKJtKmvvPQnr8LT6caf5Sch+Vg0663ppxhD7II4hihAadQOHtnomvIzOjym5fC\\\\\\\/W7Ia3+W2MqfA4UkZoOhCX6NM\\\\\\\/hI+EKKuGmJuPqwIeRWqT0jCfR0jxUllMBVygG23k24T3ivATTYfubknw2RhLuqPYPVNSwN87yxl+aqC+CkpB\\\\\\\/JDPQ\\\\\\\/ZylGOx6bSjerG3bn7ndg2ccn\\\\\\\/DZxUoTX8bxsFk723XaciswwVqZQBqTFKt\\\\\\\/PVT4uXBFwuw\\\\\\\/t6sZ4xBStDaQNK6lamjd0f+uyzvjwWYhkEvI0pJYRvL87ZNO2dPi3sQWQy1tldYgNmLwvAp21IWiV2U5yWQhMirgFXQdCjGaI8MJJ2UFTCO2N9gdzqQ4axAPhX5SqXYJAXOzR\\\\\\\/4fJ2RpDP\\\\\\\/0HJh+mCrneyUw3LM1K\\\\\\\/ybGL7kZRS+8kL7GhqE4Mg7P9Kr1edAamaihIiOSLMX3L5pC6DLTZqFFZk0UCWQm+xF8sPrkfzehB4AaMb4tnQ4S3U1qLbSb47yYTDV1PJsK25RbN\\\\\\\/6rRhRpw7+O4UAnqcyCa2JQQuYUwVlGp2ELzSZltKy4mZ4KyhcbVWixMjFkhp59Y44+V77Qu0RkxJ8ujrOxzE\\\\\\\/92gAuDiCXocapV9sMwiIepoJqREm6hQdXy8sJofy1OUe2CTuQYfs09CYof5Px\\\\\\\/GcOUB3Nn1mJ51T1VcIr+ktLfVcGla0rOYjhSBoULB7t\\\\\\\/TI4c0hWuSpc1\\\\\\\/LhqvuuV1f8RJEWgWvcgT+0miBr4UyO3wertkkVRuTvs1x9WcNf9nA6jlB7fcmX4wI9kGyi0oUBoLA0MbmqkDSCQk7NLqZJvR2w1YVOS4pwIwOr4P\\\\\\\/j3upyzb+QX9c7g==\\\u0022,\\\u0022iv\\\u0022:\\\u00224b5mjxbicRVI5EJ1TO6PdA==\\\u0022,\\\u0022salt\\\u0022:\\\u0022eafb7996b1fcf3b52eea931fa115389d\\\u0022}\u0022,\u0022hmac\u0022:\u0022683d3b4e214dce9d8768b39a1116fc6c306686433e0657d3cec90eee633bc37a\u0022}","new-6":"{\u0022encrypted\u0022:\u0022{\\\u0022encrypted\\\u0022:\\\u0022jkeETZdrfzHISnMfauoPoqrnOroIm6Ff1iSjpSUWsgE\\\\\\\/F8QmnTL\\\\\\\/qXSPlDrmMCtLaAy+eumCQpaHXvUGo\\\\\\\/APWsEfZew+EbV1fWbEKLWxPMUPvdCOphLLrdFSxxBFP3U8UTV26UKp65zbTFA\\\\\\\/R9imBolZSd7xpIdb4xdepg04m5LSjGFTYNWof+evJZVc00Sy5Ma8DUyUGtqVRXOoqe\\\\\\\/71i6DiE9OqexHR2MN7zgfnmQZs05\\\\\\\/L5DQKaZq3evYQ1FjzMIafe5CgyhU6pr0B1J\\\\\\\/IghvvAOj39jAZKL\\\\\\\/up5SkJa7Fluvubk3rQXNiG\\\\\\\/WEe6t2CPNnlZefDB7A5cb+EjrJxYzePlcIICXADgqytV6ZMwRE55EGuPUdorpMbpaRQSrvs6U32z6YOYPiRJF1jGxempw7d87WyfuJEeteKMltFsqY8kQEcViH+DKxhJ7\\\\\\\/xhTuPJIoXYpDzGEBRXpbxHYB0MvvONjABJslQ7s3+8Z6NgF8dsVMpPqbeId+UDfPFEQvhe8aeB6Cbx9n9O1LDL05okZ1Sij4UCWwISmyKySAY1g2Xw41torDg1OaPnCYFLaG6SpEY7qdVQTbnQyLjrc+sCBXSeX+3mAkePBFP1ZWLRUQtt3QDfDhXvFxrvS3N9PyUOQAMw3h9WgE4Vpf3t+nobuzVTYYdLxwLNBEqmh0MJFBRJWUX8bwm\\\\\\\/OA2Pbw2\\\\\\\/n8igXDhnb8p\\\\\\\/ilkYHil3\\\\\\\/rKfGBujDYuhHaD8MwqPTXKmx40zb8gcD0bJxA\\\\\\\/fDl2hDsg7An7rIt3h21TY5RVfTPg2H7iil6jo6FWY8WXCViLnyGXVvyFwSLpx+C8g3caNx7vBs+5aTMN\\\\\\\/X3eOa1engIhFZKBGtr80b6r+tUSjs7+mE3K1CGo0yKUs4wOECrMcF26YD9EXD6QKlN6KW4g7GgOPpTQTxRT7AnDQ309NDh6KUPX7WnWhy0bsfXcajx3p6H0fEu8yGIPcy\\\\\\\/tvXi5aEnXC71Tb7nWZO0tSbV4PFdszpk2J4WuTFp2i5GP8Jg9obZUzPeKfhfgxzChWR5F9NT4KNFbUnLasIc3\\\\\\\/3YZqaxF+GLJ6BYkoErYA8GVECaHa7As2Q3R91TWm0TzvH5LyTSBtyA3c5GviYygz0dd7TzzcKFPHOHVGjlC2AT6oYs3+6YytR0YFk9dIZXyztyx9fAHu\\\\\\\/XmZvCeSc50aGfafAWM04Omf5THFrbLgiT0peMp2jLSsfRfhfeMRAzQh\\\\\\\/88W57kUuKtn1bjXnPio6RnCs0c3cgk2J\\\\\\\/2bOza6zRyq7y6vmvPJJoHxvC2pHooHTB3ElQoeI9ZwST8rbS26pk0zF5rU9xKwGEDATSzezGwq3GPQ6LMCfo2cdLD26fazPldyxmPPrw\\\\\\\/bPhGuiVQrNxi24+UFWpuJiV48HaqxeBDCOlR6Ib\\\\\\\/8weUGtt06RBESbPjhNqeic2LHJJpjkiGGW2OuvLM8m6Oivd9twbA3HgIsj8AqySTLq+kACEGwmUyhVLWwcTehbtezjSU95jG3Si3yoAw27DHRiVY4Ie9fg8fppQEF0KoyC5Ut\\\\\\\/vUJPxDqf3UQKhGU\\\\\\\/CboS25kx8HF4e5oUy\\\\\\\/DS2RBUkiBIOq2z2r\\\\\\\/NA4uUYTkNmmVr2f9qM7+I7o\\\\\\\/5J5NQ1MAO3XPCHUnD8KjiEejdNp\\\\\\\/ut2Tl4qDNNHX848l+wk1rRFzpyVSPrX74igPdZsh3ExqyZRvf9Z+YG4Rpwtawt3EfoLKcqh+WDQ+fan\\\\\\\/D+\\\\\\\/8zBUEwJhqEo8pgtGVxLS0Mnh2U\\\\\\\/LS9XlIRdLwqhaeDdFydNM7CUKnTomAALvMp8vgCqlLM1jMNTDoWjdN4+gwI1XNmoe6XsxoHtvy3\\\\\\\/5rMoviYzn2CbykHBGTuJgEATtxBpVLydchNh3Qu1xJQWXjvOS4ZrcLLe54TtqbV65aCGb1JqXVvs\\\\\\\/IuM+yrumCtQFeEuoM5uipBK0EARVuVHlEj8o0bxve\\\\\\\/UFNpkYj+JlkZGqmNsqi\\\\\\\/CfuJ6JtKDu90djiZxNZ349wYHtF\\\\\\\/wI3c3A==\\\u0022,\\\u0022iv\\\u0022:\\\u0022WBasw1f8c9Hs1RTFB4t5Sw==\\\u0022,\\\u0022salt\\\u0022:\\\u0022eafb7996b1fcf3b52eea931fa115389d\\\u0022}\u0022,\u0022hmac\u0022:\u0022db17289643679920a8808355ebde8425c6a03ab2d94deed795a36b4b5c53f07b\u0022}"},"ajax":{"edit-submit--4":{"callback":"highwire_alerts_login_form_submit","wrapper":"alerts-form-wrapper","event":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Submit"}}},"panels_accordion":{"highwire_article_accordion_container":{"heightStyle":"content","autoHeight":false,"collapsible":0,"region_accordion_id":"highwire_article_accordion_container","active":0,"animated":"slide"}},"highwireResponsive":{"enquire_enabled":1,"breakpoints_configured":1,"breakpoints":{"zero":"all and (min-width: 0px)","xsmall":"all and (min-width: 380px)","narrow":"all and (min-width: 768px) and (min-device-width: 768px), (max-device-width: 800px) and (min-width: 768px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"omega":{"layouts":{"primary":"normal","order":["narrow","normal","wide"],"queries":{"narrow":"all and (min-width: 768px) and (min-device-width: 768px), (max-device-width: 800px) and (min-width: 768px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}}}});
+//--><!]]>
+</script>
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  </head>
+  <body class="html not-front not-logged-in page-node page-node- page-node-459268 node-type-highwire-article context-content hw-default-jcode-ggg hw-article-type-research-article hw-article-category-genomic-selection">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PZXJ6LS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0];var j=d.createElement(s);var dl=l!='dataLayer'?'&l='+l:'';j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;j.type='text/javascript';j.async=true;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PZXJ6LS');</script>
+<!-- End Google Tag Manager -->
+    <div id="skip-link">
+      <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+    </div>
+    <div class="region region-page-top" id="region-page-top">
+  <div class="region-inner region-page-top-inner">
+      </div>
+</div>    <div class="page clearfix page-box-shadows footer-borders panels-page panels-layout-jcore_2col" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-user-wrapper" class="zone-wrapper zone-user-wrapper clearfix print-hidden">  
+  <div id="zone-user" class="zone zone-user clearfix equal-height-container mobile-hidden print-hidden container-30">    
+  	    <div class="grid-11 prefix-1 region region-user-first equal-height-element" id="region-user-first">
+  <div class="region-inner region-user-first-inner">
+    <div class="block block-menu social-media-menu block-menu-social-media block-menu-menu-social-media odd block-without-title" id="block-menu-menu-social-media">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <nav class="menubar-nav"><ul class="menu" role="menu"><li class="first leaf" role="menuitem"><a href="https://www.facebook.com/GeneticsGSA" target="_blank" class="social-menu-facebook link-icon-only link-icon"><i class="icon-facebook"></i> <span class="title element-invisible">Facebook</span></a></li>
+<li class="leaf" role="menuitem"><a href="https://twitter.com/GeneticsGSA" target="_blank" class="social-menu-twitter link-icon-only link-icon"><i class="icon-twitter"></i> <span class="title element-invisible">Twitter</span></a></li>
+<li class="leaf" role="menuitem"><a href="https://www.youtube.com/user/GeneticsSociety/featured" target="_blank" class="social-menu-youtube link-icon-only link-icon"><i class="icon-youtube-play"></i> <span class="title element-invisible">YouTube</span></a></li>
+<li class="leaf" role="menuitem"><a href="http://www.linkedin.com/grp/home?gid=4533930" target="_blank" class="social-menu-linkedin link-icon-only link-icon"><i class="icon-linkedin"></i> <span class="title element-invisible">LinkedIn</span></a></li>
+<li class="last leaf" role="menuitem"><a href="http://plus.google.com/+Genetics-gsaOrg" target="_blank" class="social-menu-gplus link-icon-only link-icon"><i class="icon-google-plus"></i> <span class="title element-invisible">Google Plus</span></a></li>
+</ul></nav>    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-17 suffix-1 region region-user-second equal-height-element" id="region-user-second">
+  <div class="region-inner region-user-second-inner">
+    <div class="block block-nice-menus block-2 block-nice-menus-2 odd block-without-title" id="block-nice-menus-2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <nav class="menubar-nav"><ul class="nice-menu nice-menu-down nice-menu-umbrella-menu" id="nice-menu-2" role="menu"><li class="menu-653 menuparent  menu-path-front first odd last" role="menuitem"><a href="/" data-hide-link-title="0" class="" data-icon-position="">Other GSA Resources</a><ul role="menu"><li class="menu-654 menu-path-genetics-gsaorg first odd " role="menuitem"><a href="http://www.genetics-gsa.org" data-hide-link-title="0" target="_blank" class="" data-icon-position="">Genetics Society of America  </a></li>
+<li class="menu-744 menu-path-geneticsorg  even " role="menuitem"><a href="http://www.genetics.org" data-hide-link-title="0" target="_blank" class="" data-icon-position="">Genetics</a></li>
+<li class="menu-743 menu-path-genestogenomesorg  odd " role="menuitem"><a href="http://genestogenomes.org" data-hide-link-title="0" target="_blank" class="" data-icon-position="">Genes to Genomes: The GSA Blog</a></li>
+<li class="menu-745 menu-path-genetics-gsaorg-conferences-  even " role="menuitem"><a href="http://www.genetics-gsa.org/conferences/" data-hide-link-title="0" target="_blank" class="" data-icon-position="">GSA Conferences</a></li>
+<li class="menu-746 menu-path-geneticscareersorg  odd last" role="menuitem"><a href="http://geneticscareers.org" data-hide-link-title="0" target="_blank" class="" data-icon-position="">GeneticsCareers.org</a></li>
+</ul></li>
+</ul></nav>
+    </div>
+  </div>
+</div><div class="block block-panels-mini block-jnl-genetics-uid-strng block-panels-mini-jnl-genetics-uid-strng even block-without-title" id="block-panels-mini-jnl-genetics-uid-strng">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="panel-display panel-1col clearfix" id="mini-panel-jnl_genetics_uid_strng">
+  <div class="panel-panel panel-col">
+    <div></div>
+  </div>
+</div>
+    </div>
+  </div>
+</div><div class="block block-panels-mini block-genetics-user-header block-panels-mini-genetics-user-header odd block-without-title" id="block-panels-mini-genetics-user-header">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="panel-display panel-1col clearfix" id="mini-panel-genetics_user_header">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-panels-mini pane-genetics-logged-out-links" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="panel-display panel-1col clearfix" id="mini-panel-genetics_logged_out_links">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-menu-tree pane-menu-user-menu-unathenticated" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-ctools-menu-user-menu-unathenticated-1 menu-name-menu-user-menu-unathenticated parent-mlid-menu-user-menu-unathenticated:0 menu-level-1">
+  <nav class="menubar-nav"><ul class="menu" role="menu"><li class="first last leaf menu-mlid-748" role="menuitem"><a href="/user/login?destination=front" data-hide-link-title="0" class="" data-icon-position="">Log in</a></li>
+</ul></nav></div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div>  
+  <div id="zone-superheader" class="zone zone-superheader clearfix mobile-only print-hidden container-30">
+    <div class="grid-30 region region-superheader" id="region-superheader">
+  <div class="region-inner region-superheader-inner">
+    <div class="block block-panels-mini block-hw-small-logo block-panels-mini-hw-small-logo odd block-without-title" id="block-panels-mini-hw-small-logo">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="panel-display panel-1col clearfix" id="mini-panel-hw_small_logo">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-small-logo" >
+  
+      
+  
+  <div class="pane-content">
+    <a href="/" class="" data-icon-position="" data-hide-link-title="0"><img src="https://www.g3journal.org/sites/default/files/G3logo.png" alt="G3: Genes | Genomes | Genetics" title="G3: Genes | Genomes | Genetics" /></a>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+    </div>
+  </div>
+</div><div class="block block-panels-mini block-responsive-menu block-panels-mini-responsive-menu even block-without-title" id="block-panels-mini-responsive-menu">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="panel-display panel-1col clearfix" id="mini-panel-responsive_menu">
+  <div class="panel-panel panel-col">
+    <div><div id="unique-id3" class="highwire-responsive-toggle-group"><div class="panel-pane pane-panels-mini pane-responsive-menu-main-menu" >
+  
+        <h2 class="pane-title"><i class="icon-reorder"></i><span class="element-invisible">Main menu</span></h2>
+    
+  
+  <div class="pane-content">
+    <div class="panel-display panel-1col clearfix" id="mini-panel-responsive_menu_main_menu">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-menu-tree pane-main-menu" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-ctools-main-menu-1 menu-name-main-menu parent-mlid-main-menu:0 menu-level-1">
+  <nav class="menubar-nav"><ul class="menu" role="menu"><li class="first leaf menu-mlid-661" role="menuitem"><a href="/" data-hide-link-title="0" class="" data-icon-position="">HOME</a></li>
+<li class="expanded active-trail menu-mlid-662" role="menuitem"><a href="/content/current" data-hide-link-title="0" class="active active-trail" data-icon-position="">ISSUES</a><nav class="menubar-nav"><ul class="menu" role="menu"><li class="first expanded menu-mlid-663" role="menuitem"><a href="/content/current" data-hide-link-title="0" class="" data-icon-position="">Current Issue</a></li>
+<li class="leaf menu-mlid-664" role="menuitem"><a href="/content/early/recent" data-hide-link-title="0" class="" data-icon-position="">Early Online</a></li>
+<li class="last leaf menu-mlid-665" role="menuitem"><a href="/content/by/year" class="" data-icon-position="" data-hide-link-title="0">Archive</a></li>
+</ul></nav></li>
+<li class="expanded menu-mlid-666" role="menuitem"><a href="/content/permissions" data-hide-link-title="0" class="" data-icon-position="">ABOUT </a><nav class="menubar-nav"><ul class="menu" role="menu"><li class="first leaf menu-mlid-674" role="menuitem"><a href="/content/about-journal" data-hide-link-title="0" class="" data-icon-position="">About the journal</a></li>
+<li class="leaf menu-mlid-996" role="menuitem"><a href="/content/why" data-hide-link-title="0" class="" data-icon-position="">Why publish with us?</a></li>
+<li class="leaf menu-mlid-676" role="menuitem"><a href="/content/editorial-board" data-hide-link-title="0" class="" data-icon-position="">Editorial board</a></li>
+<li class="last leaf menu-mlid-672" role="menuitem"><a href="/feedback" data-hide-link-title="0" class="" data-icon-position="">Contact us</a></li>
+</ul></nav></li>
+<li class="expanded menu-mlid-673" role="menuitem"><a href="/collection" data-hide-link-title="0" class="" data-icon-position="">SERIES</a><nav class="menubar-nav"><ul class="menu" role="menu"><li class="first leaf menu-mlid-1417" role="menuitem"><a href="http://www.g3journal.org/content/series" data-hide-link-title="0" class="" data-icon-position="">All Series</a></li>
+<li class="leaf menu-mlid-1278" role="menuitem"><a href="/content/genomic-prediction" data-hide-link-title="0" class="" data-icon-position="">Genomic Prediction</a></li>
+<li class="last leaf menu-mlid-1279" role="menuitem"><a href="/content/multiparental-populations" data-hide-link-title="0" class="" data-icon-position="">Multiparental Populations</a></li>
+</ul></nav></li>
+<li class="expanded menu-mlid-1288" role="menuitem"><a href="http://www.g3journal.org/content/article-types" data-hide-link-title="0" class="" data-icon-position="">ARTICLE TYPES</a><nav class="menubar-nav"><ul class="menu" role="menu"><li class="first leaf menu-mlid-1289" role="menuitem"><a href="http://www.g3journal.org/content/article-types" data-hide-link-title="0" class="" data-icon-position="">About Article Types</a></li>
+<li class="leaf menu-mlid-1251" role="menuitem"><a href="/content/genome-reports" data-hide-link-title="0" class="" data-icon-position="">Genome Reports</a></li>
+<li class="leaf menu-mlid-803" role="menuitem"><a href="/content/meeting-reports" data-hide-link-title="0" class="" data-icon-position="">Meeting Reports</a></li>
+<li class="leaf menu-mlid-1277" role="menuitem"><a href="/content/mutant-screen-reports" data-hide-link-title="0" class="" data-icon-position="">Mutant Screen Reports</a></li>
+<li class="last leaf menu-mlid-1380" role="menuitem"><a href="http://www.g3journal.org/content/software-and-data-resources-0" data-hide-link-title="0" class="" data-icon-position="">Software and Data Resources</a></li>
+</ul></nav></li>
+<li class="expanded menu-mlid-677" role="menuitem"><a href="/content/why" data-hide-link-title="0" class="" data-icon-position="">PUBLISH &amp; REVIEW</a><nav class="menubar-nav"><ul class="menu" role="menu"><li class="first leaf menu-mlid-680" role="menuitem"><a href="/content/scope-and-publication-policies" data-hide-link-title="0" class="" data-icon-position="">Scope &amp; publication policies</a></li>
+<li class="leaf menu-mlid-793" role="menuitem"><a href="/content/submission-and-review-process" data-hide-link-title="0" class="" data-icon-position="">Submission &amp; review process</a></li>
+<li class="leaf menu-mlid-790" role="menuitem"><a href="/content/article-types" data-hide-link-title="0" class="" data-icon-position="">Article types</a></li>
+<li class="leaf menu-mlid-789" role="menuitem"><a href="/content/prep-manuscript" data-hide-link-title="0" class="" data-icon-position="">Prepare your manuscript</a></li>
+<li class="leaf menu-mlid-681" role="menuitem"><a href="/content/submit" data-hide-link-title="0" class="" data-icon-position="">Submit your manuscript</a></li>
+<li class="leaf menu-mlid-791" role="menuitem"><a href="/content/after-acceptance" data-hide-link-title="0" class="" data-icon-position="">After acceptance</a></li>
+<li class="last leaf menu-mlid-792" role="menuitem"><a href="/content/guidelines-reviewers" data-hide-link-title="0" class="" data-icon-position="">Guidelines for reviewers</a></li>
+</ul></nav></li>
+<li class="last expanded menu-mlid-682" role="menuitem"><a href="/content/institutional" data-hide-link-title="0" class="" data-icon-position="">SUBSCRIBE</a><nav class="menubar-nav"><ul class="menu" role="menu"><li class="first leaf menu-mlid-679" role="menuitem"><a href="/alerts" data-hide-link-title="0" class="" data-icon-position="">Email alerts</a></li>
+<li class="last leaf menu-mlid-796" role="menuitem"><a href="/content/rss" data-hide-link-title="0" class="" data-icon-position="">RSS feeds</a></li>
+</ul></nav></li>
+</ul></nav></div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-menu-tree pane-umbrella-menu" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="menu-block-wrapper menu-block-ctools-umbrella-menu-1 menu-name-umbrella-menu parent-mlid-umbrella-menu:0 menu-level-1">
+  <nav class="menubar-nav"><ul class="menu" role="menu"><li class="first last expanded menu-mlid-653" role="menuitem"><a href="/" data-hide-link-title="0" class="" data-icon-position="">Other GSA Resources</a><nav class="menubar-nav"><ul class="menu" role="menu"><li class="first leaf menu-mlid-654" role="menuitem"><a href="http://www.genetics-gsa.org" data-hide-link-title="0" target="_blank" class="" data-icon-position="">Genetics Society of America  </a></li>
+<li class="leaf menu-mlid-744" role="menuitem"><a href="http://www.genetics.org" data-hide-link-title="0" target="_blank" class="" data-icon-position="">Genetics</a></li>
+<li class="leaf menu-mlid-743" role="menuitem"><a href="http://genestogenomes.org" data-hide-link-title="0" target="_blank" class="" data-icon-position="">Genes to Genomes: The GSA Blog</a></li>
+<li class="leaf menu-mlid-745" role="menuitem"><a href="http://www.genetics-gsa.org/conferences/" data-hide-link-title="0" target="_blank" class="" data-icon-position="">GSA Conferences</a></li>
+<li class="last leaf menu-mlid-746" role="menuitem"><a href="http://geneticscareers.org" data-hide-link-title="0" target="_blank" class="" data-icon-position="">GeneticsCareers.org</a></li>
+</ul></nav></li>
+</ul></nav></div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-pane pane-panels-mini pane-responsive-menu-user-menu" >
+  
+        <h2 class="pane-title"><i class="icon-gear"></i><span class="element-invisible">User menu</span></h2>
+    
+  
+  <div class="pane-content">
+    <div class="panel-display panel-1col clearfix" id="mini-panel-responsive_menu_user_menu">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-highwire-user-identities" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="highwire-user-message" data-separator="|"><span class="highwire-user-institution" data-id-type="institution" data-identity="a%3A2%3A%7Bs%3A4%3A%22show%22%3Bi%3A1%3Bs%3A7%3A%22message%22%3Bs%3A50%3A%22Institution%3A%20%5Bidentity%3Ainstitutional_display_name%5D%22%3B%7D"></span></div>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-pane pane-panels-mini pane-responsive-menu-search" >
+  
+        <h2 class="pane-title"><i class="icon-search"></i><span class="element-invisible">Search</span></h2>
+    
+  
+  <div class="pane-content">
+    <div class="panel-display panel-1col clearfix" id="mini-panel-responsive_menu_search">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-highwire-seach-qsearch-nocontext" >
+  
+      
+  
+  <div class="pane-content">
+    <form class="highwire-quicksearch button-style-mini button-style-mini" action="/content/2/4/425" method="post" id="highwire-search-qsearch-nocontext-form" accept-charset="UTF-8"><div><div class="form-item form-item-label-invisible form-type-textfield form-item-keywords">
+  <label class="element-invisible" for="edit-keywords">Search for this keyword </label>
+ <input placeholder="Search..." type="text" id="edit-keywords" name="keywords" value="" size="60" maxlength="128" class="form-text" />
+</div>
+<div class="button-wrapper button-mini"><i class="icon-search"></i><input data-icon-only="1" data-font-icon="icon-search" data-icon-position="after" type="submit" id="edit-submit--5" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-bOv1lePXtvNEtygb355GZ6qBA5u_0_ijaVl5t5TGD54" />
+<input type="hidden" name="form_id" value="highwire_search_qsearch_nocontext_form" />
+</div></form>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-custom pane-1 highwire-responsive-advanced-search-link pane-menu-tree" >
+  
+      
+  
+  <div class="pane-content">
+    <ul class="menu">
+  <li><a href="/search" title="Advanced search">Advanced search</a></li>
+  </ul>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+  </div>
+
+  
+  </div>
+</div></div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+  
+  <div id="zone-branding" class="zone zone-branding clearfix mobile-hidden print-display-block container-30">
+    <div class="grid-19 prefix-1 region region-branding print-display-block" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="branding-data clearfix">
+            <div class="logo-img">
+        <a href="/" rel="home" class="" data-icon-position="" data-hide-link-title="0"><img alt="G3: Genes | Genomes | Genetics" src="https://www.g3journal.org/sites/default/files/G3logo_1.png" /></a>      </div>
+                </div>
+          </div>
+</div><div class="grid-9 suffix-1 region region-branding-second print-hidden" id="region-branding-second">
+  <div class="region-inner region-branding-second-inner">
+    <div class="block block-panels-mini block-jnl-genetics-search-box block-panels-mini-jnl-genetics-search-box odd block-without-title" id="block-panels-mini-jnl-genetics-search-box">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="panel-display panel-1col clearfix" id="mini-panel-jnl_genetics_search_box">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-highwire-seach-quicksearch no-margin-bottom" >
+  
+      
+  
+  <div class="pane-content">
+    <form class="highwire-quicksearch button-style-mini button-style-mini" action="/content/2/4/425" method="post" id="highwire-search-quicksearch-form-0" accept-charset="UTF-8"><div><div class="form-item form-item-label-invisible form-type-textfield form-item-keywords">
+  <label class="element-invisible" for="edit-keywords--2">Search for this keyword </label>
+ <input placeholder="Search" type="text" id="edit-keywords--2" name="keywords" value="" size="60" maxlength="128" class="form-text" />
+</div>
+<div class="button-wrapper button-mini"><i class="icon-search"></i><input data-icon-only="1" data-font-icon="icon-search" data-icon-position="after" type="submit" id="edit-submit--6" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-YtLneEUh7UkB0VsakAoTgZaI1YFqZuqNJdL2fCY6SdE" />
+<input type="hidden" name="form_id" value="highwire_search_quicksearch_form_0" />
+</div></form>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-custom pane-2" >
+  
+      
+  
+  <div class="pane-content">
+    <p><a href="/search">Advanced Search</a></p>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+  
+  <div id="zone-header" class="zone zone-header clearfix mobile-hidden container-30">
+  	      </div>
+  
+  <div id="zone-menu" class="zone zone-menu clearfix mobile-hidden container-30">
+    <div class="grid-28 suffix-1 prefix-1 region region-menu main-menu-active-caret" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <div class="block block-nice-menus block-1 block-nice-menus-1 odd block-without-title" id="block-nice-menus-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <nav class="menubar-nav"><ul class="nice-menu nice-menu-down nice-menu-main-menu" id="nice-menu-1" role="menu"><li class="menu-661 menu-path-front first odd " role="menuitem"><a href="/" data-hide-link-title="0" class="" data-icon-position="">HOME</a></li>
+<li class="menu-662 menuparent  menu-path-content-current active-trail  even " role="menuitem"><a href="/content/current" data-hide-link-title="0" class="active" data-icon-position="">ISSUES</a><ul role="menu"><li class="menu-663 menu-path-content-current first odd " role="menuitem"><a href="/content/current" data-hide-link-title="0" class="" data-icon-position="">Current Issue</a></li>
+<li class="menu-664 menu-path-content-early-recent  even " role="menuitem"><a href="/content/early/recent" data-hide-link-title="0" class="" data-icon-position="">Early Online</a></li>
+<li class="menu-665 menu-path-content-by-year  odd last" role="menuitem"><a href="/content/by/year" class="" data-icon-position="" data-hide-link-title="0">Archive</a></li>
+</ul></li>
+<li class="menu-666 menuparent  menu-path-node-1  odd " role="menuitem"><a href="/content/permissions" data-hide-link-title="0" class="" data-icon-position="">ABOUT </a><ul role="menu"><li class="menu-674 menu-path-node-7 first odd " role="menuitem"><a href="/content/about-journal" data-hide-link-title="0" class="" data-icon-position="">About the journal</a></li>
+<li class="menu-996 menu-path-node-1037  even " role="menuitem"><a href="/content/why" data-hide-link-title="0" class="" data-icon-position="">Why publish with us?</a></li>
+<li class="menu-676 menu-path-node-8  odd " role="menuitem"><a href="/content/editorial-board" data-hide-link-title="0" class="" data-icon-position="">Editorial board</a></li>
+<li class="menu-672 menu-path-node-10  even last" role="menuitem"><a href="/feedback" data-hide-link-title="0" class="" data-icon-position="">Contact us</a></li>
+</ul></li>
+<li class="menu-673 menuparent  menu-path-collection  even " role="menuitem"><a href="/collection" data-hide-link-title="0" class="" data-icon-position="">SERIES</a><ul role="menu"><li class="menu-1417 menu-path-g3journalorg-content-series first odd " role="menuitem"><a href="http://www.g3journal.org/content/series" data-hide-link-title="0" class="" data-icon-position="">All Series</a></li>
+<li class="menu-1278 menu-path-node-483320  even " role="menuitem"><a href="/content/genomic-prediction" data-hide-link-title="0" class="" data-icon-position="">Genomic Prediction</a></li>
+<li class="menu-1279 menu-path-node-483321  odd last" role="menuitem"><a href="/content/multiparental-populations" data-hide-link-title="0" class="" data-icon-position="">Multiparental Populations</a></li>
+</ul></li>
+<li class="menu-1288 menuparent  menu-path-g3journalorg-content-article-types  odd " role="menuitem"><a href="http://www.g3journal.org/content/article-types" data-hide-link-title="0" class="" data-icon-position="">ARTICLE TYPES</a><ul role="menu"><li class="menu-1289 menu-path-g3journalorg-content-article-types first odd " role="menuitem"><a href="http://www.g3journal.org/content/article-types" data-hide-link-title="0" class="" data-icon-position="">About Article Types</a></li>
+<li class="menu-1251 menu-path-node-458471  even " role="menuitem"><a href="/content/genome-reports" data-hide-link-title="0" class="" data-icon-position="">Genome Reports</a></li>
+<li class="menu-803 menu-path-node-457473  odd " role="menuitem"><a href="/content/meeting-reports" data-hide-link-title="0" class="" data-icon-position="">Meeting Reports</a></li>
+<li class="menu-1277 menu-path-node-483319  even " role="menuitem"><a href="/content/mutant-screen-reports" data-hide-link-title="0" class="" data-icon-position="">Mutant Screen Reports</a></li>
+<li class="menu-1380 menu-path-g3journalorg-content-software-and-data-resources-0  odd last" role="menuitem"><a href="http://www.g3journal.org/content/software-and-data-resources-0" data-hide-link-title="0" class="" data-icon-position="">Software and Data Resources</a></li>
+</ul></li>
+<li class="menu-677 menuparent  menu-path-node-1037  even " role="menuitem"><a href="/content/why" data-hide-link-title="0" class="" data-icon-position="">PUBLISH &amp; REVIEW</a><ul role="menu"><li class="menu-680 menu-path-node-11 first odd " role="menuitem"><a href="/content/scope-and-publication-policies" data-hide-link-title="0" class="" data-icon-position="">Scope &amp; publication policies</a></li>
+<li class="menu-793 menu-path-node-4  even " role="menuitem"><a href="/content/submission-and-review-process" data-hide-link-title="0" class="" data-icon-position="">Submission &amp; review process</a></li>
+<li class="menu-790 menu-path-node-111849  odd " role="menuitem"><a href="/content/article-types" data-hide-link-title="0" class="" data-icon-position="">Article types</a></li>
+<li class="menu-789 menu-path-node-111850  even " role="menuitem"><a href="/content/prep-manuscript" data-hide-link-title="0" class="" data-icon-position="">Prepare your manuscript</a></li>
+<li class="menu-681 menu-path-node-1038  odd " role="menuitem"><a href="/content/submit" data-hide-link-title="0" class="" data-icon-position="">Submit your manuscript</a></li>
+<li class="menu-791 menu-path-node-6  even " role="menuitem"><a href="/content/after-acceptance" data-hide-link-title="0" class="" data-icon-position="">After acceptance</a></li>
+<li class="menu-792 menu-path-node-5  odd last" role="menuitem"><a href="/content/guidelines-reviewers" data-hide-link-title="0" class="" data-icon-position="">Guidelines for reviewers</a></li>
+</ul></li>
+<li class="menu-682 menuparent  menu-path-node-3  odd last" role="menuitem"><a href="/content/institutional" data-hide-link-title="0" class="" data-icon-position="">SUBSCRIBE</a><ul role="menu"><li class="menu-679 menu-path-alerts first odd " role="menuitem"><a href="/alerts" data-hide-link-title="0" class="" data-icon-position="">Email alerts</a></li>
+<li class="menu-796 menu-path-node-1039  even last" role="menuitem"><a href="/content/rss" data-hide-link-title="0" class="" data-icon-position="">RSS feeds</a></li>
+</ul></li>
+</ul></nav>
+    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</header>    
+      <section id="section-content" class="section section-content">
+    
+  <div id="zone-content" class="zone zone-content clearfix container-30">    
+        
+    <div class="grid-28 suffix-1 prefix-1 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="panel-display panels-960-layout jcore-2col-layout" >
+	  
+  <div class="panel-row-wrapper clearfix">
+		
+		<div class="main-content-wrapper grid-17 suffix-1 alpha">
+			<div class="panel-panel panel-region-content">
+			  <div class="inside"><div class="panel-pane pane-highwire-node-pager" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="pager highwire-pager pager-mini clearfix highwire-node-pager highwire-article-pager"><span class="pager-prev"><a href="/content/2/4/423" title="Setting the Standard: A Special Focus on Genomic Selection in GENETICS and G3" rel="prev" class="pager-link-prev link-icon"><i class="icon-circle-arrow-left"></i> <span class="title">Previous Article</span></a></span><span class="pager-next"><a href="/content/2/4/429" title="A Common Dataset for Genomic Analysis of Livestock Populations" rel="next" class="pager-link-next link-icon-right link-icon"><span class="title">Next Article</span> <i class="icon-circle-arrow-right"></i></a></span></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-highwire-article-citation" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="highwire-article-citation highwire-citation-type-highwire-article" data-node-nid="459268" id="node459268" data-pisa="ggg;2/4/425" data-pisa-master="ggg;2/4/425" data-apath="/ggg/2/4/425.atom" data-hw-author-tooltip-instance="highwire_author_tooltip"><div class="highwire-cite highwire-cite-highwire-article highwire-citation-genetics-article-title-complete clearfix has-author-tooltip highwire-citation-highwire-article-top-a">
+  
+  
+  
+  
+      <h1 class="highwire-cite-title" id="page-title">Simulated Data for Genomic Selection and Genome-Wide Association Studies Using a Combination of Coalescent and Gene Drop Methods</h1>  
+    	<div class="highwire-cite-authors"><span  class="highwire-citation-authors"><span class="highwire-citation-author first" data-delta="0">John M. Hickey</span> and <span class="highwire-citation-author" data-delta="1">Gregor Gorjanc</span></span></div>
+  
+    	<div class="highwire-cite-metadata"><span  class="highwire-cite-metadata-journal highwire-cite-metadata">G3: Genes, Genomes, Genetics </span><span  class="highwire-cite-metadata-date highwire-cite-metadata">April 1, 2012 </span><span  class="highwire-cite-metadata-volume highwire-cite-metadata">vol. 2 </span><span  class="highwire-cite-metadata-issue highwire-cite-metadata">no. 4 </span><span  class="highwire-cite-metadata-pages highwire-cite-metadata">425-427;  </span><span  class="highwire-cite-metadata-doi highwire-cite-metadata">https://doi.org/10.1534/g3.111.001297 </span></div>
+  
+  
+  
+</div>
+<div id="hw-article-author-popups-node459268" style="display: none;"><div class="author-tooltip-0"><div class="author-tooltip-name">John M. Hickey</div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><span class="nlm-aff">School of Environmental and Rural Science, University of New England, Armidale, 2351 New South Wales, Australia</span></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=John%2BM.%2BHickey" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Hickey%20JM&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link"><a href="/search/author1%3AJohn%2BM.%2BHickey" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li><li class="author-corresp-email-link last"><span>For correspondence: 
+<a href="mailto:john.hickey@une.edu.au" class="" data-icon-position="" data-hide-link-title="0">john.hickey@une.edu.au</a></span></li></ul></div><div class="author-tooltip-1"><div class="author-tooltip-name">Gregor Gorjanc</div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><span class="nlm-aff">Department of Animal Science, Biotechnical Faculty, University of Ljubljana, 1230 Domžale, Slovenia</span></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=Gregor%2BGorjanc" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Gorjanc%20G&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link last"><a href="/search/author1%3AGregor%2BGorjanc" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li></ul></div></div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-highwire-panel-tabs pane-panels-ajax-tab-tabs  article-page-ajax-tab bordered-tab" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="item-list"><ul class="tabs inline panels-ajax-tab"><li class="first"><a href="/content/2/4/425" class="panels-ajax-tab-tab" data-panel-name="jnl_genetics_tab_art" data-target-id="highwire_article_tabs" data-entity-context="node:459268" data-trigger="" data-url-enabled="1">Article</a><a href="/panels_ajax_tab/jnl_genetics_tab_art/node:459268/1" rel="nofollow" style="display:none" class="js-crawler-link"></a></li><li><a href="/content/2/4/425.figures-only" class="panels-ajax-tab-tab" data-panel-name="jnl_genetics_tab_data" data-target-id="highwire_article_tabs" data-entity-context="node:459268" data-trigger="figures-only" data-url-enabled="1">Figures & Data</a><a href="/panels_ajax_tab/jnl_genetics_tab_data/node:459268/1" rel="nofollow" style="display:none" class="js-crawler-link"></a></li><li><a href="/content/2/4/425.supplemental" class="panels-ajax-tab-tab" data-panel-name="jnl_genetics_tab_supp" data-target-id="highwire_article_tabs" data-entity-context="node:459268" data-trigger="supplemental" data-url-enabled="1">Supplemental</a><a href="/panels_ajax_tab/jnl_genetics_tab_supp/node:459268/1" rel="nofollow" style="display:none" class="js-crawler-link"></a></li><li><a href="/content/2/4/425.article-info" class="panels-ajax-tab-tab" data-panel-name="jnl_genetics_tab_info" data-target-id="highwire_article_tabs" data-entity-context="node:459268" data-trigger="article-info" data-url-enabled="1">Info & Metrics</a><a href="/panels_ajax_tab/jnl_genetics_tab_info/node:459268/1" rel="nofollow" style="display:none" class="js-crawler-link"></a></li><li class="last"><a href="/content/ggg/2/4/425.full.pdf" class="panels-ajax-tab-tab" data-panel-name="jnl_genetics_tab_pdf" data-target-id="highwire_article_tabs" data-entity-context="node:459268" data-trigger="full.pdf+html" data-url-enabled="1"><i class="icon-file-alt"></i></a><a href="/panels_ajax_tab/jnl_genetics_tab_pdf/node:459268/1" rel="nofollow" style="display:none" class="js-crawler-link"></a></li></ul></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-highwire-panel-tabs-container article-page-ajax-tab" >
+  
+      
+  
+  <div class="pane-content">
+    <div data-panels-ajax-tab-preloaded="jnl_genetics_tab_art" id="panels-ajax-tab-container-highwire_article_tabs" class="panels-ajax-tab-container"><div class="panels-ajax-tab-loading" style ="display:none"><img class="loading" src="https://www.g3journal.org/sites/all/modules/contrib/panels_ajax_tab/images/loading.gif" alt="Loading" title="Loading" /></div><div class="panels-ajax-tab-wrap-jnl_genetics_tab_art"><div class="panel-display panel-1col clearfix" >
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-highwire-markup article-page-highwire" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="highwire-markup"><div xmlns="http://www.w3.org/1999/xhtml" id="content-block-markup" data-highwire-cite-ref-tooltip-instance="highwire_reflinks_tooltip" xmlns:xhtml="http://www.w3.org/1999/xhtml"><div class="article fulltext-view "><span class="highwire-journal-article-marker-start"></span><div class="section abstract" id="abstract-1"><h2>Abstract</h2><p id="p-3">An approach is described for simulating data sequence, genotype, and phenotype data to study genomic selection and genome-wide association studies (GWAS). The simulation method, implemented in a software package called AlphaDrop, can be used to simulate genomic data and phenotypes with flexibility in terms of the historical population structure, recent pedigree structure, distribution of quantitative trait loci effects, and with sequence and single nucleotide polymorphism-phased alleles and genotypes. Ten replicates of a representative scenario used to study genomic selection in livestock were generated and have been made publically available. The simulated data sets were structured to encompass a spectrum of additive quantitative trait loci effect distributions, relationship structures, and single nucleotide polymorphism chip densities.</p></div><ul class="kwd-group"><li class="kwd"><a href="/keyword/genome-wide-association-studies-gwas" class="hw-term hw-article-keyword hw-article-keyword-genome-wide-association-studies-gwas" rel="nofollow">genome-wide association studies (GWAS)</a></li><li class="kwd"><a href="/keyword/shared-data-resources" class="hw-term hw-article-keyword hw-article-keyword-shared-data-resources" rel="nofollow">shared data resources</a></li><li class="kwd"><a href="/keyword/genpred" class="hw-term hw-article-keyword hw-article-keyword-genpred" rel="nofollow">GenPred</a></li><li class="kwd"><a href="/keyword/simulation-method" class="hw-term hw-article-keyword hw-article-keyword-simulation-method" rel="nofollow">simulation method</a></li><li class="kwd"><a href="/keyword/quantitative-trait-loci-qtl" class="hw-term hw-article-keyword hw-article-keyword-quantitative-trait-loci-qtl" rel="nofollow">quantitative trait loci (QTL)</a></li><li class="kwd"><a href="/keyword/pedigrees" class="hw-term hw-article-keyword hw-article-keyword-pedigrees" rel="nofollow">pedigrees</a></li></ul><p id="p-4">Simulation studies have made important contributions to the advancement of animal and plant breeding. With many breeding programs now incorporating genomic information at great expense, simulation is both useful and necessary to compare, at low cost, the potential that different analysis methods have to increase the accuracy of estimating breeding values and to compare the alternative structures of breeding programs. Furthermore, simulation can be used to test and benchmark software packages. Recently, many alternative strategies for simulation have been applied within the context of livestock. These strategies use different ways to simulate data, have distributions of quantitative trait loci (QTL) effects, and have different relationship structures. This complicates the comparison of the results and conclusions drawn from the different studies. The first objective of this note was to describe a simple simulation method that can be used to simulate animal or plant genomic data and phenotypes with flexibility in terms of historical population structure, recent pedigree structure, distribution of QTL effects, and with sequence and single nucleotide polymorphism (SNP)-phased alleles and genotypes. The second objective of this note was to provide a set of publically available simulated data sets that cover a spectrum of QTL distributions, relationship structures, and SNP densities. The data were simulated to represent a livestock population and mimic some of the scenarios in which genomic selection is applied.</p><div class="section materials-methods" id="sec-1"><h2 class="">Materials and Methods</h2><div id="sec-2" class="subsection"><h3>Method of simulation</h3><p id="p-5">A system to simulate sequence, SNP, and QTL data using a combination of coalescent and gene drop methods was developed. The system is packaged in a Fortran 95 program called AlphaDrop, which calls the Markovian Coalescence Simulator (MaCS) (<a id="xref-ref-2-1" class="xref-bibr" href="#ref-2">Chen <em>et al.</em> 2009</a>). AlphaDrop has full flexibility in terms of number of chromosomes, QTL, and SNP chips and their density, pedigree structure, and whether the underlying sequence data are outputted. Through the use of MaCS, full flexibility is available in terms of the structure and size of the ancestral population. QTL effects are restricted to being additive and sampled from normal or gamma distributions. MaCS and AlphaDrop are each controlled by a single specification file, examples of which are given in the <a href="http://www.g3journal.org/lookup/suppl/doi:10.1534/g3.111.001297/-/DC1">supporting information</a>, <a href="http://www.g3journal.org/lookup/suppl/doi:10.1534/g3.111.001297/-/DC1/FileS1.zip">File S1</a>.</p><p id="p-6">Briefly, AlphaDrop starts by setting up the data structures in terms of SNP chips and pedigree. It then calls MaCS, which simulates a sample of haplotypes with sequence information for each chromosome according to the specified ancestral population and mutation and recombination rates. AlphaDrop then drops these haplotypes through a pedigree with a recombination rate assuming 1 recombination event every 100 centimorgans (cM) but no mutation. Internally or externally generated pedigrees can be used. Currently the internal pedigrees are restricted to mammalian species. To simulate data for other species, such as plant species, an externally created pedigree needs to be supplied. The base generation of the pedigree is the most recent generation of the ancestral population simulated using MaCS. Next, the segregating sites are sampled at random to become SNP markers, and a number of SNP chips of different density are provided. The user has full control over the number and density of these chips. The full sequence and phased data can also be outputted if required.</p><p id="p-7">AlphaDrop then selects two samples of segregating sites to possibly become QTL. These are called candidate QTL. The first set comprises a user-specified number of candidate QTL selected at random from across the genome. The second set comprises a user-specified number of candidate QTL selected at random from across the genome with the restriction that the minor allele frequency must be less than a certain threshold. This restriction was designed to facilitate the possibility that QTL have lower minor allele frequency than SNP. Four different traits are then generated assuming an additive genetic model. The first pair of traits is generated using the unrestricted candidate QTL loci. For the first trait (PolyUnres), the allele substitution effect at each QTL locus is sampled from a normal distribution with a mean of zero and standard deviation of one unit. For the second trait (GammaUnres), a random subset of the unrestricted set of candidate QTL loci are selected and the allele substitution effect at each QTL locus is sampled from a gamma distribution with a user-specified shape and scale parameter and a 50% chance of being positive or negative. The second pair of traits (PolyRes and GammaRes) is generated in the same way as the first pair except that the candidate QTL comprise a set with the restriction that their minor allele frequency could not exceed a user specified threshold.</p><p id="p-8">Phenotypes with user-defined heritability are generated for each trait. To ensure that the heritability of the four traits remains constant, the residual variance is scaled relative to the variance of the breeding values of individuals in the base generation of the pedigree, which was given by <strong>a</strong>′<strong>a</strong>/(<em>n</em> − 1), where <strong>a</strong> is a vector of breeding value of individuals in the base generation and <em>n</em> is the number of individuals in that generation.</p><p id="p-9">AlphaDrop efficiently stores sequence information, and this makes the simulation of sequence data in large pedigrees computationally feasible. Gametes comprise strings of 0s and 1s, representing SNP alleles. Gametes can therefore be thought of as large binary numbers and represented as integers. AlphaDrop breaks gametes into haplotypes of a certain length. Each haplotype can be represented as long integer, and these long integers are only decompressed into their binary numbers where a recombination occurs.</p></div><div id="sec-3" class="subsection"><h3>Simulated data sets</h3><p id="p-10">Ten replicates of a livestock data structure were simulated. The structure was designed to cover a spectrum of QTL distributions, relationship structures, and SNP chip densities and to mimic some of the scenarios in which genomic selection is applied. In each replicate sequence data for 4000 base haplotypes for each of 30 chromosomes was simulated using the MaCS (<a id="xref-ref-2-2" class="xref-bibr" href="#ref-2">Chen <em>et al.</em> 2009</a>). The 30 chromosomes were each 100 cM in length comprising approximately 10<sup>8</sup> base pairs and were simulated using a per site mutation rate of 2.5*10<sup>−8</sup> and an effective population size (Ne) of 100 in the final generation of the sequence simulation. The reduction of Ne in the preceding generations was modeled with a Ne 1000 years ago of 1256, a Ne 10,000 years ago of 4350, and a Ne 100,000 years ago of 43,500 with linear changes in between. This reflects estimates by <a id="xref-ref-5-1" class="xref-bibr" href="#ref-5">Villa-Angulo <em>et al.</em> (2009)</a> for the Holstein population.</p><p id="p-11">A pedigree was simulated comprising 10 generations of individuals, with 50 sires per generation, 10 dams per sire, and 2 offspring per dam. Base individuals in the pedigree had their gametes randomly sampled from the 4000 haplotypes of the sequence simulation allowing for recombination according to the genetic distance using 1% probability of a recombination event per cM. Subsequent generations in the pedigree had their gametes generated through Mendelian inheritance with recombination. The total number of segregating sites across the resulting genome was approximately 1,670,000. A set of 9000 segregating sites were randomly selected from the sequence to be used as candidate QTL loci in two different ways, one a randomly sampled set and the other being a randomly sampled set with the restriction that their minor allele frequency could not exceed 0.30. In addition, a random samples of 60,000 and 300,000 segregating sites was selected from the sequence to be used as SNP on two different SNP chips.</p><p id="p-12">Four different traits were simulated assuming an additive genetic model. The first pair of traits was generated using the 9000 unrestricted candidate QTL loci. For the first trait (PolyUnres), the allele substitution effect at each QTL locus was sampled from a normal distribution with a mean of zero and standard deviation of one unit. For the second trait (GammaUnres), a random subset of 900 of the candidate QTL loci were selected and their allele substitution effects at each QTL locus were sampled from a gamma distribution with a shape of 0.4 and scale of 1.66 (<a id="xref-ref-4-1" class="xref-bibr" href="#ref-4">Meuwissen <em>et al.</em> 2001</a>) and a 50% chance of being positive or negative. The second pair of traits (PolyRes and GammaRes) was generated in the same way as the first pair except that the candidate QTL loci comprised the 9000 with the restriction that their minor allele frequency could not exceed 0.30. Phenotypes with a heritability of 0.25 were generated for each trait.</p></div><div id="sec-4" class="subsection"><h3>Training and validation data sets</h3><p id="p-13">Subsets of the data were extracted for training and validation. The training set comprised the 2000 individuals in generations 4 and 5 (<em>i.e.</em> 1000 animals in each generation). Three validation sets were extracted, consisting of 1500 animals, with 500 animals sampled at random from each of generations 6, 8, and 10. The structure of the training and testing data sets are illustrated in <a id="xref-fig-1-1" class="xref-fig" href="#F1">Figure 1</a>.</p><div id="F1" class="fig pos-float type-figure  odd"><div class="highwire-figure"><div class="fig-inline-img-wrapper"><div class="fig-inline-img"><a href="https://www.g3journal.org/content/ggg/2/4/425/F1.large.jpg?width=800&amp;height=600&amp;carousel=1" title="Structure of training and testing data sets." class="highwire-fragment fragment-images colorbox-load" rel="gallery-fragment-images-921914906" data-figure-caption="&lt;div class=&quot;highwire-markup&quot;&gt;Structure of training and testing data sets.&lt;/div&gt;" data-icon-position="" data-hide-link-title="0"><span class="hw-responsive-img"><img class="highwire-fragment fragment-image lazyload" alt="Figure 1" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://www.g3journal.org/content/ggg/2/4/425/F1.medium.gif" width="440" height="299"/><noscript><img class="highwire-fragment fragment-image" alt="Figure 1" src="https://www.g3journal.org/content/ggg/2/4/425/F1.medium.gif" width="440" height="299"/></noscript></span></a></div></div><ul class="highwire-figure-links inline"><li class="download-fig first"><a href="https://www.g3journal.org/content/ggg/2/4/425/F1.large.jpg?download=true" class="highwire-figure-link highwire-figure-link-download" title="Download Figure 1" data-icon-position="" data-hide-link-title="0">Download figure</a></li><li class="new-tab"><a href="https://www.g3journal.org/content/ggg/2/4/425/F1.large.jpg" class="highwire-figure-link highwire-figure-link-newtab" target="_blank" data-icon-position="" data-hide-link-title="0">Open in new tab</a></li><li class="download-ppt last"><a href="/highwire/powerpoint/461385" class="highwire-figure-link highwire-figure-link-ppt" data-icon-position="" data-hide-link-title="0">Download powerpoint</a></li></ul></div><div class="fig-caption" xmlns:xhtml="http://www.w3.org/1999/xhtml"><span class="fig-label">Figure 1</span> <p id="p-14" class="first-child">Structure of training and testing data sets.</p><div class="sb-div caption-clear"></div></div></div></div></div><div class="section discussion" id="sec-5"><h2 class="">Discussion</h2><p id="p-15">A system to simulate data for the study of genomic selection in livestock and plants was developed. The system, which combines coalescent and gene drop methods, was designed to be simple and flexible. It makes routine simulation of sequence data for large pedigrees possible. Other genome simulation packages are publically available, such as Fregene (<a id="xref-ref-1-1" class="xref-bibr" href="#ref-1">Chadeau-Hyam <em>et al.</em> 2008</a>), HaploSim (<a id="xref-ref-3-1" class="xref-bibr" href="#ref-3">Coster <em>et al.</em> 2010</a>), and QMSim (<a id="xref-ref-6-1" class="xref-bibr" href="#ref-6">Sargolzaei and Schenkel 2009</a>). However, given that these packages are based on gene dropping approaches they are less computationally efficient in comparison with the combination of coalescent and gene drop approaches presented here. There are important questions relating to the simulation of genomic data that remain to be resolved. It is not clear whether coalescent or gene drop methods generate realistic genomic data and whether simple additive genetic models are sufficient. Like the simulated data from all other packages, the data simulated by AlphaDrop may not fully reflect the structure of real data. However, the presented approach uses realistic mutation rates, recombination rates, evolution of historical effective population sizes, and numbers of nucleotide base pairs to reflect whole genome level sequence. Simulated data would benefit from having standardized methods to validate its quality. Further development of AlphaDrop is ongoing.</p></div><div class="section ack" id="ack-1"><h2 class="">Acknowledgments</h2><p id="p-16">We thank Brian Kinghorn, Hans Daetwyler, Julius van der Werf, Sam Clark, and Gustavo de los Campos for their useful discussions. This research was funded by the Australian Research Council project LP100100880 of which Genus Pty, Aviagen LTD, and Pfizer are co-funders. The simulated data sets are available in the <a href="http://www.g3journal.org/lookup/suppl/doi:10.1534/g3.111.001297/-/DC1">supporting information</a>. AlphaDrop, and its source code, is available from <a href="http://sites.google.com/site/hickeyjohn/workstuff">http://sites.google.com/site/hickeyjohn/workstuff</a>.</p><p id="p-17">The authors declare that they have no competing interests.</p></div><div class="section fn-group" id="fn-group-1"><h2>Footnotes</h2><ul><li class="fn" id="fn-1"><p id="p-1">Supporting information is available online at <a href="http://www.g3journal.org/lookup/suppl/doi:10.1534/g3.111.001297/-/DC1">http://www.g3journal.org/lookup/suppl/doi:10.1534/g3.111.001297/-/DC1</a></p></li><li class="fn" id="fn-2"><p id="p-18"><em>Edited by Dirk-Jan de Koning and Lauren M. McIntyre</em></p></li></ul></div><ul class="history-list"><li xmlns:hwp="http://schema.highwire.org/Journal" class="received" hwp:start="2011-09-30"><span class="received-label">Received </span>September 30, 2011.</li><li xmlns:hwp="http://schema.highwire.org/Journal" class="accepted" hwp:start="2011-11-09"><span class="accepted-label">Accepted </span>November 9, 2011.</li></ul><ul class="copyright-statement"><li class="fn" id="copyright-statement-1">Copyright © 2012 Hickey, Gorjanc</li></ul><div class="license" id="license-1"><p id="p-2">This is an open-access article distributed under the terms of the Creative Commons Attribution Unported License (<a href="http://creativecommons.org/licenses/by/3.0/" rel="license">http://creativecommons.org/licenses/by/3.0/</a>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</p></div><div class="section ref-list" id="ref-list-1"><h2 class="">Literature Cited</h2><ol class="cit-list ref-use-labels"><li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-1-1" title="View reference  in text" id="ref-1">↵</a><div class="cit ref-cit ref-journal" id="cit-2.4.425.1" data-doi="10.1186/1471-2105-9-364"><div class="cit-metadata"><ol class="cit-auth-list"><li><span class="cit-auth"><span class="cit-name-surname">Chadeau-Hyam</span>  <span class="cit-name-given-names">M</span></span>, </li><li><span class="cit-auth"><span class="cit-name-surname">Hoggart</span>  <span class="cit-name-given-names">C. J.</span></span>, </li><li><span class="cit-auth"><span class="cit-name-surname">O’Reilly</span>  <span class="cit-name-given-names">P. F.</span></span>, </li><li><span class="cit-auth"><span class="cit-name-surname">Whittaker</span>  <span class="cit-name-given-names">J. C.</span></span>, </li><li><span class="cit-auth"><span class="cit-name-surname">De Lorio</span>  <span class="cit-name-given-names">M.</span></span>, </li><li><span class="cit-etal">et al.</span></li></ol><cite>, <span class="cit-pub-date">2008</span> <span class="cit-article-title">Fregene: Simulation of realistic sequence-level data in populations and ascertained samples</span>. <abbr class="cit-jnl-abbrev">BMC Bioinformatics</abbr> <span class="cit-vol">9</span>: <span class="cit-fpage">364</span>.</cite></div><div class="cit-extra"><a href="{openurl}?query=rft.jtitle%253DBMC%2Bbioinformatics%2B%255Belectronic%2Bresource%255D%26rft.stitle%253DBMC%2BBioinformatics%26rft.aulast%253DChadeau-Hyam%26rft.auinit1%253DM.%26rft.volume%253D9%26rft.spage%253D364%26rft.epage%253D364%26rft.atitle%253DFregene%253A%2Bsimulation%2Bof%2Brealistic%2Bsequence-level%2Bdata%2Bin%2Bpopulations%2Band%2Bascertained%2Bsamples.%26rft_id%253Dinfo%253Adoi%252F10.1186%252F1471-2105-9-364%26rft_id%253Dinfo%253Apmid%252F18778480%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url"><span>OpenUrl</span></a><a href="/lookup/external-ref?access_num=10.1186/1471-2105-9-364&amp;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref"><span>CrossRef</span></a><a href="/lookup/external-ref?access_num=18778480&amp;link_type=MED&amp;atom=%2Fggg%2F2%2F4%2F425.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline"><span>PubMed</span></a></div></div></li><li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-2-1" title="View reference  in text" id="ref-2">↵</a><div class="cit ref-cit ref-journal" id="cit-2.4.425.2" data-doi="10.1101/gr.083634.108"><div class="cit-metadata"><ol class="cit-auth-list"><li><span class="cit-auth"><span class="cit-name-surname">Chen</span>  <span class="cit-name-given-names">G. K.</span></span>, </li><li><span class="cit-auth"><span class="cit-name-surname">Marjoram</span>  <span class="cit-name-given-names">P.</span></span>, </li><li><span class="cit-auth"><span class="cit-name-surname">Wall</span>  <span class="cit-name-given-names">J. D.</span></span></li></ol><cite>, <span class="cit-pub-date">2009</span> <span class="cit-article-title">Fast and flexible simulation of DNA sequence data</span>. <abbr class="cit-jnl-abbrev">Genome Res.</abbr> <span class="cit-vol">19</span>: <span class="cit-fpage">136</span>–<span class="cit-lpage">142</span>.</cite></div><div class="cit-extra"><a href="{openurl}?query=rft.jtitle%253DGenome%2BRes.%26rft_id%253Dinfo%253Adoi%252F10.1101%252Fgr.083634.108%26rft_id%253Dinfo%253Apmid%252F19029539%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url"><span>OpenUrl</span></a><a href="/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NjoiZ2Vub21lIjtzOjU6InJlc2lkIjtzOjg6IjE5LzEvMTM2IjtzOjQ6ImF0b20iO3M6MTc6Ii9nZ2cvMi80LzQyNS5hdG9tIjt9czo4OiJmcmFnbWVudCI7czowOiIiO30=" class="cit-ref-sprinkles cit-ref-sprinkles-ijlink"><span><span class="cit-reflinks-abstract">Abstract</span><span class="cit-sep cit-reflinks-variant-name-sep">/</span><span class="cit-reflinks-full-text"><span class="free-full-text">FREE </span>Full Text</span></span></a></div></div></li><li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-3-1" title="View reference  in text" id="ref-3">↵</a><div class="cit ref-cit ref-journal" id="cit-2.4.425.3" data-doi="10.1186/1297-9686-42-9"><div class="cit-metadata"><ol class="cit-auth-list"><li><span class="cit-auth"><span class="cit-name-surname">Coster</span>  <span class="cit-name-given-names">A. J.</span></span>, </li><li><span class="cit-auth"><span class="cit-name-surname">Bastiaansen</span>  <span class="cit-name-given-names">W. M.</span></span>, </li><li><span class="cit-auth"><span class="cit-name-surname">Calus</span>  <span class="cit-name-given-names">M. P. L.</span></span>, </li><li><span class="cit-auth"><span class="cit-name-surname">Van Arendonk</span>  <span class="cit-name-given-names">J. A. M.</span></span>, </li><li><span class="cit-auth"><span class="cit-name-surname">Bovenhuis</span>  <span class="cit-name-given-names">H.</span></span></li></ol><cite>, <span class="cit-pub-date">2010</span> <span class="cit-article-title">Sensitivity of methods for estimating breeding values using genetic markers to the number of QTL and distribution of QTL variance</span>. <abbr class="cit-jnl-abbrev">Genet. Sel. Evol.</abbr> <span class="cit-vol">42</span>: <span class="cit-fpage">9</span>.</cite></div><div class="cit-extra"><a href="{openurl}?query=rft.jtitle%253DGenetics%252C%2Bselection%252C%2Bevolution.%2B%253A%2B%2BGSE%26rft.stitle%253DGenet%2BSel%2BEvol%26rft.aulast%253DCoster%26rft.auinit1%253DA.%26rft.volume%253D42%26rft.spage%253D9%26rft.epage%253D9%26rft.atitle%253DSensitivity%2Bof%2Bmethods%2Bfor%2Bestimating%2Bbreeding%2Bvalues%2Busing%2Bgenetic%2Bmarkers%2Bto%2Bthe%2Bnumber%2Bof%2BQTL%2Band%2Bdistribution%2Bof%2BQTL%2Bvariance.%26rft_id%253Dinfo%253Adoi%252F10.1186%252F1297-9686-42-9%26rft_id%253Dinfo%253Apmid%252F20302681%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url"><span>OpenUrl</span></a><a href="/lookup/external-ref?access_num=10.1186/1297-9686-42-9&amp;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref"><span>CrossRef</span></a><a href="/lookup/external-ref?access_num=20302681&amp;link_type=MED&amp;atom=%2Fggg%2F2%2F4%2F425.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline"><span>PubMed</span></a></div></div></li><li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-4-1" title="View reference  in text" id="ref-4">↵</a><div class="cit ref-cit ref-journal" id="cit-2.4.425.4"><div class="cit-metadata"><ol class="cit-auth-list"><li><span class="cit-auth"><span class="cit-name-surname">Meuwissen</span>  <span class="cit-name-given-names">T. H. E.</span></span>, </li><li><span class="cit-auth"><span class="cit-name-surname">Hayes</span>  <span class="cit-name-given-names">B. J.</span></span>, </li><li><span class="cit-auth"><span class="cit-name-surname">Goddard</span>  <span class="cit-name-given-names">M. E.</span></span></li></ol><cite>, <span class="cit-pub-date">2001</span> <span class="cit-article-title">Prediction of total genetic value using genome-wide dense marker maps</span>. <abbr class="cit-jnl-abbrev">Genetics</abbr> <span class="cit-vol">157</span>: <span class="cit-fpage">1819</span>–<span class="cit-lpage">1829</span>.</cite></div><div class="cit-extra"><a href="{openurl}?query=rft.jtitle%253DGenetics%26rft.stitle%253DGenetics%26rft.aulast%253DMeuwissen%26rft.auinit1%253DT.%2BH.%2BE.%26rft.volume%253D157%26rft.issue%253D4%26rft.spage%253D1819%26rft.epage%253D1829%26rft.atitle%253DPrediction%2Bof%2BTotal%2BGenetic%2BValue%2BUsing%2BGenome-Wide%2BDense%2BMarker%2BMaps%26rft_id%253Dinfo%253Apmid%252F11290733%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url"><span>OpenUrl</span></a><a href="/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6ODoiZ2VuZXRpY3MiO3M6NToicmVzaWQiO3M6MTA6IjE1Ny80LzE4MTkiO3M6NDoiYXRvbSI7czoxNzoiL2dnZy8yLzQvNDI1LmF0b20iO31zOjg6ImZyYWdtZW50IjtzOjA6IiI7fQ==" class="cit-ref-sprinkles cit-ref-sprinkles-ijlink"><span><span class="cit-reflinks-abstract">Abstract</span><span class="cit-sep cit-reflinks-variant-name-sep">/</span><span class="cit-reflinks-full-text"><span class="free-full-text">FREE </span>Full Text</span></span></a></div></div></li><li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-5-1" title="View reference  in text" id="ref-5">↵</a><div class="cit ref-cit ref-journal" id="cit-2.4.425.5" data-doi="10.1186/1471-2156-10-19"><div class="cit-metadata"><ol class="cit-auth-list"><li><span class="cit-auth"><span class="cit-name-surname">Villa-Angulo</span>  <span class="cit-name-given-names">R.</span></span>, </li><li><span class="cit-auth"><span class="cit-name-surname">Matukumalli</span>  <span class="cit-name-given-names">L. K.</span></span>, </li><li><span class="cit-auth"><span class="cit-name-surname">Gill</span>  <span class="cit-name-given-names">C. A.</span></span>, </li><li><span class="cit-auth"><span class="cit-name-surname">Choi</span>  <span class="cit-name-given-names">J.</span></span>, </li><li><span class="cit-auth"><span class="cit-name-surname">Van Tassell</span>  <span class="cit-name-given-names">C. P.</span></span>, </li><li><span class="cit-etal">et al.</span></li></ol><cite>, <span class="cit-pub-date">2009</span> <span class="cit-article-title">High-resolution haplotype block structure in the cattle genome</span>. <abbr class="cit-jnl-abbrev">BMC Genet.</abbr> <span class="cit-vol">10</span>: <span class="cit-fpage">19</span>.</cite></div><div class="cit-extra"><a href="{openurl}?query=rft.jtitle%253DBMC%2Bgenetics%2B%255Belectronic%2Bresource%255D%26rft.stitle%253DBMC%2BGenet%26rft.aulast%253DVilla-Angulo%26rft.auinit1%253DR.%26rft.volume%253D10%26rft.spage%253D19%26rft.epage%253D19%26rft.atitle%253DHigh-resolution%2Bhaplotype%2Bblock%2Bstructure%2Bin%2Bthe%2Bcattle%2Bgenome.%26rft_id%253Dinfo%253Adoi%252F10.1186%252F1471-2156-10-19%26rft_id%253Dinfo%253Apmid%252F19393054%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url"><span>OpenUrl</span></a><a href="/lookup/external-ref?access_num=10.1186/1471-2156-10-19&amp;link_type=DOI" class="cit-ref-sprinkles cit-ref-sprinkles-doi cit-ref-sprinkles-crossref"><span>CrossRef</span></a><a href="/lookup/external-ref?access_num=19393054&amp;link_type=MED&amp;atom=%2Fggg%2F2%2F4%2F425.atom" class="cit-ref-sprinkles cit-ref-sprinkles-medline"><span>PubMed</span></a></div></div></li><li><span class="ref-label ref-label-empty"></span><a class="rev-xref-ref" href="#xref-ref-6-1" title="View reference  in text" id="ref-6">↵</a><div class="cit ref-cit ref-journal" id="cit-2.4.425.6" data-doi="10.1093/bioinformatics/btp045"><div class="cit-metadata"><ol class="cit-auth-list"><li><span class="cit-auth"><span class="cit-name-surname">Sargolzaei</span>  <span class="cit-name-given-names">M.</span></span>, </li><li><span class="cit-auth"><span class="cit-name-surname">Schenkel</span>  <span class="cit-name-given-names">F. S.</span></span></li></ol><cite>, <span class="cit-pub-date">2009</span> <span class="cit-article-title">QMSim: A large scale genome simulator for livestock</span>. <abbr class="cit-jnl-abbrev">Bioinformatics</abbr> <span class="cit-vol">25</span>: <span class="cit-fpage">680</span>–<span class="cit-lpage">681</span>.</cite></div><div class="cit-extra"><a href="{openurl}?query=rft.jtitle%253DBioinformatics%26rft_id%253Dinfo%253Adoi%252F10.1093%252Fbioinformatics%252Fbtp045%26rft_id%253Dinfo%253Apmid%252F19176551%26rft.genre%253Darticle%26rft_val_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Ajournal%26ctx_ver%253DZ39.88-2004%26url_ver%253DZ39.88-2004%26url_ctx_fmt%253Dinfo%253Aofi%252Ffmt%253Akev%253Amtx%253Actx" class="cit-ref-sprinkles cit-ref-sprinkles-openurl cit-ref-sprinkles-open-url"><span>OpenUrl</span></a><a href="/lookup/ijlink/YTozOntzOjQ6InBhdGgiO3M6MTQ6Ii9sb29rdXAvaWpsaW5rIjtzOjU6InF1ZXJ5IjthOjQ6e3M6ODoibGlua1R5cGUiO3M6NDoiQUJTVCI7czoxMToiam91cm5hbENvZGUiO3M6NzoiYmlvaW5mbyI7czo1OiJyZXNpZCI7czo4OiIyNS81LzY4MCI7czo0OiJhdG9tIjtzOjE3OiIvZ2dnLzIvNC80MjUuYXRvbSI7fXM6ODoiZnJhZ21lbnQiO3M6MDoiIjt9" class="cit-ref-sprinkles cit-ref-sprinkles-ijlink"><span><span class="cit-reflinks-abstract">Abstract</span><span class="cit-sep cit-reflinks-variant-name-sep">/</span><span class="cit-reflinks-full-text"><span class="free-full-text">FREE </span>Full Text</span></span></a></div></div></li></ol></div><span class="highwire-journal-article-marker-end"></span></div><span id="related-urls"></span></div><a href="https://www.g3journal.org/content/2/4/425.abstract" class="hw-link hw-link-article-abstract" data-icon-position="" data-hide-link-title="0">View Abstract</a></div>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+</div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-highwire-node-pager" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="pager highwire-pager pager-mini clearfix highwire-node-pager highwire-article-pager"><span class="pager-prev"><a href="/content/2/4/423" title="Setting the Standard: A Special Focus on Genomic Selection in GENETICS and G3" rel="prev" class="pager-link-prev link-icon"><i class="icon-circle-arrow-left"></i> <span class="title">Previous Article</span></a></span><span class="pager-next"><a href="/content/2/4/429" title="A Common Dataset for Genomic Analysis of Livestock Populations" rel="next" class="pager-link-next link-icon-right link-icon"><span class="title">Next Article</span> <i class="icon-circle-arrow-right"></i></a></span></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-highwire-back-to-top" >
+  
+      
+  
+  <div class="pane-content">
+    <a href="#page" class="back-to-top" data-icon-position="" data-hide-link-title="0"><i class="icon-chevron-up"></i> Back to top</a>  </div>
+
+  
+  </div>
+</div>
+			</div>
+		</div>
+		
+		<div class="sidebar-right-wrapper grid-10 omega">
+			<div class="panel-panel panel-region-sidebar-right">
+			  <div class="inside"><div class="panel-pane pane-panels-mini pane-jnl-genetics-art-issue article-volume-issue-cover top-border top-padding increased-bottom-margin" >
+  
+        <h2 class="pane-title">PUBLICATION INFORMATION</h2>
+    
+  
+  <div class="pane-content">
+    <div id="mini-panel-jnl_genetics_art_issue" class="highwire-2col-stacked panel-display">
+	  <div class="panel-row-wrapper panel-row-first clearfix">
+		
+		<div class="top-wrapper">
+			<div class="panel-panel panel-region-top">
+			  <div class="inside"><div class="panel-pane pane-custom pane-1" >
+  
+      
+  
+  <div class="pane-content">
+    <p><a href="/content/2/4"><span>Volume 2 Issue 4, April 2012</span></a></p>
+  </div>
+
+  
+  </div>
+</div>
+			</div>
+		</div>
+	
+	</div> <!-- /.panel-row-wrapper -->	
+	  
+  <div class="panel-row-wrapper clearfix">
+		<div class="content-left-wrapper content-column">
+          <div class="panel-panel panel-region-content-left">
+            <div class="inside"><div class="panel-pane pane-highwire-issue-cover" >
+  
+      
+  
+  <div class="pane-content">
+    <div class = "cover-issue"><div class = "cover-issue-image"><a href="/content/2/4.toc" class="" data-icon-position="" data-hide-link-title="0"><img src="https://www.g3journal.org/sites/default/files/styles/issue_cover_248x400_/public/highwire/ggg/2/4.cover-source.jpg?itok=0lh-7MFD" width="248" height="330" alt="G3: Genes|Genomes|Genetics: 2 (4)" /></a></div></div>  </div>
+
+  
+  </div>
+</div>
+          </div>
+        </div>
+        
+        <div class="content-right-wrapper content-column">
+          <div class="panel-panel panel-region-content-right">
+            <div class="inside"></div>
+          </div>
+        </div>
+	</div> <!-- /.panel-row-wrapper -->	
+	
+		<div class="panel-row-wrapper panel-row-last clearfix">
+		
+		<div class="bottom-wrapper">
+			<div class="panel-panel panel-region-bottom">
+			  <div class="inside"><div class="panel-pane pane-highwire-seach-quicksearch" >
+  
+      
+  
+  <div class="pane-content">
+    <form class="highwire-quicksearch button-style-mini button-style-mini" action="/content/2/4/425" method="post" id="highwire-search-quicksearch-form-0" accept-charset="UTF-8"><div><div class="form-item form-item-label-invisible form-type-textfield form-item-keywords">
+  <label class="element-invisible" for="edit-keywords">Search for this keyword </label>
+ <input placeholder="Search this issue" type="text" id="edit-keywords" name="keywords" value="" size="60" maxlength="128" class="form-text" />
+</div>
+<div class="button-wrapper button-mini"><i class="icon-search"></i><input data-icon-only="1" data-font-icon="icon-search" data-icon-position="after" type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-pA9VmtUgjwIzYqUcp-vmH8Tgmm-LPZnRBESYzWf45jc" />
+<input type="hidden" name="form_id" value="highwire_search_quicksearch_form_0" />
+</div></form>  </div>
+
+  
+  </div>
+</div>
+			</div>
+		</div>
+	
+	</div> <!-- /.panel-row-wrapper -->	
+	</div>
+
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-entity-field pane-node-field-highwire-article-category vert-padding vert-borders increased-bottom-margin" >
+  
+        <h2 class="pane-title">ARTICLE CLASSIFICATION</h2>
+    
+  
+  <div class="pane-content">
+    <div class="field field-name-field-highwire-article-category field-type-taxonomy-term-reference field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/category/genomic-selection" class="" data-icon-position="" data-hide-link-title="0">Genomic Selection</a></div></div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-highwire-lens increased-bottom-margin" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="highwire-lens-button"><span class="inner"><a href="/lens/ggg/2/4/425" target="_blank" class="" data-icon-position="" data-hide-link-title="0"><span>View this article with <em><strong>LENS</strong></em></span></a></span></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-panels-mini pane-jnl-genetics-art-tools vert-borders vert-padding increased-bottom-margin" >
+  
+      
+  
+  <div class="pane-content">
+    <div id="mini-panel-jnl_genetics_art_tools" class="highwire-2col-stacked panel-display">
+	  
+  <div class="panel-row-wrapper clearfix">
+		<div class="content-left-wrapper content-column">
+          <div class="panel-panel panel-region-content-left">
+            <div class="inside"><div class="panel-pane pane-minipanel-dialog-link pane-jnl-genetics-art-email" >
+  
+      
+  
+  <div class="pane-content">
+    <div class='minipanel-dialog-wrapper'><div class='minipanel-dialog-link-link'><a href="/" oncontextmenu="javascript: return false;" class="minipanel-dialog-link-trigger" title="" data-icon-position="" data-hide-link-title="0"><i class = 'icon-envelope'></i> Email</a></div><div class='minipanel-dialog-link-mini' style='display:none'><div class="panel-display panel-1col clearfix" id="mini-panel-jnl_genetics_art_email">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-block pane-forward-form pane-forward" >
+  
+      
+  
+  <div class="pane-content">
+    <form action="/content/2/4/425" method="post" id="forward-form" accept-charset="UTF-8"><div><div id="edit-instructions" class="form-item form-item-label-before form-type-item">
+ <p>Thank you for sharing this G3: Genes | Genomes | Genetics article.</p><p>NOTE: We request your email address only to inform the recipient that it was you who recommended this article, and that it is not junk mail. We do not retain these email addresses.</p>
+</div>
+<div class="form-item form-item-label-before form-type-textfield form-item-email">
+  <label for="edit-email">Your Email <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-email" name="email" value="" size="58" maxlength="256" class="form-text required" />
+</div>
+<div class="form-item form-item-label-before form-type-textfield form-item-name">
+  <label for="edit-name">Your Name <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-name" name="name" value="" size="58" maxlength="256" class="form-text required" />
+</div>
+<div class="form-item form-item-label-before form-type-textarea form-item-recipients">
+  <label for="edit-recipients">Send To <span class="form-required" title="This field is required.">*</span></label>
+ <div class="form-textarea-wrapper resizable"><textarea id="edit-recipients" name="recipients" cols="50" rows="5" class="form-textarea required"></textarea></div>
+<div class="description">Enter multiple addresses on separate lines or separate them with commas.</div>
+</div>
+<div id="edit-page" class="form-item form-item-label-before form-type-item">
+  <label for="edit-page">You are going to email the following </label>
+ <a href="/content/2/4/425" class="active" data-icon-position="" data-hide-link-title="0">Simulated Data for Genomic Selection and Genome-Wide Association Studies Using a Combination of Coalescent and Gene Drop Methods</a>
+</div>
+<div id="edit-subject" class="form-item form-item-label-before form-type-item">
+  <label for="edit-subject">Message Subject </label>
+ (Your Name) has forwarded a page to you from G3: Genes | Genomes | Genetics
+</div>
+<div id="edit-body" class="form-item form-item-label-before form-type-item">
+  <label for="edit-body">Message Body </label>
+ (Your Name) thought you would be interested in this article in G3: Genes | Genomes | Genetics.
+</div>
+<div class="form-item form-item-label-before form-type-textarea form-item-message">
+  <label for="edit-message--2">Your Personal Message </label>
+ <div class="form-textarea-wrapper resizable"><textarea id="edit-message--2" name="message" cols="50" rows="10" class="form-textarea"></textarea></div>
+</div>
+<input type="hidden" name="path" value="node/459268" />
+<input type="hidden" name="path_cid" value="" />
+<input type="hidden" name="forward_footer" value=" " />
+<input type="hidden" name="form_build_id" value="form-A-JAA-JYEUPHY9xv0oQm5d4zrAB4eP4N5SlK4H3BJV4" />
+<input type="hidden" name="form_id" value="forward_form" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Send Message" class="form-submit" /></div></div></form>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+</div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-highwire-variant-link" >
+  
+      
+  
+  <div class="pane-content">
+    <a href="/content/ggg/2/4/425.full-text.print" target="_blank" rel="nofollow" class="link-icon"><i class="icon-print"></i> <span class="title">Print</span></a>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-minipanel-dialog-link pane-jnl-genetics-art-alert" >
+  
+      
+  
+  <div class="pane-content">
+    <div class='minipanel-dialog-wrapper'><div class='minipanel-dialog-link-link'><a href="/" oncontextmenu="javascript: return false;" class="minipanel-dialog-link-trigger link-icon" title=""><i class="icon-bullhorn"></i> <span class="title">Alerts</span></a></div><div class='minipanel-dialog-link-mini' style='display:none'><div class="panel-display panel-1col clearfix" id="mini-panel-jnl_genetics_art_alert">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-article-add-form" >
+  
+      
+  
+  <div class="pane-content">
+    <div id = "alerts-form-wrapper"><form action="/content/2/4/425" method="post" id="highwire-user-opportunity-login" accept-charset="UTF-8"><div><div class="form-item form-item-label-before form-type-textfield form-item-name">
+  <label for="edit-name--2">User Name <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-name--2" name="name" value="" size="60" maxlength="128" class="form-text required" />
+</div>
+<div class="form-item form-item-label-before form-type-password form-item-pass">
+  <label for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" id="edit-pass" name="pass" size="60" maxlength="128" class="form-text required" />
+</div>
+Enter your email below to set up alert notifications for new article, or to manage your existing alerts.<div class="form-item form-item-label-invisible form-type-textfield form-item-highwire-alerts-email">
+  <label class="element-invisible" for="edit-highwire-alerts-email">Email <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" id="edit-highwire-alerts-email" name="highwire_alerts_email" value="" size="60" maxlength="128" class="form-text required" />
+</div>
+<div id="alerts_email"><b>SIGN UP OR SIGN IN WITH YOUR EMAIL</b></div><input type="submit" id="edit-submit--4" name="op" value="Submit" class="form-submit" /><input type="hidden" name="form_build_id" value="form-0_xsKqab6-vvM3Te0hgaY2YvCYEvd8cjF2uaFXmGpIU" />
+<input type="hidden" name="form_id" value="highwire_alerts_article_sign_up_form" />
+<input type="hidden" name="current_path" value="content/2/4/425" />
+</div></form></div>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+</div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-highwire-variant-link" >
+  
+      
+  
+  <div class="pane-content">
+    <a href="/content/ggg/2/4/425.full-text.pdf" target="_blank" class="link-icon"><i class="icon-download"></i> <span class="title">View PDF</span></a>  </div>
+
+  
+  </div>
+</div>
+          </div>
+        </div>
+        
+        <div class="content-right-wrapper content-column">
+          <div class="panel-panel panel-region-content-right">
+            <div class="inside"><div class="panel-pane pane-highwire-share-link highwire_clipboard_link_ajax"  id="shareit">
+  
+      
+  
+  <div class="pane-content">
+    <a href="/" class="link-icon"><i class="icon-share-alt"></i> <span class="title">Share</span></a>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-panels-mini pane-jnl-genetics-share highwire_clipboard_form_ajax_shareit" >
+  
+      
+  
+  <div class="pane-content">
+    
+<div class="panel-display omega-12-onecol" id="mini-panel-jnl_genetics_share">
+
+		  <div class="panel-panel grid-12 panel-region-preface">
+		  <div class="inside"><div class="panel-pane pane-highwire-article-citation" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="highwire-article-citation highwire-citation-type-highwire-article" data-node-nid="459268" id="node459268--2" data-pisa="ggg;2/4/425" data-pisa-master="ggg;2/4/425" data-apath="/ggg/2/4/425.atom" data-hw-author-tooltip-instance="highwire_author_tooltip"><div class="highwire-cite highwire-cite-highwire-article highwire-citation-genetics-article-title-complete clearfix has-author-tooltip highwire-citation-highwire-article-top-a">
+  
+  
+  
+  
+      <h1 class="highwire-cite-title" id="page-title">Simulated Data for Genomic Selection and Genome-Wide Association Studies Using a Combination of Coalescent and Gene Drop Methods</h1>  
+    	<div class="highwire-cite-authors"><span  class="highwire-citation-authors"><span class="highwire-citation-author first" data-delta="0">John M. Hickey</span> and <span class="highwire-citation-author" data-delta="1">Gregor Gorjanc</span></span></div>
+  
+    	<div class="highwire-cite-metadata"><span  class="highwire-cite-metadata-journal highwire-cite-metadata">G3: Genes, Genomes, Genetics </span><span  class="highwire-cite-metadata-date highwire-cite-metadata">April 1, 2012 </span><span  class="highwire-cite-metadata-volume highwire-cite-metadata">vol. 2 </span><span  class="highwire-cite-metadata-issue highwire-cite-metadata">no. 4 </span><span  class="highwire-cite-metadata-pages highwire-cite-metadata">425-427;  </span><span  class="highwire-cite-metadata-doi highwire-cite-metadata">https://doi.org/10.1534/g3.111.001297 </span></div>
+  
+  
+  
+</div>
+<div id="hw-article-author-popups-node459268--2" style="display: none;"><div class="author-tooltip-0"><div class="author-tooltip-name">John M. Hickey</div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><span class="nlm-aff">School of Environmental and Rural Science, University of New England, Armidale, 2351 New South Wales, Australia</span></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=John%2BM.%2BHickey" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Hickey%20JM&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link"><a href="/search/author1%3AJohn%2BM.%2BHickey" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li><li class="author-corresp-email-link last"><span>For correspondence: 
+<a href="mailto:john.hickey@une.edu.au" class="" data-icon-position="" data-hide-link-title="0">john.hickey@une.edu.au</a></span></li></ul></div><div class="author-tooltip-1"><div class="author-tooltip-name">Gregor Gorjanc</div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><span class="nlm-aff">Department of Animal Science, Biotechnical Faculty, University of Ljubljana, 1230 Domžale, Slovenia</span></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=Gregor%2BGorjanc" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Gorjanc%20G&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link last"><a href="/search/author1%3AGregor%2BGorjanc" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li></ul></div></div></div>  </div>
+
+  
+  </div>
+</div>
+	  </div>
+	
+  <div class="panel-panel grid-12 panel-region-content">
+  	<div class="inside"><div class="panel-pane pane-highwire-article-clipboard-copy" >
+  
+      
+  
+  <div class="pane-content">
+    <div class = "clipboard-copy">
+  <span class="label-url">
+    <label for="dynamic">Share This Article:</label>
+  </span>
+  <span class="input-text-url">
+    <input type="text" id="dynamic" value="https://www.g3journal.org/content/2/4/425" size="50"/>
+  </span>
+  <span class="copy-button button">
+    <button id="copy-dynamic" class="clipboardjs-button" data-clipboard-target="#dynamic" data-clipboard-alert-style="tooltip" data-clipboard-alert-text="Copied!">Copy</button>
+  </span>
+</div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+	
+		  <div class="panel-panel grid-12 panel-region-postscript">
+	    <div class="inside"><div class="panel-pane pane-service-links" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="service-links"><a href="http://del.icio.us/post?url=https%3A//www.g3journal.org/content/2/4/425&amp;title=Simulated%20Data%20for%20Genomic%20Selection%20and%20Genome-Wide%20Association%20Studies%20Using%20a%20Combination%20of%20Coalescent%20and%20Gene%20Drop%20Methods" id="delicious" title="Bookmark this post on del.icio.us" class="service-links-delicious" rel="nofollow" data-icon-position="" data-hide-link-title="0"><img src="https://www.g3journal.org/sites/all/modules/highwire/highwire/images/delicious-32.png" alt="del.icio.us logo" /></a> <a href="http://digg.com/submit?phase=2&amp;url=https%3A//www.g3journal.org/content/2/4/425&amp;title=Simulated%20Data%20for%20Genomic%20Selection%20and%20Genome-Wide%20Association%20Studies%20Using%20a%20Combination%20of%20Coalescent%20and%20Gene%20Drop%20Methods" id="digg" title="Digg this post on digg.com" class="service-links-digg" rel="nofollow" data-icon-position="" data-hide-link-title="0"><img src="https://www.g3journal.org/sites/all/modules/highwire/highwire/images/digg.png" alt="Digg logo" /></a> <a href="http://reddit.com/submit?url=https%3A//www.g3journal.org/content/2/4/425&amp;title=Simulated%20Data%20for%20Genomic%20Selection%20and%20Genome-Wide%20Association%20Studies%20Using%20a%20Combination%20of%20Coalescent%20and%20Gene%20Drop%20Methods" id="reddit" title="Submit this post on reddit.com" class="service-links-reddit" rel="nofollow" data-icon-position="" data-hide-link-title="0"><img src="https://www.g3journal.org/sites/all/modules/highwire/highwire/images/reddit.png" alt="Reddit logo" /></a> <a href="http://twitter.com/share?url=https%3A//www.g3journal.org/content/2/4/425&amp;text=Simulated%20Data%20for%20Genomic%20Selection%20and%20Genome-Wide%20Association%20Studies%20Using%20a%20Combination%20of%20Coalescent%20and%20Gene%20Drop%20Methods" id="twitter" title="Share this on Twitter" class="service-links-twitter" rel="nofollow" data-icon-position="" data-hide-link-title="0"><img src="https://www.g3journal.org/sites/all/modules/highwire/highwire/images/twitter.png" alt="Twitter logo" /></a> <a href="http://www.citeulike.org/posturl?url=https%3A//www.g3journal.org/content/2/4/425&amp;title=Simulated%20Data%20for%20Genomic%20Selection%20and%20Genome-Wide%20Association%20Studies%20Using%20a%20Combination%20of%20Coalescent%20and%20Gene%20Drop%20Methods" id="citeulike" title="Share on CiteULike" class="service-links-citeulike" rel="nofollow" data-icon-position="" data-hide-link-title="0"><img src="https://www.g3journal.org/sites/all/modules/highwire/highwire/images/citeyoulike.png" alt="CiteULike logo" /></a> <a href="http://www.facebook.com/sharer.php?u=https%3A//www.g3journal.org/content/2/4/425&amp;t=Simulated%20Data%20for%20Genomic%20Selection%20and%20Genome-Wide%20Association%20Studies%20Using%20a%20Combination%20of%20Coalescent%20and%20Gene%20Drop%20Methods" id="facebook" title="Share on Facebook" class="service-links-facebook" rel="nofollow" data-icon-position="" data-hide-link-title="0"><img src="https://www.g3journal.org/sites/all/modules/highwire/highwire/images/fb-blue.png" alt="Facebook logo" /></a> <a href="http://www.google.com/bookmarks/mark?op=add&amp;bkmk=https%3A//www.g3journal.org/content/2/4/425&amp;title=Simulated%20Data%20for%20Genomic%20Selection%20and%20Genome-Wide%20Association%20Studies%20Using%20a%20Combination%20of%20Coalescent%20and%20Gene%20Drop%20Methods" id="google" title="Bookmark this post on Google" class="service-links-google" rel="nofollow" data-icon-position="" data-hide-link-title="0"><img src="https://www.g3journal.org/sites/all/modules/highwire/highwire/images/google-32.png" alt="Google logo" /></a> <a href="http://www.mendeley.com/import/?url=https%3A//www.g3journal.org/content/2/4/425&amp;title=Simulated%20Data%20for%20Genomic%20Selection%20and%20Genome-Wide%20Association%20Studies%20Using%20a%20Combination%20of%20Coalescent%20and%20Gene%20Drop%20Methods" id="mendeley" title="Share on Mendeley" class="service-links-mendeley" rel="nofollow" data-icon-position="" data-hide-link-title="0"><img src="https://www.g3journal.org/sites/all/modules/highwire/highwire/images/mendeley.png" alt="Mendeley logo" /></a></div>  </div>
+
+  
+  </div>
+</div>
+	  </div>
+	
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-minipanel-dialog-link pane-jnl-genetics-cite-tool" >
+  
+      
+  
+  <div class="pane-content">
+    <div class='minipanel-dialog-wrapper'><div class='minipanel-dialog-link-link'><a href="/highwire/citation/459268/download" oncontextmenu="javascript: return false;" class="minipanel-dialog-link-trigger link-icon" title=""><i class="icon-globe"></i> <span class="title">Citation</span></a></div><div class='minipanel-dialog-link-mini' style='display:none'><div class="panel-display panel-1col clearfix" id="mini-panel-jnl_genetics_cite_tool">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-highwire-citation-export" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="highwire-citation-export">  
+  <div class="highwire-citation-info">
+      <div class="highwire-article-citation highwire-citation-type-highwire-article" data-node-nid="459268" id="node459268--2" data-pisa="ggg;2/4/425" data-pisa-master="ggg;2/4/425" data-apath="/ggg/2/4/425.atom" data-hw-author-tooltip-instance="highwire_author_tooltip"><div class="highwire-cite highwire-cite-highwire-article highwire-citation-genetics-article-title-complete clearfix has-author-tooltip highwire-citation-highwire-article-top-a">
+  
+  
+  
+  
+      <h1 class="highwire-cite-title" id="page-title">Simulated Data for Genomic Selection and Genome-Wide Association Studies Using a Combination of Coalescent and Gene Drop Methods</h1>  
+    	<div class="highwire-cite-authors"><span  class="highwire-citation-authors"><span class="highwire-citation-author first" data-delta="0">John M. Hickey</span> and <span class="highwire-citation-author" data-delta="1">Gregor Gorjanc</span></span></div>
+  
+    	<div class="highwire-cite-metadata"><span  class="highwire-cite-metadata-journal highwire-cite-metadata">G3: Genes, Genomes, Genetics </span><span  class="highwire-cite-metadata-date highwire-cite-metadata">April 1, 2012 </span><span  class="highwire-cite-metadata-volume highwire-cite-metadata">vol. 2 </span><span  class="highwire-cite-metadata-issue highwire-cite-metadata">no. 4 </span><span  class="highwire-cite-metadata-pages highwire-cite-metadata">425-427;  </span><span  class="highwire-cite-metadata-doi highwire-cite-metadata">https://doi.org/10.1534/g3.111.001297 </span></div>
+  
+  
+  
+</div>
+<div id="hw-article-author-popups-node459268--2" style="display: none;"><div class="author-tooltip-0"><div class="author-tooltip-name">John M. Hickey</div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><span class="nlm-aff">School of Environmental and Rural Science, University of New England, Armidale, 2351 New South Wales, Australia</span></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=John%2BM.%2BHickey" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Hickey%20JM&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link"><a href="/search/author1%3AJohn%2BM.%2BHickey" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li><li class="author-corresp-email-link last"><span>For correspondence: 
+<a href="mailto:john.hickey@une.edu.au" class="" data-icon-position="" data-hide-link-title="0">john.hickey@une.edu.au</a></span></li></ul></div><div class="author-tooltip-1"><div class="author-tooltip-name">Gregor Gorjanc</div><div class="author-tooltip-affiliation"><span class="author-tooltip-text"><span class="nlm-aff">Department of Animal Science, Biotechnical Faculty, University of Ljubljana, 1230 Domžale, Slovenia</span></span></div><ul class="author-tooltip-find-more"><li class="author-tooltip-gs-link first"><a href="/lookup/google-scholar?link_type=googlescholar&amp;gs_type=author&amp;author%5B0%5D=Gregor%2BGorjanc" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on Google Scholar</a></li><li class="author-tooltip-pubmed-link"><a href="/lookup/external-ref?access_num=Gorjanc%20G&amp;link_type=AUTHORSEARCH" target="_blank" class="" data-icon-position="" data-hide-link-title="0">Find this author on PubMed</a></li><li class="author-site-search-link last"><a href="/search/author1%3AGregor%2BGorjanc" rel="nofollow" class="" data-icon-position="" data-hide-link-title="0">Search for this author on this site</a></li></ul></div></div></div>  </div>
+  <div class="highwire-citation-formats">
+  	      <h2>Citation Manager Formats</h2>
+        <div class="highwire-citation-formats-links">
+      <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.spage=425&amp;rft.epage=427&amp;rft.atitle=Simulated%20Data%20for%20Genomic%20Selection%20and%20Genome-Wide%20Association%20Studies%20Using%20a%20Combination%20of%20Coalescent%20and%20Gene%20Drop%20Methods&amp;rft.volume=2&amp;rft.issue=4&amp;rft.date=2012-04-01%2000%3A00%3A00&amp;rft.stitle&amp;rft.jtitle=G3%3A%20Genes%2C%20Genomes%2C%20Genetics&amp;rft.au=Hickey%2C+John+M.&amp;rft.au=Gorjanc%2C+Gregor"></span><ul class="hw-citation-links inline button button-alt button-grid clearfix"><li class="bibtext first"><a href="/highwire/citation/459268/bibtext" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">BibTeX</a></li><li class="bookends"><a href="/highwire/citation/459268/bookends" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">Bookends</a></li><li class="easybib"><a href="/highwire/citation/459268/easybib" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">EasyBib</a></li><li class="endnote-tagged"><a href="/highwire/citation/459268/endnote-tagged" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">EndNote (tagged)</a></li><li class="endnote-8-xml"><a href="/highwire/citation/459268/endnote-8-xml" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">EndNote 8 (xml)</a></li><li class="medlars"><a href="/highwire/citation/459268/medlars" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">Medlars</a></li><li class="mendeley"><a href="/highwire/citation/459268/mendeley" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">Mendeley</a></li><li class="papers"><a href="/highwire/citation/459268/papers" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">Papers</a></li><li class="refworks-tagged"><a href="/highwire/citation/459268/refworks-tagged" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">RefWorks Tagged</a></li><li class="reference-manager"><a href="/highwire/citation/459268/reference-manager" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">Ref Manager</a></li><li class="ris"><a href="/highwire/citation/459268/ris" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">RIS</a></li><li class="zotero last"><a href="/highwire/citation/459268/zotero" class="hw-download-citation-link" data-icon-position="" data-hide-link-title="0">Zotero</a></li></ul>    </div>
+  </div>
+</div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+</div></div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-snippet pane-genetics-cc-by-logo" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="snippet genetics-cc-by-logo" id="genetics-cc-by-logo">
+  
+      
+  <div class="snippet-content">
+    <p><a href="https://creativecommons.org/licenses/by/4.0/"><img alt="" src="/sites/default/files/additional-assets/cc-by-logo.png" style="width: 80px; height: 15px;" /></a></p>
+  </div>
+
+</div>
+  </div>
+
+  
+  </div>
+</div>
+          </div>
+        </div>
+	</div> <!-- /.panel-row-wrapper -->	
+	
+	</div>
+
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-panels-mini pane-jnl-genetics-accordion increased-bottom-margin" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="panel-display panel-1col clearfix" id="mini-panel-jnl_genetics_accordion">
+  <div class="panel-panel panel-col">
+    <div><div id="highwire_article_accordion_container"><h3 >Related Articles</h3><div><div class='panels-ajax-pane panels-ajax-pane-new-5' data-pid='new-5'></div></div><h3 >Cited By</h3><div><div class='panels-ajax-pane panels-ajax-pane-new-6' data-pid='new-6'></div></div><h3 >More in this TOC Section</h3><div><div class="highwire-list highwire-article-citation-list"><ul><li class="first odd"><div class="highwire-article-citation highwire-citation-type-highwire-article" data-node-nid="490720" id="node490720" data-pisa="ggg;8/9/3019" data-pisa-master="ggg;g3.118.200430" data-apath="/ggg/8/9/3019.atom"><cite class='highwire-cite highwire-citation-jcore-title-only'>
+  <div class='highwire-cite-title'><a href="/content/8/9/3019" class="highwire-cite-linked-title" data-icon-position="" data-hide-link-title="0"><span class="highwire-cite-title">A Bayesian Decision Theory Approach for Genomic Selection</span></a></div>
+</cite>
+</div></li><li class="even"><div class="highwire-article-citation highwire-citation-type-highwire-article" data-node-nid="490724" id="node490724" data-pisa="ggg;8/9/2889" data-pisa-master="ggg;g3.118.200311" data-apath="/ggg/8/9/2889.atom"><cite class='highwire-cite highwire-citation-jcore-title-only'>
+  <div class='highwire-cite-title'><a href="/content/8/9/2889" class="highwire-cite-linked-title" data-icon-position="" data-hide-link-title="0"><span class="highwire-cite-title">Optimising Genomic Selection in Wheat: Effect of Marker Density, Population Size and Population Structure on Prediction Accuracy</span></a></div>
+</cite>
+</div></li><li class="last odd"><div class="highwire-article-citation highwire-citation-type-highwire-article" data-node-nid="490727" id="node490727" data-pisa="ggg;8/9/3039" data-pisa-master="ggg;g3.118.200435" data-apath="/ggg/8/9/3039.atom"><cite class='highwire-cite highwire-citation-jcore-title-only'>
+  <div class='highwire-cite-title'><a href="/content/8/9/3039" class="highwire-cite-linked-title" data-icon-position="" data-hide-link-title="0"><span class="highwire-cite-title">BGGE: A New Package for Genomic-Enabled Prediction Incorporating Genotype × Environment Interaction Models</span></a></div>
+</cite>
+</div></li></ul></div><div class='highwire-list-footer'><a href="/content/by/section/Genomic%20Selection" class="" data-icon-position="" data-hide-link-title="0">Show more <span class="wrapper">Genomic Selection</span></a></div></div></div></div>
+  </div>
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-highwire-article-nav mobile-hidden floating-article" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="highwire-list-wrapper highwire-article-nav highwire-nav-float"><div class="highwire-list"><ul data-highwire-float="1" data-highwire-float-class="grid-10 alpha omega"><li class="first odd"><a href="#skip-link" class="" data-icon-position="" data-hide-link-title="0">Top</a></li><li class="parent even"><a href="/content/2/4/425" class="highwire-article-nav-jumplink" data-panel-ajax-tab="jnl_genetics_tab_art" data-is-tab-link="true" data-icon-position="" data-hide-link-title="0">Article</a><div class="highwire-list"><ul><li class="first odd"><a href="#abstract-1" class="highwire-article-nav-jumplink first" data-panel-ajax-tab="jnl_genetics_tab_art" data-icon-position="" data-hide-link-title="0">Abstract</a></li><li class="even"><a href="#sec-1" class="highwire-article-nav-jumplink" data-panel-ajax-tab="jnl_genetics_tab_art" data-icon-position="" data-hide-link-title="0">Materials and Methods</a></li><li class="odd"><a href="#sec-5" class="highwire-article-nav-jumplink" data-panel-ajax-tab="jnl_genetics_tab_art" data-icon-position="" data-hide-link-title="0">Discussion</a></li><li class="even"><a href="#ack-1" class="highwire-article-nav-jumplink" data-panel-ajax-tab="jnl_genetics_tab_art" data-icon-position="" data-hide-link-title="0">Acknowledgments</a></li><li class="odd"><a href="#fn-group-1" class="highwire-article-nav-jumplink" data-panel-ajax-tab="jnl_genetics_tab_art" data-icon-position="" data-hide-link-title="0">Footnotes</a></li><li class="last even"><a href="#ref-list-1" class="highwire-article-nav-jumplink last" data-panel-ajax-tab="jnl_genetics_tab_art" data-icon-position="" data-hide-link-title="0">Literature Cited</a></li></ul></div></li><li class="odd"><a href="/content/2/4/425.figures-only" class="highwire-article-nav-jumplink" data-panel-ajax-tab="jnl_genetics_tab_data" data-is-tab-link="true" data-icon-position="" data-hide-link-title="0">Figures & Data</a></li><li class="even"><a href="/content/2/4/425.supplemental" class="highwire-article-nav-jumplink" data-panel-ajax-tab="jnl_genetics_tab_supp" data-is-tab-link="true" data-icon-position="" data-hide-link-title="0">Supplemental</a></li><li class="odd"><a href="/content/2/4/425.article-info" class="highwire-article-nav-jumplink" data-panel-ajax-tab="jnl_genetics_tab_info" data-is-tab-link="true" data-icon-position="" data-hide-link-title="0">Info & Metrics</a></li><li class="last even"><a href="/content/2/4/425.full.pdf" class="highwire-article-nav-jumplink" data-icon-position="" data-hide-link-title="0"><i class="icon-file-alt"></i></a></li></ul></div></div>  </div>
+
+  
+  </div>
+</div>
+			</div>
+		</div>
+	
+	</div> <!-- /.panel-row-wrapper -->	
+	
+	</div>
+
+    </div>
+  </div>
+</div>      </div>
+</div>  </div>
+</section>    
+  
+      <footer id="section-footer" class="section section-footer">
+    
+  <div id="zone-postscript" class="zone zone-postscript clearfix container-30">
+    <div class="grid-7 prefix-1 region region-postscript-first" id="region-postscript-first">
+  <div class="region-inner region-postscript-first-inner">
+    <div class="block block-panels-mini block-snippet-about-gsa block-panels-mini-snippet-about-gsa odd block-without-title" id="block-panels-mini-snippet-about-gsa">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="panel-display panel-1col clearfix" id="mini-panel-snippet_about_gsa">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-snippet pane-snippet-about-gsa" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="snippet snippet-about-gsa" id="snippet-about-gsa">
+  
+      
+  <div class="snippet-content">
+    <p><a href="http://www.genetics-gsa.org/" target="_blank"><img alt="GSA" src="/sites/default/files/additional-assets/GSALogoWhite_lg.png" style="width: 225px;" /></a></p>
+
+<p>The Genetics Society of America (GSA), founded in 1931, is the professional membership organization for scientific researchers and educators in the field of genetics. Our members work to advance knowledge in the basic mechanisms of inheritance, from the molecular to the population level.</p>
+
+<p>Online ISSN: <span class="issn">2160-1836</span></p>
+  </div>
+
+</div>
+  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-5 region region-postscript-second" id="region-postscript-second">
+  <div class="region-inner region-postscript-second-inner">
+    <div class="block block-menu block-menu-for-authors-menu block-menu-menu-for-authors-menu odd block-without-title" id="block-menu-menu-for-authors-menu">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <nav class="menubar-nav"><ul class="menu" role="menu"><li class="first leaf" role="menuitem"><a href="/content/why" data-hide-link-title="0" class="" data-icon-position="">For Authors</a></li>
+<li class="leaf" role="menuitem"><a href="/content/guidelines-reviewers" data-hide-link-title="0" class="" data-icon-position="">For Reviewers</a></li>
+<li class="last leaf" role="menuitem"><a href="/content/advertising" data-hide-link-title="0" class="" data-icon-position="">For Advertisers</a></li>
+</ul></nav>    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-7 region region-postscript-third" id="region-postscript-third">
+  <div class="region-inner region-postscript-third-inner">
+    <div class="block block-menu block-menu-why-publish-menu block-menu-menu-why-publish-menu odd block-without-title" id="block-menu-menu-why-publish-menu">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <nav class="menubar-nav"><ul class="menu" role="menu"><li class="first leaf" role="menuitem"><a href="/content/submit" data-hide-link-title="0" class="" data-icon-position="">Submit a Manuscript</a></li>
+<li class="leaf" role="menuitem"><a href="/content/editorial-board" data-hide-link-title="0" class="" data-icon-position="">Editorial Board</a></li>
+<li class="last leaf" role="menuitem"><a href="/content/press-releases" data-hide-link-title="0" class="" data-icon-position="">Press Releases</a></li>
+</ul></nav>    </div>
+  </div>
+</div>  </div>
+</div><div class="grid-9 suffix-1 region region-postscript-fourth" id="region-postscript-fourth">
+  <div class="region-inner region-postscript-fourth-inner">
+    <div class="block block-panels-mini block-snippet-for-get-connected block-panels-mini-snippet-for-get-connected odd block-without-title" id="block-panels-mini-snippet-for-get-connected">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="panel-display panel-1col clearfix" id="mini-panel-snippet_for_get_connected">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-snippet pane-snippet-for-get-connected" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="snippet snippet-for-get-connected" id="snippet-for-get-connected">
+  
+      
+  <div class="snippet-content">
+    <script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0042/1390.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+<style type="text/css"><!-- p.sniphang { padding-left: 30px; text-indent: -30px; } -->
+</style>
+<p><a href="http://byscientistsforscience.org" target="_blank"><img style="max-width: 150px;" alt="SPPA Logo" width="150" src="/sites/default/files/additional-assets/gen-sspa-logo@2x.png" /></a></p>
+
+<p style="border-top: 1px solid #FFFFFF; padding-top: 6px;">GET CONNECTED</p>
+
+<p class="sniphang"><a href="/content/rss"><img alt="RSS" src="/sites/default/files/additional-assets/rss-square.png" style="width: 24px; height: auto;" /> &nbsp;<strong>Subscribe with RSS.</strong></a></p>
+
+<p class="sniphang" style="padding-top:10px;"><a href="/alerts"><img alt="email" src="/sites/default/files/additional-assets/emailsubscribe.png" style="width: 24px; height: auto;" /> &nbsp;<strong>Subscribe via email.</strong></a> Sign up to receive alert notifications of new articles.</p>  </div>
+
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-menu-menu-social-media social-media-menu inverted pane-menu" >
+  
+      
+  
+  <div class="pane-content">
+    <nav class="menubar-nav"><ul class="menu" role="menu"><li class="first leaf" role="menuitem"><a href="https://www.facebook.com/GeneticsGSA" target="_blank" class="social-menu-facebook link-icon-only link-icon"><i class="icon-facebook"></i> <span class="title element-invisible">Facebook</span></a></li>
+<li class="leaf" role="menuitem"><a href="https://twitter.com/GeneticsGSA" target="_blank" class="social-menu-twitter link-icon-only link-icon"><i class="icon-twitter"></i> <span class="title element-invisible">Twitter</span></a></li>
+<li class="leaf" role="menuitem"><a href="https://www.youtube.com/user/GeneticsSociety/featured" target="_blank" class="social-menu-youtube link-icon-only link-icon"><i class="icon-youtube-play"></i> <span class="title element-invisible">YouTube</span></a></li>
+<li class="leaf" role="menuitem"><a href="http://www.linkedin.com/grp/home?gid=4533930" target="_blank" class="social-menu-linkedin link-icon-only link-icon"><i class="icon-linkedin"></i> <span class="title element-invisible">LinkedIn</span></a></li>
+<li class="last leaf" role="menuitem"><a href="http://plus.google.com/+Genetics-gsaOrg" target="_blank" class="social-menu-gplus link-icon-only link-icon"><i class="icon-google-plus"></i> <span class="title element-invisible">Google Plus</span></a></li>
+</ul></nav>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+  
+  <div id="zone-footer" class="zone zone-footer clearfix container-30">
+    <div class="grid-28 suffix-1 prefix-1 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <div class="block block-panels-mini block-footer-bottom block-panels-mini-footer-bottom odd block-without-title" id="block-panels-mini-footer-bottom">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="panel-display panel-1col clearfix" id="mini-panel-footer_bottom">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-snippet pane-footer-copyright-text float-me-right" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="snippet footer-copyright-text" id="footer-copyright-text">
+  
+      
+  <div class="snippet-content">
+    <p>Copyright &copy; 2019 by the Genetics Society of America</p>  </div>
+
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-menu-menu-footer-bottom float-me-right inline pipe-separated pane-menu" >
+  
+      
+  
+  <div class="pane-content">
+    <nav class="menubar-nav"><ul class="menu" role="menu"><li class="first leaf" role="menuitem"><a href="/content/about-journal" class="" data-icon-position="" data-hide-link-title="0">About G3</a></li>
+<li class="leaf" role="menuitem"><a href="/content/terms-of-use" class="" data-icon-position="" data-hide-link-title="0">Terms of use</a></li>
+<li class="leaf" role="menuitem"><a href="/content/permissions" class="" data-icon-position="" data-hide-link-title="0">Permissions</a></li>
+<li class="leaf" role="menuitem"><a href="/feedback" class="" data-icon-position="" data-hide-link-title="0">Contact us</a></li>
+<li class="last leaf" role="menuitem"><a href="http://intl.genetics.org" class="" data-icon-position="" data-hide-link-title="0">International access</a></li>
+</ul></nav>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</footer>  </div>    <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div><script type="text/javascript" src="https://www.g3journal.org/sites/default/files/advagg_js/js__bnwyEQSuZLC-kZnFqCi5iE02nOCzM7DjY7zYxcN9nsQ__VBiBT_qq_eHMMO2Q1rXK1u-hHff31XLUkmi9dgjuPeY__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.js"></script>
+<script type="text/javascript" src="https://www.g3journal.org/sites/default/files/advagg_js/js__GM3GJPR36rRIz0TRkjC5OQwrioSyN9aoYRivDhCO_AM__qAl84FcCv2jyN22yFGS5Oc85cjd9zKX6p_cFNLGhe-M__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.js" async="async"></script>
+<script type="text/javascript" src="https://www.g3journal.org/sites/default/files/advagg_js/js__yAtUDeu0LvdtdwYQ24Hq_lBQByZG7b3Bu-K9EufvaYU__EfdUTnHINMVHwamrF3_hpSyZ11KtE_Lz6AqQyj_JdBE__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.js"></script>
+<script type="text/javascript" src="https://www.g3journal.org/sites/default/files/advagg_js/js__2WRbxlwOW0MEUc_hSWU5MBepQg6Lch6O5SZwefpJ6IE__HCL0YQJqLkOhrLPZZYGqosGvtFsEHMGghHIkSx4y9vA__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.js" defer="defer"></script>
+<script type="text/javascript" src="https://www.g3journal.org/sites/default/files/advagg_js/js__c-64NG7CB_fwZbyex-B49GkX1AvVESfu7M9yxTNDG_o__Uvi1liJMEKbHtHHv_1fo_FCLvimvbq9jMwPcCPR364Q__Gk8ter50DWCZUhSfS3IqlmiQ6T-aNb48R5smU7zB-i8.js"></script>
+  </body>
+</html>
